@@ -1,0 +1,2109 @@
+Found 12 paired-end samples (DELETE_RAW=0)
+=== SRR37536766 (22:00) ===
+application/gzip
+application/gzip
+Started analysis of SRR37536766_1.fastq.gz
+Started analysis of SRR37536766_2.fastq.gz
+Approx 5% complete for SRR37536766_1.fastq.gz
+Approx 5% complete for SRR37536766_2.fastq.gz
+Approx 10% complete for SRR37536766_1.fastq.gz
+Approx 10% complete for SRR37536766_2.fastq.gz
+Approx 15% complete for SRR37536766_1.fastq.gz
+Approx 15% complete for SRR37536766_2.fastq.gz
+Approx 20% complete for SRR37536766_1.fastq.gz
+Approx 20% complete for SRR37536766_2.fastq.gz
+Approx 25% complete for SRR37536766_1.fastq.gz
+Approx 25% complete for SRR37536766_2.fastq.gz
+Approx 30% complete for SRR37536766_1.fastq.gz
+Approx 30% complete for SRR37536766_2.fastq.gz
+Approx 35% complete for SRR37536766_1.fastq.gz
+Approx 35% complete for SRR37536766_2.fastq.gz
+Approx 40% complete for SRR37536766_1.fastq.gz
+Approx 40% complete for SRR37536766_2.fastq.gz
+Approx 45% complete for SRR37536766_1.fastq.gz
+Approx 45% complete for SRR37536766_2.fastq.gz
+Approx 50% complete for SRR37536766_1.fastq.gz
+Approx 50% complete for SRR37536766_2.fastq.gz
+Approx 55% complete for SRR37536766_1.fastq.gz
+Approx 55% complete for SRR37536766_2.fastq.gz
+Approx 60% complete for SRR37536766_1.fastq.gz
+Approx 60% complete for SRR37536766_2.fastq.gz
+Approx 65% complete for SRR37536766_1.fastq.gz
+Approx 65% complete for SRR37536766_2.fastq.gz
+Approx 70% complete for SRR37536766_1.fastq.gz
+Approx 70% complete for SRR37536766_2.fastq.gz
+Approx 75% complete for SRR37536766_1.fastq.gz
+Approx 75% complete for SRR37536766_2.fastq.gz
+Approx 80% complete for SRR37536766_1.fastq.gz
+Approx 80% complete for SRR37536766_2.fastq.gz
+Approx 85% complete for SRR37536766_1.fastq.gz
+Approx 85% complete for SRR37536766_2.fastq.gz
+Approx 90% complete for SRR37536766_1.fastq.gz
+Approx 90% complete for SRR37536766_2.fastq.gz
+Approx 95% complete for SRR37536766_1.fastq.gz
+Approx 95% complete for SRR37536766_2.fastq.gz
+Analysis complete for SRR37536766_1.fastq.gz
+Analysis complete for SRR37536766_2.fastq.gz
+Detecting adapter sequence for read1...
+>Illumina TruSeq Adapter Read 1
+AGATCGGAAGAGCACACGTCTGAACTCCAGTCA
+
+Detecting adapter sequence for read2...
+>Illumina TruSeq Adapter Read 2
+AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGT
+
+Read1 before filtering:
+total reads: 19887670
+total bases: 2983150500
+Q20 bases: 2964263868(99.3669%)
+Q30 bases: 2908275265(97.4901%)
+Q40 bases: 2908275265(97.4901%)
+
+Read2 before filtering:
+total reads: 19887670
+total bases: 2983150500
+Q20 bases: 2954674372(99.0454%)
+Q30 bases: 2884991529(96.7096%)
+Q40 bases: 2884991529(96.7096%)
+
+Read1 after filtering:
+total reads: 19727122
+total bases: 2951003471
+Q20 bases: 2938280595(99.5689%)
+Q30 bases: 2887442422(97.8461%)
+Q40 bases: 2887442422(97.8461%)
+
+Read2 after filtering:
+total reads: 19727122
+total bases: 2951039557
+Q20 bases: 2933798119(99.4158%)
+Q30 bases: 2872332488(97.3329%)
+Q40 bases: 2872332488(97.3329%)
+
+Filtering result:
+reads passed filter: 39454244
+reads failed due to low quality: 310202
+reads failed due to too many N: 7356
+reads failed due to too short: 3482
+reads failed due to adapter dimer: 56
+reads with adapter trimmed: 704301
+bases trimmed due to adapters: 16590735
+
+Duplication rate: 35.7151%
+
+Insert size peak (evaluated by paired-end reads): 264
+
+JSON report: qc/fastp/SRR37536766.json
+HTML report: qc/fastp/SRR37536766.html
+
+fastp -i fastq/SRR37536766_1.fastq.gz -I fastq/SRR37536766_2.fastq.gz -o trimmed_tmp/SRR37536766_trimmed_1.fastq.gz -O trimmed_tmp/SRR37536766_trimmed_2.fastq.gz --detect_adapter_for_pe --thread 8 --qualified_quality_phred 20 --length_required 36 --html qc/fastp/SRR37536766.html --json qc/fastp/SRR37536766.json 
+fastp v1.3.6, time used: 145 seconds
+application/gzip
+application/gzip
+Started analysis of SRR37536766_trimmed_1.fastq.gz
+Started analysis of SRR37536766_trimmed_2.fastq.gz
+Approx 5% complete for SRR37536766_trimmed_1.fastq.gz
+Approx 5% complete for SRR37536766_trimmed_2.fastq.gz
+Approx 10% complete for SRR37536766_trimmed_1.fastq.gz
+Approx 10% complete for SRR37536766_trimmed_2.fastq.gz
+Approx 15% complete for SRR37536766_trimmed_2.fastq.gz
+Approx 15% complete for SRR37536766_trimmed_1.fastq.gz
+Approx 20% complete for SRR37536766_trimmed_2.fastq.gz
+Approx 20% complete for SRR37536766_trimmed_1.fastq.gz
+Approx 25% complete for SRR37536766_trimmed_2.fastq.gz
+Approx 25% complete for SRR37536766_trimmed_1.fastq.gz
+Approx 30% complete for SRR37536766_trimmed_2.fastq.gz
+Approx 30% complete for SRR37536766_trimmed_1.fastq.gz
+Approx 35% complete for SRR37536766_trimmed_2.fastq.gz
+Approx 35% complete for SRR37536766_trimmed_1.fastq.gz
+Approx 40% complete for SRR37536766_trimmed_2.fastq.gz
+Approx 40% complete for SRR37536766_trimmed_1.fastq.gz
+Approx 45% complete for SRR37536766_trimmed_2.fastq.gz
+Approx 45% complete for SRR37536766_trimmed_1.fastq.gz
+Approx 50% complete for SRR37536766_trimmed_2.fastq.gz
+Approx 50% complete for SRR37536766_trimmed_1.fastq.gz
+Approx 55% complete for SRR37536766_trimmed_2.fastq.gz
+Approx 55% complete for SRR37536766_trimmed_1.fastq.gz
+Approx 60% complete for SRR37536766_trimmed_2.fastq.gz
+Approx 60% complete for SRR37536766_trimmed_1.fastq.gz
+Approx 65% complete for SRR37536766_trimmed_2.fastq.gz
+Approx 65% complete for SRR37536766_trimmed_1.fastq.gz
+Approx 70% complete for SRR37536766_trimmed_2.fastq.gz
+Approx 70% complete for SRR37536766_trimmed_1.fastq.gz
+Approx 75% complete for SRR37536766_trimmed_2.fastq.gz
+Approx 75% complete for SRR37536766_trimmed_1.fastq.gz
+Approx 80% complete for SRR37536766_trimmed_2.fastq.gz
+Approx 80% complete for SRR37536766_trimmed_1.fastq.gz
+Approx 85% complete for SRR37536766_trimmed_2.fastq.gz
+Approx 85% complete for SRR37536766_trimmed_1.fastq.gz
+Approx 90% complete for SRR37536766_trimmed_2.fastq.gz
+Approx 90% complete for SRR37536766_trimmed_1.fastq.gz
+Approx 95% complete for SRR37536766_trimmed_2.fastq.gz
+Approx 95% complete for SRR37536766_trimmed_1.fastq.gz
+Analysis complete for SRR37536766_trimmed_2.fastq.gz
+Analysis complete for SRR37536766_trimmed_1.fastq.gz
+[2m2026-10-12T14:07:45.444857Z[0m [33m WARN[0m [2msalmon[0m[2m:[0m --validateMappings has no effect (deprecated in salmon too): selective alignment is the default mapping mode; pass --sketch for pseudoalignment.
+[2m2026-10-12T14:07:45.457723Z[0m [32m INFO[0m [2mpiscem_rs::index::reference_index[0m[2m:[0m Loading SSHash dictionary from ref/salmon_index_mm10/index.ssi
+[2m2026-10-12T14:07:49.620655Z[0m [32m INFO[0m [2mpiscem_rs::index::reference_index[0m[2m:[0m   k=31, 25056108 strings
+[2m2026-10-12T14:07:49.620774Z[0m [32m INFO[0m [2mpiscem_rs::index::reference_index[0m[2m:[0m Loading contig table from ref/salmon_index_mm10/index.ctab
+[2m2026-10-12T14:07:54.259526Z[0m [32m INFO[0m [2mpiscem_rs::index::reference_index[0m[2m:[0m   25056108 contigs, 346526014 entries, entry_width=47 bits
+[2m2026-10-12T14:07:54.259636Z[0m [32m INFO[0m [2mpiscem_rs::index::reference_index[0m[2m:[0m Loading reference info from ref/salmon_index_mm10/index.refinfo
+[2m2026-10-12T14:07:54.280175Z[0m [32m INFO[0m [2mpiscem_rs::index::reference_index[0m[2m:[0m   141135 references, max_ref_len=195371971
+[2m2026-10-12T14:07:54.280279Z[0m [32m INFO[0m [2mpiscem_rs::index::reference_index[0m[2m:[0m Loading equivalence class table from ref/salmon_index_mm10/index.ectab
+[2m2026-10-12T14:07:54.683984Z[0m [32m INFO[0m [2mpiscem_rs::index::reference_index[0m[2m:[0m   25056108 tiles, 4676802 ECs, 43325053 label entries
+[2m2026-10-12T14:07:54.684026Z[0m [32m INFO[0m [2mpiscem_rs::index::reference_index[0m[2m:[0m   ref_shift=29, pos_mask=0xfffffff
+[2m2026-10-12T14:08:00.867763Z[0m [32m INFO[0m [2msalmon::timing[0m[2m:[0m phase complete [3mphase[0m[2m=[0m"index_load" [3melapsed_s[0m[2m=[0m15.410254118
+[2m2026-10-12T14:08:00.925088Z[0m [32m INFO[0m [2mpiscem_rs::io::calibrate[0m[2m:[0m using the serial decoder: 8 threads for 2 gzip input(s) is below the 50 threads per input needed before parallel decoding adds concurrency the serial path does not already have
+[2m2026-10-12T14:08:00.926830Z[0m [32m INFO[0m [2msalmon_quant::decode[0m[2m:[0m thread execution plan [3mrequested_budget[0m[2m=[0m8 [3meffective_budget[0m[2m=[0m8 [3mmapping_threads[0m[2m=[0m8 [3mdecode_slots[0m[2m=[0m0 [3mparallel_decode[0m[2m=[0mfalse [3mreason[0m[2m=[0mPolicyDeclined
+[2m2026-10-12T14:08:00.926920Z[0m [32m INFO[0m [2msalmon_quant[0m[2m:[0m mapping reads (selective-alignment mode, 8 threads)
+[2m2026-10-12T14:10:57.347380Z[0m [32m INFO[0m [2msalmon_quant[0m[2m:[0m mapped 17384972 / 19727122 fragments (88.13%)
+[2m2026-10-12T14:10:57.349483Z[0m [32m INFO[0m [2msalmon::timing[0m[2m:[0m phase complete [3mphase[0m[2m=[0m"mapping" [3melapsed_s[0m[2m=[0m176.483000874
+[2m2026-10-12T14:10:57.351009Z[0m [32m INFO[0m [2msalmon::timing[0m[2m:[0m phase complete [3mphase[0m[2m=[0m"eff_length_collapse" [3melapsed_s[0m[2m=[0m0.001526902
+[2m2026-10-12T14:10:57.909389Z[0m [32m INFO[0m [2msalmon::timing[0m[2m:[0m phase complete [3mphase[0m[2m=[0m"em_bias" [3melapsed_s[0m[2m=[0m0.558375213
+[2m2026-10-12T14:10:57.909521Z[0m [32m INFO[0m [2msalmon::timing[0m[2m:[0m phase complete [3mphase[0m[2m=[0m"posterior" [3melapsed_s[0m[2m=[0m0.000138076
+[2m2026-10-12T14:10:57.915510Z[0m [32m INFO[0m [2msalmon_quant[0m[2m:[0m writing results to results/salmon_quant/SRR37536766
+[2m2026-10-12T14:10:57.930060Z[0m [32m INFO[0m [2msalmon::timing[0m[2m:[0m phase complete [3mphase[0m[2m=[0m"output" [3melapsed_s[0m[2m=[0m0.020534246
+[2m2026-10-12T14:10:58.189800Z[0m [32m INFO[0m [2msalmon[0m[2m:[0m deterministic: mapped 17384972 / 19727122 fragments (88.13%); quantifying from intermediate RAD
+[2m2026-10-12T14:11:04.437560Z[0m [32m INFO[0m [2msalmon_align::rad[0m[2m:[0m quantifying from RAD (salmon SA), 141135 references
+[2m2026-10-12T14:11:04.439057Z[0m [32m INFO[0m [2msalmon_align::rad[0m[2m:[0m using fragment-length distribution baked in the RAD header
+[2m2026-10-12T14:11:04.439562Z[0m [32m INFO[0m [2msalmon_align::rad[0m[2m:[0m library format under `-l A`: IU (baked in RAD header)
+[2m2026-10-12T14:11:19.265237Z[0m [32m INFO[0m [2msalmon_align::rad[0m[2m:[0m mapped 17384972 / 19727122 fragments from RAD
+[2m2026-10-12T14:11:19.411769Z[0m [32m INFO[0m [2msalmon::timing[0m[2m:[0m phase complete [3mphase[0m[2m=[0m"rad_read" [3melapsed_s[0m[2m=[0m15.001485324
+[2m2026-10-12T14:12:10.302973Z[0m [32m INFO[0m [2msalmon::timing[0m[2m:[0m phase complete [3mphase[0m[2m=[0m"em_bias" [3melapsed_s[0m[2m=[0m50.891200208
+[2m2026-10-12T14:12:10.308242Z[0m [32m INFO[0m [2msalmon::timing[0m[2m:[0m phase complete [3mphase[0m[2m=[0m"posterior" [3melapsed_s[0m[2m=[0m0.005271618
+[2m2026-10-12T14:12:10.402572Z[0m [32m INFO[0m [2msalmon::timing[0m[2m:[0m phase complete [3mphase[0m[2m=[0m"output" [3melapsed_s[0m[2m=[0m0.094329817
+[2m2026-10-12T14:12:10.436246Z[0m [32m INFO[0m [2msalmon[0m[2m:[0m 19727122 fragments from intermediate RAD, 17384972 quantified (88.13%); 154562 equivalence classes
+  done
+=== SRR37536767 (22:12) ===
+application/gzip
+application/gzip
+Started analysis of SRR37536767_1.fastq.gz
+Started analysis of SRR37536767_2.fastq.gz
+Approx 5% complete for SRR37536767_1.fastq.gz
+Approx 5% complete for SRR37536767_2.fastq.gz
+Approx 10% complete for SRR37536767_1.fastq.gz
+Approx 10% complete for SRR37536767_2.fastq.gz
+Approx 15% complete for SRR37536767_2.fastq.gz
+Approx 15% complete for SRR37536767_1.fastq.gz
+Approx 20% complete for SRR37536767_2.fastq.gz
+Approx 20% complete for SRR37536767_1.fastq.gz
+Approx 25% complete for SRR37536767_2.fastq.gz
+Approx 25% complete for SRR37536767_1.fastq.gz
+Approx 30% complete for SRR37536767_2.fastq.gz
+Approx 30% complete for SRR37536767_1.fastq.gz
+Approx 35% complete for SRR37536767_2.fastq.gz
+Approx 35% complete for SRR37536767_1.fastq.gz
+Approx 40% complete for SRR37536767_2.fastq.gz
+Approx 40% complete for SRR37536767_1.fastq.gz
+Approx 45% complete for SRR37536767_2.fastq.gz
+Approx 45% complete for SRR37536767_1.fastq.gz
+Approx 50% complete for SRR37536767_2.fastq.gz
+Approx 50% complete for SRR37536767_1.fastq.gz
+Approx 55% complete for SRR37536767_2.fastq.gz
+Approx 55% complete for SRR37536767_1.fastq.gz
+Approx 60% complete for SRR37536767_2.fastq.gz
+Approx 60% complete for SRR37536767_1.fastq.gz
+Approx 65% complete for SRR37536767_2.fastq.gz
+Approx 65% complete for SRR37536767_1.fastq.gz
+Approx 70% complete for SRR37536767_2.fastq.gz
+Approx 70% complete for SRR37536767_1.fastq.gz
+Approx 75% complete for SRR37536767_2.fastq.gz
+Approx 75% complete for SRR37536767_1.fastq.gz
+Approx 80% complete for SRR37536767_2.fastq.gz
+Approx 80% complete for SRR37536767_1.fastq.gz
+Approx 85% complete for SRR37536767_2.fastq.gz
+Approx 85% complete for SRR37536767_1.fastq.gz
+Approx 90% complete for SRR37536767_2.fastq.gz
+Approx 90% complete for SRR37536767_1.fastq.gz
+Approx 95% complete for SRR37536767_2.fastq.gz
+Approx 95% complete for SRR37536767_1.fastq.gz
+Analysis complete for SRR37536767_2.fastq.gz
+Analysis complete for SRR37536767_1.fastq.gz
+Detecting adapter sequence for read1...
+>Illumina TruSeq Adapter Read 1
+AGATCGGAAGAGCACACGTCTGAACTCCAGTCA
+
+Detecting adapter sequence for read2...
+>Illumina TruSeq Adapter Read 2
+AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGT
+
+Read1 before filtering:
+total reads: 25897739
+total bases: 3884660850
+Q20 bases: 3859082691(99.3416%)
+Q30 bases: 3770411080(97.059%)
+Q40 bases: 3770411080(97.059%)
+
+Read2 before filtering:
+total reads: 25897739
+total bases: 3884660850
+Q20 bases: 3844164306(98.9575%)
+Q30 bases: 3733352769(96.105%)
+Q40 bases: 3733352769(96.105%)
+
+Read1 after filtering:
+total reads: 25690545
+total bases: 3843860890
+Q20 bases: 3825974665(99.5347%)
+Q30 bases: 3744234977(97.4082%)
+Q40 bases: 3744234977(97.4082%)
+
+Read2 after filtering:
+total reads: 25690545
+total bases: 3843888804
+Q20 bases: 3817770771(99.3205%)
+Q30 bases: 3717848705(96.721%)
+Q40 bases: 3717848705(96.721%)
+
+Filtering result:
+reads passed filter: 51381090
+reads failed due to low quality: 400748
+reads failed due to too many N: 6932
+reads failed due to too short: 6556
+reads failed due to adapter dimer: 152
+reads with adapter trimmed: 813599
+bases trimmed due to adapters: 20296268
+
+Duplication rate: 33.9101%
+
+Insert size peak (evaluated by paired-end reads): 269
+
+JSON report: qc/fastp/SRR37536767.json
+HTML report: qc/fastp/SRR37536767.html
+
+fastp -i fastq/SRR37536767_1.fastq.gz -I fastq/SRR37536767_2.fastq.gz -o trimmed_tmp/SRR37536767_trimmed_1.fastq.gz -O trimmed_tmp/SRR37536767_trimmed_2.fastq.gz --detect_adapter_for_pe --thread 8 --qualified_quality_phred 20 --length_required 36 --html qc/fastp/SRR37536767.html --json qc/fastp/SRR37536767.json 
+fastp v1.3.6, time used: 167 seconds
+application/gzip
+application/gzip
+Started analysis of SRR37536767_trimmed_1.fastq.gz
+Started analysis of SRR37536767_trimmed_2.fastq.gz
+Approx 5% complete for SRR37536767_trimmed_1.fastq.gz
+Approx 5% complete for SRR37536767_trimmed_2.fastq.gz
+Approx 10% complete for SRR37536767_trimmed_1.fastq.gz
+Approx 10% complete for SRR37536767_trimmed_2.fastq.gz
+Approx 15% complete for SRR37536767_trimmed_1.fastq.gz
+Approx 15% complete for SRR37536767_trimmed_2.fastq.gz
+Approx 20% complete for SRR37536767_trimmed_1.fastq.gz
+Approx 20% complete for SRR37536767_trimmed_2.fastq.gz
+Approx 25% complete for SRR37536767_trimmed_2.fastq.gz
+Approx 25% complete for SRR37536767_trimmed_1.fastq.gz
+Approx 30% complete for SRR37536767_trimmed_2.fastq.gz
+Approx 30% complete for SRR37536767_trimmed_1.fastq.gz
+Approx 35% complete for SRR37536767_trimmed_2.fastq.gz
+Approx 35% complete for SRR37536767_trimmed_1.fastq.gz
+Approx 40% complete for SRR37536767_trimmed_2.fastq.gz
+Approx 40% complete for SRR37536767_trimmed_1.fastq.gz
+Approx 45% complete for SRR37536767_trimmed_2.fastq.gz
+Approx 45% complete for SRR37536767_trimmed_1.fastq.gz
+Approx 50% complete for SRR37536767_trimmed_2.fastq.gz
+Approx 50% complete for SRR37536767_trimmed_1.fastq.gz
+Approx 55% complete for SRR37536767_trimmed_2.fastq.gz
+Approx 55% complete for SRR37536767_trimmed_1.fastq.gz
+Approx 60% complete for SRR37536767_trimmed_2.fastq.gz
+Approx 60% complete for SRR37536767_trimmed_1.fastq.gz
+Approx 65% complete for SRR37536767_trimmed_2.fastq.gz
+Approx 65% complete for SRR37536767_trimmed_1.fastq.gz
+Approx 70% complete for SRR37536767_trimmed_2.fastq.gz
+Approx 70% complete for SRR37536767_trimmed_1.fastq.gz
+Approx 75% complete for SRR37536767_trimmed_2.fastq.gz
+Approx 75% complete for SRR37536767_trimmed_1.fastq.gz
+Approx 80% complete for SRR37536767_trimmed_2.fastq.gz
+Approx 80% complete for SRR37536767_trimmed_1.fastq.gz
+Approx 85% complete for SRR37536767_trimmed_2.fastq.gz
+Approx 85% complete for SRR37536767_trimmed_1.fastq.gz
+Approx 90% complete for SRR37536767_trimmed_2.fastq.gz
+Approx 90% complete for SRR37536767_trimmed_1.fastq.gz
+Approx 95% complete for SRR37536767_trimmed_2.fastq.gz
+Approx 95% complete for SRR37536767_trimmed_1.fastq.gz
+Analysis complete for SRR37536767_trimmed_2.fastq.gz
+Analysis complete for SRR37536767_trimmed_1.fastq.gz
+[2m2026-10-12T14:21:11.080614Z[0m [33m WARN[0m [2msalmon[0m[2m:[0m --validateMappings has no effect (deprecated in salmon too): selective alignment is the default mapping mode; pass --sketch for pseudoalignment.
+[2m2026-10-12T14:21:11.099054Z[0m [32m INFO[0m [2mpiscem_rs::index::reference_index[0m[2m:[0m Loading SSHash dictionary from ref/salmon_index_mm10/index.ssi
+[2m2026-10-12T14:21:16.628597Z[0m [32m INFO[0m [2mpiscem_rs::index::reference_index[0m[2m:[0m   k=31, 25056108 strings
+[2m2026-10-12T14:21:16.628655Z[0m [32m INFO[0m [2mpiscem_rs::index::reference_index[0m[2m:[0m Loading contig table from ref/salmon_index_mm10/index.ctab
+[2m2026-10-12T14:21:21.565262Z[0m [32m INFO[0m [2mpiscem_rs::index::reference_index[0m[2m:[0m   25056108 contigs, 346526014 entries, entry_width=47 bits
+[2m2026-10-12T14:21:21.565306Z[0m [32m INFO[0m [2mpiscem_rs::index::reference_index[0m[2m:[0m Loading reference info from ref/salmon_index_mm10/index.refinfo
+[2m2026-10-12T14:21:21.593507Z[0m [32m INFO[0m [2mpiscem_rs::index::reference_index[0m[2m:[0m   141135 references, max_ref_len=195371971
+[2m2026-10-12T14:21:21.593555Z[0m [32m INFO[0m [2mpiscem_rs::index::reference_index[0m[2m:[0m Loading equivalence class table from ref/salmon_index_mm10/index.ectab
+[2m2026-10-12T14:21:22.027953Z[0m [32m INFO[0m [2mpiscem_rs::index::reference_index[0m[2m:[0m   25056108 tiles, 4676802 ECs, 43325053 label entries
+[2m2026-10-12T14:21:22.028062Z[0m [32m INFO[0m [2mpiscem_rs::index::reference_index[0m[2m:[0m   ref_shift=29, pos_mask=0xfffffff
+[2m2026-10-12T14:21:39.508035Z[0m [32m INFO[0m [2msalmon::timing[0m[2m:[0m phase complete [3mphase[0m[2m=[0m"index_load" [3melapsed_s[0m[2m=[0m28.408363837
+[2m2026-10-12T14:21:39.569320Z[0m [32m INFO[0m [2mpiscem_rs::io::calibrate[0m[2m:[0m using the serial decoder: 8 threads for 2 gzip input(s) is below the 50 threads per input needed before parallel decoding adds concurrency the serial path does not already have
+[2m2026-10-12T14:21:39.573992Z[0m [32m INFO[0m [2msalmon_quant::decode[0m[2m:[0m thread execution plan [3mrequested_budget[0m[2m=[0m8 [3meffective_budget[0m[2m=[0m8 [3mmapping_threads[0m[2m=[0m8 [3mdecode_slots[0m[2m=[0m0 [3mparallel_decode[0m[2m=[0mfalse [3mreason[0m[2m=[0mPolicyDeclined
+[2m2026-10-12T14:21:39.575429Z[0m [32m INFO[0m [2msalmon_quant[0m[2m:[0m mapping reads (selective-alignment mode, 8 threads)
+[2m2026-10-12T14:26:08.289274Z[0m [32m INFO[0m [2msalmon_quant[0m[2m:[0m mapped 22949221 / 25690545 fragments (89.33%)
+[2m2026-10-12T14:26:08.291007Z[0m [32m INFO[0m [2msalmon::timing[0m[2m:[0m phase complete [3mphase[0m[2m=[0m"mapping" [3melapsed_s[0m[2m=[0m268.784963534
+[2m2026-10-12T14:26:08.291390Z[0m [32m INFO[0m [2msalmon::timing[0m[2m:[0m phase complete [3mphase[0m[2m=[0m"eff_length_collapse" [3melapsed_s[0m[2m=[0m0.000387827
+[2m2026-10-12T14:26:09.079441Z[0m [32m INFO[0m [2msalmon::timing[0m[2m:[0m phase complete [3mphase[0m[2m=[0m"em_bias" [3melapsed_s[0m[2m=[0m0.788043585
+[2m2026-10-12T14:26:09.079591Z[0m [32m INFO[0m [2msalmon::timing[0m[2m:[0m phase complete [3mphase[0m[2m=[0m"posterior" [3melapsed_s[0m[2m=[0m0.000158726
+[2m2026-10-12T14:26:09.085949Z[0m [32m INFO[0m [2msalmon_quant[0m[2m:[0m writing results to results/salmon_quant/SRR37536767
+[2m2026-10-12T14:26:09.107098Z[0m [32m INFO[0m [2msalmon::timing[0m[2m:[0m phase complete [3mphase[0m[2m=[0m"output" [3melapsed_s[0m[2m=[0m0.027499824
+[2m2026-10-12T14:26:09.553050Z[0m [32m INFO[0m [2msalmon[0m[2m:[0m deterministic: mapped 22949221 / 25690545 fragments (89.33%); quantifying from intermediate RAD
+[2m2026-10-12T14:26:15.176105Z[0m [32m INFO[0m [2msalmon_align::rad[0m[2m:[0m quantifying from RAD (salmon SA), 141135 references
+[2m2026-10-12T14:26:15.177473Z[0m [32m INFO[0m [2msalmon_align::rad[0m[2m:[0m using fragment-length distribution baked in the RAD header
+[2m2026-10-12T14:26:15.177486Z[0m [32m INFO[0m [2msalmon_align::rad[0m[2m:[0m library format under `-l A`: IU (baked in RAD header)
+[2m2026-10-12T14:26:33.549478Z[0m [32m INFO[0m [2msalmon_align::rad[0m[2m:[0m mapped 22949221 / 25690545 fragments from RAD
+[2m2026-10-12T14:26:33.741435Z[0m [32m INFO[0m [2msalmon::timing[0m[2m:[0m phase complete [3mphase[0m[2m=[0m"rad_read" [3melapsed_s[0m[2m=[0m18.593488594
+[2m2026-10-12T14:27:35.774255Z[0m [32m INFO[0m [2msalmon::timing[0m[2m:[0m phase complete [3mphase[0m[2m=[0m"em_bias" [3melapsed_s[0m[2m=[0m62.032819386
+[2m2026-10-12T14:27:35.778643Z[0m [32m INFO[0m [2msalmon::timing[0m[2m:[0m phase complete [3mphase[0m[2m=[0m"posterior" [3melapsed_s[0m[2m=[0m0.004390059
+[2m2026-10-12T14:27:35.868069Z[0m [32m INFO[0m [2msalmon::timing[0m[2m:[0m phase complete [3mphase[0m[2m=[0m"output" [3melapsed_s[0m[2m=[0m0.089426461
+[2m2026-10-12T14:27:35.907077Z[0m [32m INFO[0m [2msalmon[0m[2m:[0m 25690545 fragments from intermediate RAD, 22949221 quantified (89.33%); 178935 equivalence classes
+  done
+=== SRR37536768 (22:27) ===
+application/gzip
+application/gzip
+Started analysis of SRR37536768_1.fastq.gz
+Started analysis of SRR37536768_2.fastq.gz
+Approx 5% complete for SRR37536768_2.fastq.gz
+Approx 5% complete for SRR37536768_1.fastq.gz
+Approx 10% complete for SRR37536768_2.fastq.gz
+Approx 10% complete for SRR37536768_1.fastq.gz
+Approx 15% complete for SRR37536768_2.fastq.gz
+Approx 15% complete for SRR37536768_1.fastq.gz
+Approx 20% complete for SRR37536768_2.fastq.gz
+Approx 20% complete for SRR37536768_1.fastq.gz
+Approx 25% complete for SRR37536768_2.fastq.gz
+Approx 25% complete for SRR37536768_1.fastq.gz
+Approx 30% complete for SRR37536768_2.fastq.gz
+Approx 30% complete for SRR37536768_1.fastq.gz
+Approx 35% complete for SRR37536768_2.fastq.gz
+Approx 35% complete for SRR37536768_1.fastq.gz
+Approx 40% complete for SRR37536768_2.fastq.gz
+Approx 40% complete for SRR37536768_1.fastq.gz
+Approx 45% complete for SRR37536768_2.fastq.gz
+Approx 45% complete for SRR37536768_1.fastq.gz
+Approx 50% complete for SRR37536768_2.fastq.gz
+Approx 50% complete for SRR37536768_1.fastq.gz
+Approx 55% complete for SRR37536768_2.fastq.gz
+Approx 55% complete for SRR37536768_1.fastq.gz
+Approx 60% complete for SRR37536768_2.fastq.gz
+Approx 60% complete for SRR37536768_1.fastq.gz
+Approx 65% complete for SRR37536768_2.fastq.gz
+Approx 65% complete for SRR37536768_1.fastq.gz
+Approx 70% complete for SRR37536768_2.fastq.gz
+Approx 70% complete for SRR37536768_1.fastq.gz
+Approx 75% complete for SRR37536768_2.fastq.gz
+Approx 75% complete for SRR37536768_1.fastq.gz
+Approx 80% complete for SRR37536768_2.fastq.gz
+Approx 80% complete for SRR37536768_1.fastq.gz
+Approx 85% complete for SRR37536768_2.fastq.gz
+Approx 85% complete for SRR37536768_1.fastq.gz
+Approx 90% complete for SRR37536768_2.fastq.gz
+Approx 90% complete for SRR37536768_1.fastq.gz
+Approx 95% complete for SRR37536768_2.fastq.gz
+Approx 95% complete for SRR37536768_1.fastq.gz
+Analysis complete for SRR37536768_2.fastq.gz
+Analysis complete for SRR37536768_1.fastq.gz
+Detecting adapter sequence for read1...
+>Illumina TruSeq Adapter Read 1
+AGATCGGAAGAGCACACGTCTGAACTCCAGTCA
+
+Detecting adapter sequence for read2...
+>Illumina TruSeq Adapter Read 2
+AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGT
+
+Read1 before filtering:
+total reads: 22409514
+total bases: 3361427100
+Q20 bases: 3343293290(99.4605%)
+Q30 bases: 3282142040(97.6413%)
+Q40 bases: 3282142040(97.6413%)
+
+Read2 before filtering:
+total reads: 22409514
+total bases: 3361427100
+Q20 bases: 3333840414(99.1793%)
+Q30 bases: 3258842960(96.9482%)
+Q40 bases: 3258842960(96.9482%)
+
+Read1 after filtering:
+total reads: 22269046
+total bases: 3332275408
+Q20 bases: 3319107592(99.6048%)
+Q30 bases: 3262411660(97.9034%)
+Q40 bases: 3262411660(97.9034%)
+
+Read2 after filtering:
+total reads: 22269046
+total bases: 3332293204
+Q20 bases: 3314447360(99.4645%)
+Q30 bases: 3246846610(97.4358%)
+Q40 bases: 3246846610(97.4358%)
+
+Filtering result:
+reads passed filter: 44538092
+reads failed due to low quality: 268974
+reads failed due to too many N: 8448
+reads failed due to too short: 3420
+reads failed due to adapter dimer: 94
+reads with adapter trimmed: 698821
+bases trimmed due to adapters: 16610276
+
+Duplication rate: 36.8242%
+
+Insert size peak (evaluated by paired-end reads): 269
+
+JSON report: qc/fastp/SRR37536768.json
+HTML report: qc/fastp/SRR37536768.html
+
+fastp -i fastq/SRR37536768_1.fastq.gz -I fastq/SRR37536768_2.fastq.gz -o trimmed_tmp/SRR37536768_trimmed_1.fastq.gz -O trimmed_tmp/SRR37536768_trimmed_2.fastq.gz --detect_adapter_for_pe --thread 8 --qualified_quality_phred 20 --length_required 36 --html qc/fastp/SRR37536768.html --json qc/fastp/SRR37536768.json 
+fastp v1.3.6, time used: 141 seconds
+application/gzip
+application/gzip
+Started analysis of SRR37536768_trimmed_1.fastq.gz
+Started analysis of SRR37536768_trimmed_2.fastq.gz
+Approx 5% complete for SRR37536768_trimmed_1.fastq.gz
+Approx 5% complete for SRR37536768_trimmed_2.fastq.gz
+Approx 10% complete for SRR37536768_trimmed_1.fastq.gz
+Approx 10% complete for SRR37536768_trimmed_2.fastq.gz
+Approx 15% complete for SRR37536768_trimmed_1.fastq.gz
+Approx 15% complete for SRR37536768_trimmed_2.fastq.gz
+Approx 20% complete for SRR37536768_trimmed_1.fastq.gz
+Approx 20% complete for SRR37536768_trimmed_2.fastq.gz
+Approx 25% complete for SRR37536768_trimmed_1.fastq.gz
+Approx 25% complete for SRR37536768_trimmed_2.fastq.gz
+Approx 30% complete for SRR37536768_trimmed_1.fastq.gz
+Approx 30% complete for SRR37536768_trimmed_2.fastq.gz
+Approx 35% complete for SRR37536768_trimmed_1.fastq.gz
+Approx 35% complete for SRR37536768_trimmed_2.fastq.gz
+Approx 40% complete for SRR37536768_trimmed_1.fastq.gz
+Approx 40% complete for SRR37536768_trimmed_2.fastq.gz
+Approx 45% complete for SRR37536768_trimmed_1.fastq.gz
+Approx 45% complete for SRR37536768_trimmed_2.fastq.gz
+Approx 50% complete for SRR37536768_trimmed_1.fastq.gz
+Approx 50% complete for SRR37536768_trimmed_2.fastq.gz
+Approx 55% complete for SRR37536768_trimmed_1.fastq.gz
+Approx 55% complete for SRR37536768_trimmed_2.fastq.gz
+Approx 60% complete for SRR37536768_trimmed_1.fastq.gz
+Approx 60% complete for SRR37536768_trimmed_2.fastq.gz
+Approx 65% complete for SRR37536768_trimmed_1.fastq.gz
+Approx 65% complete for SRR37536768_trimmed_2.fastq.gz
+Approx 70% complete for SRR37536768_trimmed_1.fastq.gz
+Approx 70% complete for SRR37536768_trimmed_2.fastq.gz
+Approx 75% complete for SRR37536768_trimmed_1.fastq.gz
+Approx 75% complete for SRR37536768_trimmed_2.fastq.gz
+Approx 80% complete for SRR37536768_trimmed_1.fastq.gz
+Approx 80% complete for SRR37536768_trimmed_2.fastq.gz
+Approx 85% complete for SRR37536768_trimmed_1.fastq.gz
+Approx 85% complete for SRR37536768_trimmed_2.fastq.gz
+Approx 90% complete for SRR37536768_trimmed_1.fastq.gz
+Approx 90% complete for SRR37536768_trimmed_2.fastq.gz
+Approx 95% complete for SRR37536768_trimmed_1.fastq.gz
+Approx 95% complete for SRR37536768_trimmed_2.fastq.gz
+Analysis complete for SRR37536768_trimmed_1.fastq.gz
+Analysis complete for SRR37536768_trimmed_2.fastq.gz
+[2m2026-10-12T14:35:19.246620Z[0m [33m WARN[0m [2msalmon[0m[2m:[0m --validateMappings has no effect (deprecated in salmon too): selective alignment is the default mapping mode; pass --sketch for pseudoalignment.
+[2m2026-10-12T14:35:19.268569Z[0m [32m INFO[0m [2mpiscem_rs::index::reference_index[0m[2m:[0m Loading SSHash dictionary from ref/salmon_index_mm10/index.ssi
+[2m2026-10-12T14:35:24.657629Z[0m [32m INFO[0m [2mpiscem_rs::index::reference_index[0m[2m:[0m   k=31, 25056108 strings
+[2m2026-10-12T14:35:24.657711Z[0m [32m INFO[0m [2mpiscem_rs::index::reference_index[0m[2m:[0m Loading contig table from ref/salmon_index_mm10/index.ctab
+[2m2026-10-12T14:35:29.965480Z[0m [32m INFO[0m [2mpiscem_rs::index::reference_index[0m[2m:[0m   25056108 contigs, 346526014 entries, entry_width=47 bits
+[2m2026-10-12T14:35:29.965642Z[0m [32m INFO[0m [2mpiscem_rs::index::reference_index[0m[2m:[0m Loading reference info from ref/salmon_index_mm10/index.refinfo
+[2m2026-10-12T14:35:29.986053Z[0m [32m INFO[0m [2mpiscem_rs::index::reference_index[0m[2m:[0m   141135 references, max_ref_len=195371971
+[2m2026-10-12T14:35:29.986552Z[0m [32m INFO[0m [2mpiscem_rs::index::reference_index[0m[2m:[0m Loading equivalence class table from ref/salmon_index_mm10/index.ectab
+[2m2026-10-12T14:35:30.397056Z[0m [32m INFO[0m [2mpiscem_rs::index::reference_index[0m[2m:[0m   25056108 tiles, 4676802 ECs, 43325053 label entries
+[2m2026-10-12T14:35:30.397098Z[0m [32m INFO[0m [2mpiscem_rs::index::reference_index[0m[2m:[0m   ref_shift=29, pos_mask=0xfffffff
+[2m2026-10-12T14:35:42.159698Z[0m [32m INFO[0m [2msalmon::timing[0m[2m:[0m phase complete [3mphase[0m[2m=[0m"index_load" [3melapsed_s[0m[2m=[0m22.887600096
+[2m2026-10-12T14:35:42.232561Z[0m [32m INFO[0m [2mpiscem_rs::io::calibrate[0m[2m:[0m using the serial decoder: 8 threads for 2 gzip input(s) is below the 50 threads per input needed before parallel decoding adds concurrency the serial path does not already have
+[2m2026-10-12T14:35:42.237428Z[0m [32m INFO[0m [2msalmon_quant::decode[0m[2m:[0m thread execution plan [3mrequested_budget[0m[2m=[0m8 [3meffective_budget[0m[2m=[0m8 [3mmapping_threads[0m[2m=[0m8 [3mdecode_slots[0m[2m=[0m0 [3mparallel_decode[0m[2m=[0mfalse [3mreason[0m[2m=[0mPolicyDeclined
+[2m2026-10-12T14:35:42.238682Z[0m [32m INFO[0m [2msalmon_quant[0m[2m:[0m mapping reads (selective-alignment mode, 8 threads)
+[2m2026-10-12T14:39:35.178234Z[0m [32m INFO[0m [2msalmon_quant[0m[2m:[0m mapped 19692354 / 22269046 fragments (88.43%)
+[2m2026-10-12T14:39:35.178967Z[0m [32m INFO[0m [2msalmon::timing[0m[2m:[0m phase complete [3mphase[0m[2m=[0m"mapping" [3melapsed_s[0m[2m=[0m233.023704354
+[2m2026-10-12T14:39:35.179766Z[0m [32m INFO[0m [2msalmon::timing[0m[2m:[0m phase complete [3mphase[0m[2m=[0m"eff_length_collapse" [3melapsed_s[0m[2m=[0m0.000805012
+[2m2026-10-12T14:39:35.754227Z[0m [32m INFO[0m [2msalmon::timing[0m[2m:[0m phase complete [3mphase[0m[2m=[0m"em_bias" [3melapsed_s[0m[2m=[0m0.574452732
+[2m2026-10-12T14:39:35.754392Z[0m [32m INFO[0m [2msalmon::timing[0m[2m:[0m phase complete [3mphase[0m[2m=[0m"posterior" [3melapsed_s[0m[2m=[0m0.000174506
+[2m2026-10-12T14:39:35.760933Z[0m [32m INFO[0m [2msalmon_quant[0m[2m:[0m writing results to results/salmon_quant/SRR37536768
+[2m2026-10-12T14:39:35.784115Z[0m [32m INFO[0m [2msalmon::timing[0m[2m:[0m phase complete [3mphase[0m[2m=[0m"output" [3melapsed_s[0m[2m=[0m0.029714747
+[2m2026-10-12T14:39:36.271123Z[0m [32m INFO[0m [2msalmon[0m[2m:[0m deterministic: mapped 19692354 / 22269046 fragments (88.43%); quantifying from intermediate RAD
+[2m2026-10-12T14:39:42.985108Z[0m [32m INFO[0m [2msalmon_align::rad[0m[2m:[0m quantifying from RAD (salmon SA), 141135 references
+[2m2026-10-12T14:39:42.985262Z[0m [32m INFO[0m [2msalmon_align::rad[0m[2m:[0m using fragment-length distribution baked in the RAD header
+[2m2026-10-12T14:39:42.985728Z[0m [32m INFO[0m [2msalmon_align::rad[0m[2m:[0m library format under `-l A`: IU (baked in RAD header)
+[2m2026-10-12T14:39:59.805970Z[0m [32m INFO[0m [2msalmon_align::rad[0m[2m:[0m mapped 19692354 / 22269046 fragments from RAD
+[2m2026-10-12T14:39:59.964951Z[0m [32m INFO[0m [2msalmon::timing[0m[2m:[0m phase complete [3mphase[0m[2m=[0m"rad_read" [3melapsed_s[0m[2m=[0m17.02633321
+[2m2026-10-12T14:40:57.432969Z[0m [32m INFO[0m [2msalmon::timing[0m[2m:[0m phase complete [3mphase[0m[2m=[0m"em_bias" [3melapsed_s[0m[2m=[0m57.468016906
+[2m2026-10-12T14:40:57.438121Z[0m [32m INFO[0m [2msalmon::timing[0m[2m:[0m phase complete [3mphase[0m[2m=[0m"posterior" [3melapsed_s[0m[2m=[0m0.005154763
+[2m2026-10-12T14:40:57.532954Z[0m [32m INFO[0m [2msalmon::timing[0m[2m:[0m phase complete [3mphase[0m[2m=[0m"output" [3melapsed_s[0m[2m=[0m0.094831428
+[2m2026-10-12T14:40:57.581510Z[0m [32m INFO[0m [2msalmon[0m[2m:[0m 22269046 fragments from intermediate RAD, 19692354 quantified (88.43%); 160841 equivalence classes
+  done
+=== SRR37536769 (22:40) ===
+application/gzip
+application/gzip
+Started analysis of SRR37536769_1.fastq.gz
+Started analysis of SRR37536769_2.fastq.gz
+Approx 5% complete for SRR37536769_1.fastq.gz
+Approx 5% complete for SRR37536769_2.fastq.gz
+Approx 10% complete for SRR37536769_1.fastq.gz
+Approx 10% complete for SRR37536769_2.fastq.gz
+Approx 15% complete for SRR37536769_1.fastq.gz
+Approx 15% complete for SRR37536769_2.fastq.gz
+Approx 20% complete for SRR37536769_2.fastq.gz
+Approx 20% complete for SRR37536769_1.fastq.gz
+Approx 25% complete for SRR37536769_2.fastq.gz
+Approx 25% complete for SRR37536769_1.fastq.gz
+Approx 30% complete for SRR37536769_2.fastq.gz
+Approx 30% complete for SRR37536769_1.fastq.gz
+Approx 35% complete for SRR37536769_2.fastq.gz
+Approx 35% complete for SRR37536769_1.fastq.gz
+Approx 40% complete for SRR37536769_2.fastq.gz
+Approx 40% complete for SRR37536769_1.fastq.gz
+Approx 45% complete for SRR37536769_2.fastq.gz
+Approx 45% complete for SRR37536769_1.fastq.gz
+Approx 50% complete for SRR37536769_2.fastq.gz
+Approx 50% complete for SRR37536769_1.fastq.gz
+Approx 55% complete for SRR37536769_2.fastq.gz
+Approx 55% complete for SRR37536769_1.fastq.gz
+Approx 60% complete for SRR37536769_2.fastq.gz
+Approx 60% complete for SRR37536769_1.fastq.gz
+Approx 65% complete for SRR37536769_2.fastq.gz
+Approx 65% complete for SRR37536769_1.fastq.gz
+Approx 70% complete for SRR37536769_2.fastq.gz
+Approx 70% complete for SRR37536769_1.fastq.gz
+Approx 75% complete for SRR37536769_2.fastq.gz
+Approx 75% complete for SRR37536769_1.fastq.gz
+Approx 80% complete for SRR37536769_2.fastq.gz
+Approx 80% complete for SRR37536769_1.fastq.gz
+Approx 85% complete for SRR37536769_2.fastq.gz
+Approx 85% complete for SRR37536769_1.fastq.gz
+Approx 90% complete for SRR37536769_2.fastq.gz
+Approx 90% complete for SRR37536769_1.fastq.gz
+Approx 95% complete for SRR37536769_2.fastq.gz
+Approx 95% complete for SRR37536769_1.fastq.gz
+Approx 100% complete for SRR37536769_2.fastq.gz
+Analysis complete for SRR37536769_2.fastq.gz
+Approx 100% complete for SRR37536769_1.fastq.gz
+Analysis complete for SRR37536769_1.fastq.gz
+Detecting adapter sequence for read1...
+>Illumina TruSeq Adapter Read 1
+AGATCGGAAGAGCACACGTCTGAACTCCAGTCA
+
+Detecting adapter sequence for read2...
+>Illumina TruSeq Adapter Read 2
+AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGT
+
+Read1 before filtering:
+total reads: 22976013
+total bases: 3446401950
+Q20 bases: 3425527509(99.3943%)
+Q30 bases: 3357707716(97.4265%)
+Q40 bases: 3357707716(97.4265%)
+
+Read2 before filtering:
+total reads: 22976013
+total bases: 3446401950
+Q20 bases: 3414058419(99.0615%)
+Q30 bases: 3329493019(96.6078%)
+Q40 bases: 3329493019(96.6078%)
+
+Read1 after filtering:
+total reads: 22801214
+total bases: 3410368454
+Q20 bases: 3396021831(99.5793%)
+Q30 bases: 3333847073(97.7562%)
+Q40 bases: 3333847073(97.7562%)
+
+Read2 after filtering:
+total reads: 22801214
+total bases: 3410399907
+Q20 bases: 3390194595(99.4075%)
+Q30 bases: 3314720808(97.1945%)
+Q40 bases: 3314720808(97.1945%)
+
+Filtering result:
+reads passed filter: 45602428
+reads failed due to low quality: 336960
+reads failed due to too many N: 8682
+reads failed due to too short: 3868
+reads failed due to adapter dimer: 88
+reads with adapter trimmed: 828398
+bases trimmed due to adapters: 20143859
+
+Duplication rate: 35.9807%
+
+Insert size peak (evaluated by paired-end reads): 269
+
+JSON report: qc/fastp/SRR37536769.json
+HTML report: qc/fastp/SRR37536769.html
+
+fastp -i fastq/SRR37536769_1.fastq.gz -I fastq/SRR37536769_2.fastq.gz -o trimmed_tmp/SRR37536769_trimmed_1.fastq.gz -O trimmed_tmp/SRR37536769_trimmed_2.fastq.gz --detect_adapter_for_pe --thread 8 --qualified_quality_phred 20 --length_required 36 --html qc/fastp/SRR37536769.html --json qc/fastp/SRR37536769.json 
+fastp v1.3.6, time used: 146 seconds
+application/gzip
+application/gzip
+Started analysis of SRR37536769_trimmed_1.fastq.gz
+Started analysis of SRR37536769_trimmed_2.fastq.gz
+Approx 5% complete for SRR37536769_trimmed_1.fastq.gz
+Approx 5% complete for SRR37536769_trimmed_2.fastq.gz
+Approx 10% complete for SRR37536769_trimmed_2.fastq.gz
+Approx 10% complete for SRR37536769_trimmed_1.fastq.gz
+Approx 15% complete for SRR37536769_trimmed_2.fastq.gz
+Approx 15% complete for SRR37536769_trimmed_1.fastq.gz
+Approx 20% complete for SRR37536769_trimmed_2.fastq.gz
+Approx 20% complete for SRR37536769_trimmed_1.fastq.gz
+Approx 25% complete for SRR37536769_trimmed_2.fastq.gz
+Approx 25% complete for SRR37536769_trimmed_1.fastq.gz
+Approx 30% complete for SRR37536769_trimmed_2.fastq.gz
+Approx 30% complete for SRR37536769_trimmed_1.fastq.gz
+Approx 35% complete for SRR37536769_trimmed_2.fastq.gz
+Approx 35% complete for SRR37536769_trimmed_1.fastq.gz
+Approx 40% complete for SRR37536769_trimmed_2.fastq.gz
+Approx 40% complete for SRR37536769_trimmed_1.fastq.gz
+Approx 45% complete for SRR37536769_trimmed_2.fastq.gz
+Approx 45% complete for SRR37536769_trimmed_1.fastq.gz
+Approx 50% complete for SRR37536769_trimmed_2.fastq.gz
+Approx 50% complete for SRR37536769_trimmed_1.fastq.gz
+Approx 55% complete for SRR37536769_trimmed_2.fastq.gz
+Approx 55% complete for SRR37536769_trimmed_1.fastq.gz
+Approx 60% complete for SRR37536769_trimmed_2.fastq.gz
+Approx 60% complete for SRR37536769_trimmed_1.fastq.gz
+Approx 65% complete for SRR37536769_trimmed_2.fastq.gz
+Approx 65% complete for SRR37536769_trimmed_1.fastq.gz
+Approx 70% complete for SRR37536769_trimmed_2.fastq.gz
+Approx 70% complete for SRR37536769_trimmed_1.fastq.gz
+Approx 75% complete for SRR37536769_trimmed_2.fastq.gz
+Approx 75% complete for SRR37536769_trimmed_1.fastq.gz
+Approx 80% complete for SRR37536769_trimmed_2.fastq.gz
+Approx 80% complete for SRR37536769_trimmed_1.fastq.gz
+Approx 85% complete for SRR37536769_trimmed_2.fastq.gz
+Approx 85% complete for SRR37536769_trimmed_1.fastq.gz
+Approx 90% complete for SRR37536769_trimmed_2.fastq.gz
+Approx 90% complete for SRR37536769_trimmed_1.fastq.gz
+Approx 95% complete for SRR37536769_trimmed_2.fastq.gz
+Approx 95% complete for SRR37536769_trimmed_1.fastq.gz
+Analysis complete for SRR37536769_trimmed_2.fastq.gz
+Analysis complete for SRR37536769_trimmed_1.fastq.gz
+[2m2026-10-12T14:49:00.462775Z[0m [33m WARN[0m [2msalmon[0m[2m:[0m --validateMappings has no effect (deprecated in salmon too): selective alignment is the default mapping mode; pass --sketch for pseudoalignment.
+[2m2026-10-12T14:49:00.482158Z[0m [32m INFO[0m [2mpiscem_rs::index::reference_index[0m[2m:[0m Loading SSHash dictionary from ref/salmon_index_mm10/index.ssi
+[2m2026-10-12T14:49:05.359131Z[0m [32m INFO[0m [2mpiscem_rs::index::reference_index[0m[2m:[0m   k=31, 25056108 strings
+[2m2026-10-12T14:49:05.359173Z[0m [32m INFO[0m [2mpiscem_rs::index::reference_index[0m[2m:[0m Loading contig table from ref/salmon_index_mm10/index.ctab
+[2m2026-10-12T14:49:10.516602Z[0m [32m INFO[0m [2mpiscem_rs::index::reference_index[0m[2m:[0m   25056108 contigs, 346526014 entries, entry_width=47 bits
+[2m2026-10-12T14:49:10.516747Z[0m [32m INFO[0m [2mpiscem_rs::index::reference_index[0m[2m:[0m Loading reference info from ref/salmon_index_mm10/index.refinfo
+[2m2026-10-12T14:49:10.559011Z[0m [32m INFO[0m [2mpiscem_rs::index::reference_index[0m[2m:[0m   141135 references, max_ref_len=195371971
+[2m2026-10-12T14:49:10.559598Z[0m [32m INFO[0m [2mpiscem_rs::index::reference_index[0m[2m:[0m Loading equivalence class table from ref/salmon_index_mm10/index.ectab
+[2m2026-10-12T14:49:10.975034Z[0m [32m INFO[0m [2mpiscem_rs::index::reference_index[0m[2m:[0m   25056108 tiles, 4676802 ECs, 43325053 label entries
+[2m2026-10-12T14:49:10.975074Z[0m [32m INFO[0m [2mpiscem_rs::index::reference_index[0m[2m:[0m   ref_shift=29, pos_mask=0xfffffff
+[2m2026-10-12T14:49:22.602108Z[0m [32m INFO[0m [2msalmon::timing[0m[2m:[0m phase complete [3mphase[0m[2m=[0m"index_load" [3melapsed_s[0m[2m=[0m22.118265636
+[2m2026-10-12T14:49:22.671169Z[0m [32m INFO[0m [2mpiscem_rs::io::calibrate[0m[2m:[0m using the serial decoder: 8 threads for 2 gzip input(s) is below the 50 threads per input needed before parallel decoding adds concurrency the serial path does not already have
+[2m2026-10-12T14:49:22.676784Z[0m [32m INFO[0m [2msalmon_quant::decode[0m[2m:[0m thread execution plan [3mrequested_budget[0m[2m=[0m8 [3meffective_budget[0m[2m=[0m8 [3mmapping_threads[0m[2m=[0m8 [3mdecode_slots[0m[2m=[0m0 [3mparallel_decode[0m[2m=[0mfalse [3mreason[0m[2m=[0mPolicyDeclined
+[2m2026-10-12T14:49:22.678541Z[0m [32m INFO[0m [2msalmon_quant[0m[2m:[0m mapping reads (selective-alignment mode, 8 threads)
+[2m2026-10-12T14:53:11.084278Z[0m [32m INFO[0m [2msalmon_quant[0m[2m:[0m mapped 20127244 / 22801214 fragments (88.27%)
+[2m2026-10-12T14:53:11.084661Z[0m [32m INFO[0m [2msalmon::timing[0m[2m:[0m phase complete [3mphase[0m[2m=[0m"mapping" [3melapsed_s[0m[2m=[0m228.486109845
+[2m2026-10-12T14:53:11.085095Z[0m [32m INFO[0m [2msalmon::timing[0m[2m:[0m phase complete [3mphase[0m[2m=[0m"eff_length_collapse" [3melapsed_s[0m[2m=[0m0.000434247
+[2m2026-10-12T14:53:11.763358Z[0m [32m INFO[0m [2msalmon::timing[0m[2m:[0m phase complete [3mphase[0m[2m=[0m"em_bias" [3melapsed_s[0m[2m=[0m0.67825608
+[2m2026-10-12T14:53:11.763515Z[0m [32m INFO[0m [2msalmon::timing[0m[2m:[0m phase complete [3mphase[0m[2m=[0m"posterior" [3melapsed_s[0m[2m=[0m0.000165068
+[2m2026-10-12T14:53:11.769256Z[0m [32m INFO[0m [2msalmon_quant[0m[2m:[0m writing results to results/salmon_quant/SRR37536769
+[2m2026-10-12T14:53:11.795484Z[0m [32m INFO[0m [2msalmon::timing[0m[2m:[0m phase complete [3mphase[0m[2m=[0m"output" [3melapsed_s[0m[2m=[0m0.031962585
+[2m2026-10-12T14:53:12.311956Z[0m [32m INFO[0m [2msalmon[0m[2m:[0m deterministic: mapped 20127244 / 22801214 fragments (88.27%); quantifying from intermediate RAD
+[2m2026-10-12T14:53:19.220985Z[0m [32m INFO[0m [2msalmon_align::rad[0m[2m:[0m quantifying from RAD (salmon SA), 141135 references
+[2m2026-10-12T14:53:19.222198Z[0m [32m INFO[0m [2msalmon_align::rad[0m[2m:[0m using fragment-length distribution baked in the RAD header
+[2m2026-10-12T14:53:19.222880Z[0m [32m INFO[0m [2msalmon_align::rad[0m[2m:[0m library format under `-l A`: IU (baked in RAD header)
+[2m2026-10-12T14:53:35.853306Z[0m [32m INFO[0m [2msalmon_align::rad[0m[2m:[0m mapped 20127244 / 22801214 fragments from RAD
+[2m2026-10-12T14:53:36.046578Z[0m [32m INFO[0m [2msalmon::timing[0m[2m:[0m phase complete [3mphase[0m[2m=[0m"rad_read" [3melapsed_s[0m[2m=[0m16.879364912
+[2m2026-10-12T14:54:36.045566Z[0m [32m INFO[0m [2msalmon::timing[0m[2m:[0m phase complete [3mphase[0m[2m=[0m"em_bias" [3melapsed_s[0m[2m=[0m59.998987229
+[2m2026-10-12T14:54:36.051472Z[0m [32m INFO[0m [2msalmon::timing[0m[2m:[0m phase complete [3mphase[0m[2m=[0m"posterior" [3melapsed_s[0m[2m=[0m0.005909337
+[2m2026-10-12T14:54:36.146835Z[0m [32m INFO[0m [2msalmon::timing[0m[2m:[0m phase complete [3mphase[0m[2m=[0m"output" [3melapsed_s[0m[2m=[0m0.095362993
+[2m2026-10-12T14:54:36.179339Z[0m [32m INFO[0m [2msalmon[0m[2m:[0m 22801214 fragments from intermediate RAD, 20127244 quantified (88.27%); 165935 equivalence classes
+  done
+=== SRR37536770 (22:54) ===
+application/gzip
+application/gzip
+Started analysis of SRR37536770_1.fastq.gz
+Started analysis of SRR37536770_2.fastq.gz
+Approx 5% complete for SRR37536770_1.fastq.gz
+Approx 5% complete for SRR37536770_2.fastq.gz
+Approx 10% complete for SRR37536770_1.fastq.gz
+Approx 10% complete for SRR37536770_2.fastq.gz
+Approx 15% complete for SRR37536770_1.fastq.gz
+Approx 15% complete for SRR37536770_2.fastq.gz
+Approx 20% complete for SRR37536770_2.fastq.gz
+Approx 20% complete for SRR37536770_1.fastq.gz
+Approx 25% complete for SRR37536770_2.fastq.gz
+Approx 25% complete for SRR37536770_1.fastq.gz
+Approx 30% complete for SRR37536770_2.fastq.gz
+Approx 30% complete for SRR37536770_1.fastq.gz
+Approx 35% complete for SRR37536770_2.fastq.gz
+Approx 35% complete for SRR37536770_1.fastq.gz
+Approx 40% complete for SRR37536770_2.fastq.gz
+Approx 40% complete for SRR37536770_1.fastq.gz
+Approx 45% complete for SRR37536770_2.fastq.gz
+Approx 45% complete for SRR37536770_1.fastq.gz
+Approx 50% complete for SRR37536770_2.fastq.gz
+Approx 50% complete for SRR37536770_1.fastq.gz
+Approx 55% complete for SRR37536770_2.fastq.gz
+Approx 55% complete for SRR37536770_1.fastq.gz
+Approx 60% complete for SRR37536770_2.fastq.gz
+Approx 60% complete for SRR37536770_1.fastq.gz
+Approx 65% complete for SRR37536770_2.fastq.gz
+Approx 65% complete for SRR37536770_1.fastq.gz
+Approx 70% complete for SRR37536770_2.fastq.gz
+Approx 70% complete for SRR37536770_1.fastq.gz
+Approx 75% complete for SRR37536770_2.fastq.gz
+Approx 75% complete for SRR37536770_1.fastq.gz
+Approx 80% complete for SRR37536770_2.fastq.gz
+Approx 80% complete for SRR37536770_1.fastq.gz
+Approx 85% complete for SRR37536770_2.fastq.gz
+Approx 85% complete for SRR37536770_1.fastq.gz
+Approx 90% complete for SRR37536770_2.fastq.gz
+Approx 90% complete for SRR37536770_1.fastq.gz
+Approx 95% complete for SRR37536770_2.fastq.gz
+Approx 95% complete for SRR37536770_1.fastq.gz
+Analysis complete for SRR37536770_2.fastq.gz
+Analysis complete for SRR37536770_1.fastq.gz
+Detecting adapter sequence for read1...
+>Illumina TruSeq Adapter Read 1
+AGATCGGAAGAGCACACGTCTGAACTCCAGTCA
+
+Detecting adapter sequence for read2...
+>Illumina TruSeq Adapter Read 2
+AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGT
+
+Read1 before filtering:
+total reads: 25046592
+total bases: 3756988800
+Q20 bases: 3736012685(99.4417%)
+Q30 bases: 3662717305(97.4908%)
+Q40 bases: 3662717305(97.4908%)
+
+Read2 before filtering:
+total reads: 25046592
+total bases: 3756988800
+Q20 bases: 3723577125(99.1107%)
+Q30 bases: 3631679749(96.6646%)
+Q40 bases: 3631679749(96.6646%)
+
+Read1 after filtering:
+total reads: 24878017
+total bases: 3719735026
+Q20 bases: 3704989281(99.6036%)
+Q30 bases: 3637189901(97.7809%)
+Q40 bases: 3637189901(97.7809%)
+
+Read2 after filtering:
+total reads: 24878017
+total bases: 3719763143
+Q20 bases: 3698312787(99.4233%)
+Q30 bases: 3615571299(97.199%)
+Q40 bases: 3615571299(97.199%)
+
+Filtering result:
+reads passed filter: 49756034
+reads failed due to low quality: 323560
+reads failed due to too many N: 9496
+reads failed due to too short: 4016
+reads failed due to adapter dimer: 78
+reads with adapter trimmed: 965146
+bases trimmed due to adapters: 24482216
+
+Duplication rate: 36.9879%
+
+Insert size peak (evaluated by paired-end reads): 269
+
+JSON report: qc/fastp/SRR37536770.json
+HTML report: qc/fastp/SRR37536770.html
+
+fastp -i fastq/SRR37536770_1.fastq.gz -I fastq/SRR37536770_2.fastq.gz -o trimmed_tmp/SRR37536770_trimmed_1.fastq.gz -O trimmed_tmp/SRR37536770_trimmed_2.fastq.gz --detect_adapter_for_pe --thread 8 --qualified_quality_phred 20 --length_required 36 --html qc/fastp/SRR37536770.html --json qc/fastp/SRR37536770.json 
+fastp v1.3.6, time used: 163 seconds
+application/gzip
+application/gzip
+Started analysis of SRR37536770_trimmed_1.fastq.gz
+Started analysis of SRR37536770_trimmed_2.fastq.gz
+Approx 5% complete for SRR37536770_trimmed_1.fastq.gz
+Approx 5% complete for SRR37536770_trimmed_2.fastq.gz
+Approx 10% complete for SRR37536770_trimmed_2.fastq.gz
+Approx 10% complete for SRR37536770_trimmed_1.fastq.gz
+Approx 15% complete for SRR37536770_trimmed_2.fastq.gz
+Approx 15% complete for SRR37536770_trimmed_1.fastq.gz
+Approx 20% complete for SRR37536770_trimmed_2.fastq.gz
+Approx 20% complete for SRR37536770_trimmed_1.fastq.gz
+Approx 25% complete for SRR37536770_trimmed_2.fastq.gz
+Approx 25% complete for SRR37536770_trimmed_1.fastq.gz
+Approx 30% complete for SRR37536770_trimmed_2.fastq.gz
+Approx 30% complete for SRR37536770_trimmed_1.fastq.gz
+Approx 35% complete for SRR37536770_trimmed_2.fastq.gz
+Approx 35% complete for SRR37536770_trimmed_1.fastq.gz
+Approx 40% complete for SRR37536770_trimmed_2.fastq.gz
+Approx 40% complete for SRR37536770_trimmed_1.fastq.gz
+Approx 45% complete for SRR37536770_trimmed_2.fastq.gz
+Approx 45% complete for SRR37536770_trimmed_1.fastq.gz
+Approx 50% complete for SRR37536770_trimmed_2.fastq.gz
+Approx 50% complete for SRR37536770_trimmed_1.fastq.gz
+Approx 55% complete for SRR37536770_trimmed_2.fastq.gz
+Approx 55% complete for SRR37536770_trimmed_1.fastq.gz
+Approx 60% complete for SRR37536770_trimmed_2.fastq.gz
+Approx 60% complete for SRR37536770_trimmed_1.fastq.gz
+Approx 65% complete for SRR37536770_trimmed_2.fastq.gz
+Approx 65% complete for SRR37536770_trimmed_1.fastq.gz
+Approx 70% complete for SRR37536770_trimmed_2.fastq.gz
+Approx 70% complete for SRR37536770_trimmed_1.fastq.gz
+Approx 75% complete for SRR37536770_trimmed_2.fastq.gz
+Approx 75% complete for SRR37536770_trimmed_1.fastq.gz
+Approx 80% complete for SRR37536770_trimmed_2.fastq.gz
+Approx 80% complete for SRR37536770_trimmed_1.fastq.gz
+Approx 85% complete for SRR37536770_trimmed_2.fastq.gz
+Approx 85% complete for SRR37536770_trimmed_1.fastq.gz
+Approx 90% complete for SRR37536770_trimmed_2.fastq.gz
+Approx 90% complete for SRR37536770_trimmed_1.fastq.gz
+Approx 95% complete for SRR37536770_trimmed_2.fastq.gz
+Approx 95% complete for SRR37536770_trimmed_1.fastq.gz
+Analysis complete for SRR37536770_trimmed_2.fastq.gz
+Analysis complete for SRR37536770_trimmed_1.fastq.gz
+[2m2026-10-12T15:03:36.518647Z[0m [33m WARN[0m [2msalmon[0m[2m:[0m --validateMappings has no effect (deprecated in salmon too): selective alignment is the default mapping mode; pass --sketch for pseudoalignment.
+[2m2026-10-12T15:03:36.538212Z[0m [32m INFO[0m [2mpiscem_rs::index::reference_index[0m[2m:[0m Loading SSHash dictionary from ref/salmon_index_mm10/index.ssi
+[2m2026-10-12T15:03:41.707095Z[0m [32m INFO[0m [2mpiscem_rs::index::reference_index[0m[2m:[0m   k=31, 25056108 strings
+[2m2026-10-12T15:03:41.707142Z[0m [32m INFO[0m [2mpiscem_rs::index::reference_index[0m[2m:[0m Loading contig table from ref/salmon_index_mm10/index.ctab
+[2m2026-10-12T15:03:46.651109Z[0m [32m INFO[0m [2mpiscem_rs::index::reference_index[0m[2m:[0m   25056108 contigs, 346526014 entries, entry_width=47 bits
+[2m2026-10-12T15:03:46.651488Z[0m [32m INFO[0m [2mpiscem_rs::index::reference_index[0m[2m:[0m Loading reference info from ref/salmon_index_mm10/index.refinfo
+[2m2026-10-12T15:03:46.670535Z[0m [32m INFO[0m [2mpiscem_rs::index::reference_index[0m[2m:[0m   141135 references, max_ref_len=195371971
+[2m2026-10-12T15:03:46.670589Z[0m [32m INFO[0m [2mpiscem_rs::index::reference_index[0m[2m:[0m Loading equivalence class table from ref/salmon_index_mm10/index.ectab
+[2m2026-10-12T15:03:47.081151Z[0m [32m INFO[0m [2mpiscem_rs::index::reference_index[0m[2m:[0m   25056108 tiles, 4676802 ECs, 43325053 label entries
+[2m2026-10-12T15:03:47.081243Z[0m [32m INFO[0m [2mpiscem_rs::index::reference_index[0m[2m:[0m   ref_shift=29, pos_mask=0xfffffff
+[2m2026-10-12T15:03:58.503357Z[0m [32m INFO[0m [2msalmon::timing[0m[2m:[0m phase complete [3mphase[0m[2m=[0m"index_load" [3melapsed_s[0m[2m=[0m21.964377938
+[2m2026-10-12T15:03:58.547823Z[0m [32m INFO[0m [2mpiscem_rs::io::calibrate[0m[2m:[0m using the serial decoder: 8 threads for 2 gzip input(s) is below the 50 threads per input needed before parallel decoding adds concurrency the serial path does not already have
+[2m2026-10-12T15:03:58.555474Z[0m [32m INFO[0m [2msalmon_quant::decode[0m[2m:[0m thread execution plan [3mrequested_budget[0m[2m=[0m8 [3meffective_budget[0m[2m=[0m8 [3mmapping_threads[0m[2m=[0m8 [3mdecode_slots[0m[2m=[0m0 [3mparallel_decode[0m[2m=[0mfalse [3mreason[0m[2m=[0mPolicyDeclined
+[2m2026-10-12T15:03:58.557372Z[0m [32m INFO[0m [2msalmon_quant[0m[2m:[0m mapping reads (selective-alignment mode, 8 threads)
+[2m2026-10-12T15:08:51.866743Z[0m [32m INFO[0m [2msalmon_quant[0m[2m:[0m mapped 21734352 / 24878017 fragments (87.36%)
+[2m2026-10-12T15:08:51.867387Z[0m [32m INFO[0m [2msalmon::timing[0m[2m:[0m phase complete [3mphase[0m[2m=[0m"mapping" [3melapsed_s[0m[2m=[0m293.366055199
+[2m2026-10-12T15:08:51.868224Z[0m [32m INFO[0m [2msalmon::timing[0m[2m:[0m phase complete [3mphase[0m[2m=[0m"eff_length_collapse" [3melapsed_s[0m[2m=[0m0.000839909
+[2m2026-10-12T15:08:52.335142Z[0m [32m INFO[0m [2msalmon::timing[0m[2m:[0m phase complete [3mphase[0m[2m=[0m"em_bias" [3melapsed_s[0m[2m=[0m0.466909677
+[2m2026-10-12T15:08:52.375556Z[0m [32m INFO[0m [2msalmon::timing[0m[2m:[0m phase complete [3mphase[0m[2m=[0m"posterior" [3melapsed_s[0m[2m=[0m0.040412881
+[2m2026-10-12T15:08:52.393499Z[0m [32m INFO[0m [2msalmon_quant[0m[2m:[0m writing results to results/salmon_quant/SRR37536770
+[2m2026-10-12T15:08:52.441018Z[0m [32m INFO[0m [2msalmon::timing[0m[2m:[0m phase complete [3mphase[0m[2m=[0m"output" [3melapsed_s[0m[2m=[0m0.065464944
+[2m2026-10-12T15:08:53.045853Z[0m [32m INFO[0m [2msalmon[0m[2m:[0m deterministic: mapped 21734352 / 24878017 fragments (87.36%); quantifying from intermediate RAD
+[2m2026-10-12T15:09:02.447251Z[0m [32m INFO[0m [2msalmon_align::rad[0m[2m:[0m quantifying from RAD (salmon SA), 141135 references
+[2m2026-10-12T15:09:02.450394Z[0m [32m INFO[0m [2msalmon_align::rad[0m[2m:[0m using fragment-length distribution baked in the RAD header
+[2m2026-10-12T15:09:02.453653Z[0m [32m INFO[0m [2msalmon_align::rad[0m[2m:[0m library format under `-l A`: IU (baked in RAD header)
+[2m2026-10-12T15:09:22.978721Z[0m [32m INFO[0m [2msalmon_align::rad[0m[2m:[0m mapped 21734352 / 24878017 fragments from RAD
+[2m2026-10-12T15:09:23.195250Z[0m [32m INFO[0m [2msalmon::timing[0m[2m:[0m phase complete [3mphase[0m[2m=[0m"rad_read" [3melapsed_s[0m[2m=[0m20.843039241
+[2m2026-10-12T15:10:31.637888Z[0m [32m INFO[0m [2msalmon::timing[0m[2m:[0m phase complete [3mphase[0m[2m=[0m"em_bias" [3melapsed_s[0m[2m=[0m68.442637374
+[2m2026-10-12T15:10:31.643594Z[0m [32m INFO[0m [2msalmon::timing[0m[2m:[0m phase complete [3mphase[0m[2m=[0m"posterior" [3melapsed_s[0m[2m=[0m0.005709322
+[2m2026-10-12T15:10:31.751638Z[0m [32m INFO[0m [2msalmon::timing[0m[2m:[0m phase complete [3mphase[0m[2m=[0m"output" [3melapsed_s[0m[2m=[0m0.108043745
+[2m2026-10-12T15:10:31.815133Z[0m [32m INFO[0m [2msalmon[0m[2m:[0m 24878017 fragments from intermediate RAD, 21734352 quantified (87.36%); 167389 equivalence classes
+  done
+=== SRR37536771 (23:10) ===
+application/gzip
+application/gzip
+Started analysis of SRR37536771_1.fastq.gz
+Started analysis of SRR37536771_2.fastq.gz
+Approx 5% complete for SRR37536771_1.fastq.gz
+Approx 5% complete for SRR37536771_2.fastq.gz
+Approx 10% complete for SRR37536771_2.fastq.gz
+Approx 10% complete for SRR37536771_1.fastq.gz
+Approx 15% complete for SRR37536771_2.fastq.gz
+Approx 15% complete for SRR37536771_1.fastq.gz
+Approx 20% complete for SRR37536771_2.fastq.gz
+Approx 20% complete for SRR37536771_1.fastq.gz
+Approx 25% complete for SRR37536771_2.fastq.gz
+Approx 25% complete for SRR37536771_1.fastq.gz
+Approx 30% complete for SRR37536771_2.fastq.gz
+Approx 30% complete for SRR37536771_1.fastq.gz
+Approx 35% complete for SRR37536771_2.fastq.gz
+Approx 35% complete for SRR37536771_1.fastq.gz
+Approx 40% complete for SRR37536771_2.fastq.gz
+Approx 40% complete for SRR37536771_1.fastq.gz
+Approx 45% complete for SRR37536771_2.fastq.gz
+Approx 45% complete for SRR37536771_1.fastq.gz
+Approx 50% complete for SRR37536771_2.fastq.gz
+Approx 50% complete for SRR37536771_1.fastq.gz
+Approx 55% complete for SRR37536771_2.fastq.gz
+Approx 55% complete for SRR37536771_1.fastq.gz
+Approx 60% complete for SRR37536771_2.fastq.gz
+Approx 60% complete for SRR37536771_1.fastq.gz
+Approx 65% complete for SRR37536771_2.fastq.gz
+Approx 65% complete for SRR37536771_1.fastq.gz
+Approx 70% complete for SRR37536771_2.fastq.gz
+Approx 70% complete for SRR37536771_1.fastq.gz
+Approx 75% complete for SRR37536771_2.fastq.gz
+Approx 75% complete for SRR37536771_1.fastq.gz
+Approx 80% complete for SRR37536771_2.fastq.gz
+Approx 80% complete for SRR37536771_1.fastq.gz
+Approx 85% complete for SRR37536771_2.fastq.gz
+Approx 85% complete for SRR37536771_1.fastq.gz
+Approx 90% complete for SRR37536771_2.fastq.gz
+Approx 90% complete for SRR37536771_1.fastq.gz
+Approx 95% complete for SRR37536771_2.fastq.gz
+Approx 95% complete for SRR37536771_1.fastq.gz
+Analysis complete for SRR37536771_2.fastq.gz
+Analysis complete for SRR37536771_1.fastq.gz
+Detecting adapter sequence for read1...
+>Illumina TruSeq Adapter Read 1
+AGATCGGAAGAGCACACGTCTGAACTCCAGTCA
+
+Detecting adapter sequence for read2...
+>Illumina TruSeq Adapter Read 2
+AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGT
+
+Read1 before filtering:
+total reads: 25935794
+total bases: 3890369100
+Q20 bases: 3868578196(99.4399%)
+Q30 bases: 3794663143(97.5399%)
+Q40 bases: 3794663143(97.5399%)
+
+Read2 before filtering:
+total reads: 25935794
+total bases: 3890369100
+Q20 bases: 3856537688(99.1304%)
+Q30 bases: 3765203263(96.7827%)
+Q40 bases: 3765203263(96.7827%)
+
+Read1 after filtering:
+total reads: 25763743
+total bases: 3856095812
+Q20 bases: 3840326465(99.5911%)
+Q30 bases: 3771796685(97.8139%)
+Q40 bases: 3771796685(97.8139%)
+
+Read2 after filtering:
+total reads: 25763743
+total bases: 3856116934
+Q20 bases: 3834077487(99.4285%)
+Q30 bases: 3751559656(97.2885%)
+Q40 bases: 3751559656(97.2885%)
+
+Filtering result:
+reads passed filter: 51527486
+reads failed due to low quality: 328632
+reads failed due to too many N: 9688
+reads failed due to too short: 5656
+reads failed due to adapter dimer: 126
+reads with adapter trimmed: 753198
+bases trimmed due to adapters: 17672620
+
+Duplication rate: 37.5215%
+
+Insert size peak (evaluated by paired-end reads): 269
+
+JSON report: qc/fastp/SRR37536771.json
+HTML report: qc/fastp/SRR37536771.html
+
+fastp -i fastq/SRR37536771_1.fastq.gz -I fastq/SRR37536771_2.fastq.gz -o trimmed_tmp/SRR37536771_trimmed_1.fastq.gz -O trimmed_tmp/SRR37536771_trimmed_2.fastq.gz --detect_adapter_for_pe --thread 8 --qualified_quality_phred 20 --length_required 36 --html qc/fastp/SRR37536771.html --json qc/fastp/SRR37536771.json 
+fastp v1.3.6, time used: 178 seconds
+application/gzip
+application/gzip
+Started analysis of SRR37536771_trimmed_1.fastq.gz
+Started analysis of SRR37536771_trimmed_2.fastq.gz
+Approx 5% complete for SRR37536771_trimmed_1.fastq.gz
+Approx 5% complete for SRR37536771_trimmed_2.fastq.gz
+Approx 10% complete for SRR37536771_trimmed_1.fastq.gz
+Approx 10% complete for SRR37536771_trimmed_2.fastq.gz
+Approx 15% complete for SRR37536771_trimmed_1.fastq.gz
+Approx 15% complete for SRR37536771_trimmed_2.fastq.gz
+Approx 20% complete for SRR37536771_trimmed_2.fastq.gz
+Approx 20% complete for SRR37536771_trimmed_1.fastq.gz
+Approx 25% complete for SRR37536771_trimmed_2.fastq.gz
+Approx 25% complete for SRR37536771_trimmed_1.fastq.gz
+Approx 30% complete for SRR37536771_trimmed_1.fastq.gz
+Approx 30% complete for SRR37536771_trimmed_2.fastq.gz
+Approx 35% complete for SRR37536771_trimmed_2.fastq.gz
+Approx 35% complete for SRR37536771_trimmed_1.fastq.gz
+Approx 40% complete for SRR37536771_trimmed_2.fastq.gz
+Approx 40% complete for SRR37536771_trimmed_1.fastq.gz
+Approx 45% complete for SRR37536771_trimmed_2.fastq.gz
+Approx 45% complete for SRR37536771_trimmed_1.fastq.gz
+Approx 50% complete for SRR37536771_trimmed_2.fastq.gz
+Approx 50% complete for SRR37536771_trimmed_1.fastq.gz
+Approx 55% complete for SRR37536771_trimmed_2.fastq.gz
+Approx 55% complete for SRR37536771_trimmed_1.fastq.gz
+Approx 60% complete for SRR37536771_trimmed_2.fastq.gz
+Approx 60% complete for SRR37536771_trimmed_1.fastq.gz
+Approx 65% complete for SRR37536771_trimmed_2.fastq.gz
+Approx 65% complete for SRR37536771_trimmed_1.fastq.gz
+Approx 70% complete for SRR37536771_trimmed_2.fastq.gz
+Approx 70% complete for SRR37536771_trimmed_1.fastq.gz
+Approx 75% complete for SRR37536771_trimmed_2.fastq.gz
+Approx 75% complete for SRR37536771_trimmed_1.fastq.gz
+Approx 80% complete for SRR37536771_trimmed_2.fastq.gz
+Approx 80% complete for SRR37536771_trimmed_1.fastq.gz
+Approx 85% complete for SRR37536771_trimmed_2.fastq.gz
+Approx 85% complete for SRR37536771_trimmed_1.fastq.gz
+Approx 90% complete for SRR37536771_trimmed_2.fastq.gz
+Approx 90% complete for SRR37536771_trimmed_1.fastq.gz
+Approx 95% complete for SRR37536771_trimmed_2.fastq.gz
+Approx 95% complete for SRR37536771_trimmed_1.fastq.gz
+Analysis complete for SRR37536771_trimmed_2.fastq.gz
+Analysis complete for SRR37536771_trimmed_1.fastq.gz
+[2m2026-10-12T15:20:57.712905Z[0m [33m WARN[0m [2msalmon[0m[2m:[0m --validateMappings has no effect (deprecated in salmon too): selective alignment is the default mapping mode; pass --sketch for pseudoalignment.
+[2m2026-10-12T15:20:57.733452Z[0m [32m INFO[0m [2mpiscem_rs::index::reference_index[0m[2m:[0m Loading SSHash dictionary from ref/salmon_index_mm10/index.ssi
+[2m2026-10-12T15:21:03.395532Z[0m [32m INFO[0m [2mpiscem_rs::index::reference_index[0m[2m:[0m   k=31, 25056108 strings
+[2m2026-10-12T15:21:03.395578Z[0m [32m INFO[0m [2mpiscem_rs::index::reference_index[0m[2m:[0m Loading contig table from ref/salmon_index_mm10/index.ctab
+[2m2026-10-12T15:21:08.391291Z[0m [32m INFO[0m [2mpiscem_rs::index::reference_index[0m[2m:[0m   25056108 contigs, 346526014 entries, entry_width=47 bits
+[2m2026-10-12T15:21:08.391335Z[0m [32m INFO[0m [2mpiscem_rs::index::reference_index[0m[2m:[0m Loading reference info from ref/salmon_index_mm10/index.refinfo
+[2m2026-10-12T15:21:08.415892Z[0m [32m INFO[0m [2mpiscem_rs::index::reference_index[0m[2m:[0m   141135 references, max_ref_len=195371971
+[2m2026-10-12T15:21:08.415944Z[0m [32m INFO[0m [2mpiscem_rs::index::reference_index[0m[2m:[0m Loading equivalence class table from ref/salmon_index_mm10/index.ectab
+[2m2026-10-12T15:21:08.789159Z[0m [32m INFO[0m [2mpiscem_rs::index::reference_index[0m[2m:[0m   25056108 tiles, 4676802 ECs, 43325053 label entries
+[2m2026-10-12T15:21:08.789202Z[0m [32m INFO[0m [2mpiscem_rs::index::reference_index[0m[2m:[0m   ref_shift=29, pos_mask=0xfffffff
+[2m2026-10-12T15:21:22.160766Z[0m [32m INFO[0m [2msalmon::timing[0m[2m:[0m phase complete [3mphase[0m[2m=[0m"index_load" [3melapsed_s[0m[2m=[0m24.427533209
+[2m2026-10-12T15:21:22.210764Z[0m [32m INFO[0m [2mpiscem_rs::io::calibrate[0m[2m:[0m using the serial decoder: 8 threads for 2 gzip input(s) is below the 50 threads per input needed before parallel decoding adds concurrency the serial path does not already have
+[2m2026-10-12T15:21:22.215003Z[0m [32m INFO[0m [2msalmon_quant::decode[0m[2m:[0m thread execution plan [3mrequested_budget[0m[2m=[0m8 [3meffective_budget[0m[2m=[0m8 [3mmapping_threads[0m[2m=[0m8 [3mdecode_slots[0m[2m=[0m0 [3mparallel_decode[0m[2m=[0mfalse [3mreason[0m[2m=[0mPolicyDeclined
+[2m2026-10-12T15:21:22.215881Z[0m [32m INFO[0m [2msalmon_quant[0m[2m:[0m mapping reads (selective-alignment mode, 8 threads)
+[2m2026-10-12T15:26:08.598075Z[0m [32m INFO[0m [2msalmon_quant[0m[2m:[0m mapped 22035417 / 25763743 fragments (85.53%)
+[2m2026-10-12T15:26:08.600054Z[0m [32m INFO[0m [2msalmon::timing[0m[2m:[0m phase complete [3mphase[0m[2m=[0m"mapping" [3melapsed_s[0m[2m=[0m286.441202173
+[2m2026-10-12T15:26:08.600542Z[0m [32m INFO[0m [2msalmon::timing[0m[2m:[0m phase complete [3mphase[0m[2m=[0m"eff_length_collapse" [3melapsed_s[0m[2m=[0m0.000487119
+[2m2026-10-12T15:26:09.054220Z[0m [32m INFO[0m [2msalmon::timing[0m[2m:[0m phase complete [3mphase[0m[2m=[0m"em_bias" [3melapsed_s[0m[2m=[0m0.453670548
+[2m2026-10-12T15:26:09.086863Z[0m [32m INFO[0m [2msalmon::timing[0m[2m:[0m phase complete [3mphase[0m[2m=[0m"posterior" [3melapsed_s[0m[2m=[0m0.032644904
+[2m2026-10-12T15:26:09.102050Z[0m [32m INFO[0m [2msalmon_quant[0m[2m:[0m writing results to results/salmon_quant/SRR37536771
+[2m2026-10-12T15:26:09.130721Z[0m [32m INFO[0m [2msalmon::timing[0m[2m:[0m phase complete [3mphase[0m[2m=[0m"output" [3melapsed_s[0m[2m=[0m0.043860255
+[2m2026-10-12T15:26:09.671576Z[0m [32m INFO[0m [2msalmon[0m[2m:[0m deterministic: mapped 22035417 / 25763743 fragments (85.53%); quantifying from intermediate RAD
+[2m2026-10-12T15:26:16.658242Z[0m [32m INFO[0m [2msalmon_align::rad[0m[2m:[0m quantifying from RAD (salmon SA), 141135 references
+[2m2026-10-12T15:26:16.658409Z[0m [32m INFO[0m [2msalmon_align::rad[0m[2m:[0m using fragment-length distribution baked in the RAD header
+[2m2026-10-12T15:26:16.659091Z[0m [32m INFO[0m [2msalmon_align::rad[0m[2m:[0m library format under `-l A`: IU (baked in RAD header)
+[2m2026-10-12T15:26:35.203326Z[0m [32m INFO[0m [2msalmon_align::rad[0m[2m:[0m mapped 22035417 / 25763743 fragments from RAD
+[2m2026-10-12T15:26:35.386851Z[0m [32m INFO[0m [2msalmon::timing[0m[2m:[0m phase complete [3mphase[0m[2m=[0m"rad_read" [3melapsed_s[0m[2m=[0m18.791022851
+[2m2026-10-12T15:27:35.862669Z[0m [32m INFO[0m [2msalmon::timing[0m[2m:[0m phase complete [3mphase[0m[2m=[0m"em_bias" [3melapsed_s[0m[2m=[0m60.475816238
+[2m2026-10-12T15:27:35.867946Z[0m [32m INFO[0m [2msalmon::timing[0m[2m:[0m phase complete [3mphase[0m[2m=[0m"posterior" [3melapsed_s[0m[2m=[0m0.005279363
+[2m2026-10-12T15:27:35.968033Z[0m [32m INFO[0m [2msalmon::timing[0m[2m:[0m phase complete [3mphase[0m[2m=[0m"output" [3melapsed_s[0m[2m=[0m0.100085912
+[2m2026-10-12T15:27:36.009318Z[0m [32m INFO[0m [2msalmon[0m[2m:[0m 25763743 fragments from intermediate RAD, 22035417 quantified (85.53%); 169581 equivalence classes
+  done
+=== SRR37536772 (23:27) ===
+application/gzip
+application/gzip
+Started analysis of SRR37536772_1.fastq.gz
+Started analysis of SRR37536772_2.fastq.gz
+Approx 5% complete for SRR37536772_2.fastq.gz
+Approx 5% complete for SRR37536772_1.fastq.gz
+Approx 10% complete for SRR37536772_2.fastq.gz
+Approx 10% complete for SRR37536772_1.fastq.gz
+Approx 15% complete for SRR37536772_2.fastq.gz
+Approx 15% complete for SRR37536772_1.fastq.gz
+Approx 20% complete for SRR37536772_2.fastq.gz
+Approx 20% complete for SRR37536772_1.fastq.gz
+Approx 25% complete for SRR37536772_2.fastq.gz
+Approx 25% complete for SRR37536772_1.fastq.gz
+Approx 30% complete for SRR37536772_2.fastq.gz
+Approx 30% complete for SRR37536772_1.fastq.gz
+Approx 35% complete for SRR37536772_2.fastq.gz
+Approx 35% complete for SRR37536772_1.fastq.gz
+Approx 40% complete for SRR37536772_2.fastq.gz
+Approx 40% complete for SRR37536772_1.fastq.gz
+Approx 45% complete for SRR37536772_2.fastq.gz
+Approx 45% complete for SRR37536772_1.fastq.gz
+Approx 50% complete for SRR37536772_2.fastq.gz
+Approx 50% complete for SRR37536772_1.fastq.gz
+Approx 55% complete for SRR37536772_2.fastq.gz
+Approx 55% complete for SRR37536772_1.fastq.gz
+Approx 60% complete for SRR37536772_2.fastq.gz
+Approx 60% complete for SRR37536772_1.fastq.gz
+Approx 65% complete for SRR37536772_2.fastq.gz
+Approx 65% complete for SRR37536772_1.fastq.gz
+Approx 70% complete for SRR37536772_2.fastq.gz
+Approx 70% complete for SRR37536772_1.fastq.gz
+Approx 75% complete for SRR37536772_2.fastq.gz
+Approx 75% complete for SRR37536772_1.fastq.gz
+Approx 80% complete for SRR37536772_2.fastq.gz
+Approx 80% complete for SRR37536772_1.fastq.gz
+Approx 85% complete for SRR37536772_2.fastq.gz
+Approx 85% complete for SRR37536772_1.fastq.gz
+Approx 90% complete for SRR37536772_2.fastq.gz
+Approx 90% complete for SRR37536772_1.fastq.gz
+Approx 95% complete for SRR37536772_2.fastq.gz
+Approx 95% complete for SRR37536772_1.fastq.gz
+Analysis complete for SRR37536772_2.fastq.gz
+Analysis complete for SRR37536772_1.fastq.gz
+Detecting adapter sequence for read1...
+>Illumina TruSeq Adapter Read 1
+AGATCGGAAGAGCACACGTCTGAACTCCAGTCA
+
+Detecting adapter sequence for read2...
+>Illumina TruSeq Adapter Read 2
+AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGT
+
+Read1 before filtering:
+total reads: 26170582
+total bases: 3925587300
+Q20 bases: 3899105095(99.3254%)
+Q30 bases: 3820911431(97.3335%)
+Q40 bases: 3820911431(97.3335%)
+
+Read2 before filtering:
+total reads: 26170582
+total bases: 3925587300
+Q20 bases: 3887823833(99.038%)
+Q30 bases: 3789010291(96.5209%)
+Q40 bases: 3789010291(96.5209%)
+
+Read1 after filtering:
+total reads: 25951072
+total bases: 3882931258
+Q20 bases: 3865407989(99.5487%)
+Q30 bases: 3794342639(97.7185%)
+Q40 bases: 3794342639(97.7185%)
+
+Read2 after filtering:
+total reads: 25951072
+total bases: 3882970737
+Q20 bases: 3860100446(99.411%)
+Q30 bases: 3771989817(97.1419%)
+Q40 bases: 3771989817(97.1419%)
+
+Filtering result:
+reads passed filter: 51902144
+reads failed due to low quality: 424312
+reads failed due to too many N: 9428
+reads failed due to too short: 5130
+reads failed due to adapter dimer: 150
+reads with adapter trimmed: 813618
+bases trimmed due to adapters: 20135778
+
+Duplication rate: 36.1992%
+
+Insert size peak (evaluated by paired-end reads): 269
+
+JSON report: qc/fastp/SRR37536772.json
+HTML report: qc/fastp/SRR37536772.html
+
+fastp -i fastq/SRR37536772_1.fastq.gz -I fastq/SRR37536772_2.fastq.gz -o trimmed_tmp/SRR37536772_trimmed_1.fastq.gz -O trimmed_tmp/SRR37536772_trimmed_2.fastq.gz --detect_adapter_for_pe --thread 8 --qualified_quality_phred 20 --length_required 36 --html qc/fastp/SRR37536772.html --json qc/fastp/SRR37536772.json 
+fastp v1.3.6, time used: 178 seconds
+application/gzip
+application/gzip
+Started analysis of SRR37536772_trimmed_1.fastq.gz
+Started analysis of SRR37536772_trimmed_2.fastq.gz
+Approx 5% complete for SRR37536772_trimmed_1.fastq.gz
+Approx 5% complete for SRR37536772_trimmed_2.fastq.gz
+Approx 10% complete for SRR37536772_trimmed_2.fastq.gz
+Approx 10% complete for SRR37536772_trimmed_1.fastq.gz
+Approx 15% complete for SRR37536772_trimmed_2.fastq.gz
+Approx 15% complete for SRR37536772_trimmed_1.fastq.gz
+Approx 20% complete for SRR37536772_trimmed_2.fastq.gz
+Approx 20% complete for SRR37536772_trimmed_1.fastq.gz
+Approx 25% complete for SRR37536772_trimmed_2.fastq.gz
+Approx 25% complete for SRR37536772_trimmed_1.fastq.gz
+Approx 30% complete for SRR37536772_trimmed_2.fastq.gz
+Approx 30% complete for SRR37536772_trimmed_1.fastq.gz
+Approx 35% complete for SRR37536772_trimmed_2.fastq.gz
+Approx 35% complete for SRR37536772_trimmed_1.fastq.gz
+Approx 40% complete for SRR37536772_trimmed_2.fastq.gz
+Approx 40% complete for SRR37536772_trimmed_1.fastq.gz
+Approx 45% complete for SRR37536772_trimmed_2.fastq.gz
+Approx 45% complete for SRR37536772_trimmed_1.fastq.gz
+Approx 50% complete for SRR37536772_trimmed_2.fastq.gz
+Approx 50% complete for SRR37536772_trimmed_1.fastq.gz
+Approx 55% complete for SRR37536772_trimmed_2.fastq.gz
+Approx 55% complete for SRR37536772_trimmed_1.fastq.gz
+Approx 60% complete for SRR37536772_trimmed_2.fastq.gz
+Approx 60% complete for SRR37536772_trimmed_1.fastq.gz
+Approx 65% complete for SRR37536772_trimmed_2.fastq.gz
+Approx 65% complete for SRR37536772_trimmed_1.fastq.gz
+Approx 70% complete for SRR37536772_trimmed_2.fastq.gz
+Approx 70% complete for SRR37536772_trimmed_1.fastq.gz
+Approx 75% complete for SRR37536772_trimmed_2.fastq.gz
+Approx 75% complete for SRR37536772_trimmed_1.fastq.gz
+Approx 80% complete for SRR37536772_trimmed_2.fastq.gz
+Approx 80% complete for SRR37536772_trimmed_1.fastq.gz
+Approx 85% complete for SRR37536772_trimmed_2.fastq.gz
+Approx 85% complete for SRR37536772_trimmed_1.fastq.gz
+Approx 90% complete for SRR37536772_trimmed_2.fastq.gz
+Approx 90% complete for SRR37536772_trimmed_1.fastq.gz
+Approx 95% complete for SRR37536772_trimmed_2.fastq.gz
+Approx 95% complete for SRR37536772_trimmed_1.fastq.gz
+Analysis complete for SRR37536772_trimmed_2.fastq.gz
+Analysis complete for SRR37536772_trimmed_1.fastq.gz
+[2m2026-10-12T15:37:13.070403Z[0m [33m WARN[0m [2msalmon[0m[2m:[0m --validateMappings has no effect (deprecated in salmon too): selective alignment is the default mapping mode; pass --sketch for pseudoalignment.
+[2m2026-10-12T15:37:13.093007Z[0m [32m INFO[0m [2mpiscem_rs::index::reference_index[0m[2m:[0m Loading SSHash dictionary from ref/salmon_index_mm10/index.ssi
+[2m2026-10-12T15:37:18.181651Z[0m [32m INFO[0m [2mpiscem_rs::index::reference_index[0m[2m:[0m   k=31, 25056108 strings
+[2m2026-10-12T15:37:18.181710Z[0m [32m INFO[0m [2mpiscem_rs::index::reference_index[0m[2m:[0m Loading contig table from ref/salmon_index_mm10/index.ctab
+[2m2026-10-12T15:37:22.897648Z[0m [32m INFO[0m [2mpiscem_rs::index::reference_index[0m[2m:[0m   25056108 contigs, 346526014 entries, entry_width=47 bits
+[2m2026-10-12T15:37:22.897702Z[0m [32m INFO[0m [2mpiscem_rs::index::reference_index[0m[2m:[0m Loading reference info from ref/salmon_index_mm10/index.refinfo
+[2m2026-10-12T15:37:22.917946Z[0m [32m INFO[0m [2mpiscem_rs::index::reference_index[0m[2m:[0m   141135 references, max_ref_len=195371971
+[2m2026-10-12T15:37:22.917996Z[0m [32m INFO[0m [2mpiscem_rs::index::reference_index[0m[2m:[0m Loading equivalence class table from ref/salmon_index_mm10/index.ectab
+[2m2026-10-12T15:37:23.304758Z[0m [32m INFO[0m [2mpiscem_rs::index::reference_index[0m[2m:[0m   25056108 tiles, 4676802 ECs, 43325053 label entries
+[2m2026-10-12T15:37:23.304800Z[0m [32m INFO[0m [2mpiscem_rs::index::reference_index[0m[2m:[0m   ref_shift=29, pos_mask=0xfffffff
+[2m2026-10-12T15:37:36.326495Z[0m [32m INFO[0m [2msalmon::timing[0m[2m:[0m phase complete [3mphase[0m[2m=[0m"index_load" [3melapsed_s[0m[2m=[0m23.231178385
+[2m2026-10-12T15:37:36.392664Z[0m [32m INFO[0m [2mpiscem_rs::io::calibrate[0m[2m:[0m using the serial decoder: 8 threads for 2 gzip input(s) is below the 50 threads per input needed before parallel decoding adds concurrency the serial path does not already have
+[2m2026-10-12T15:37:36.395776Z[0m [32m INFO[0m [2msalmon_quant::decode[0m[2m:[0m thread execution plan [3mrequested_budget[0m[2m=[0m8 [3meffective_budget[0m[2m=[0m8 [3mmapping_threads[0m[2m=[0m8 [3mdecode_slots[0m[2m=[0m0 [3mparallel_decode[0m[2m=[0mfalse [3mreason[0m[2m=[0mPolicyDeclined
+[2m2026-10-12T15:37:36.396449Z[0m [32m INFO[0m [2msalmon_quant[0m[2m:[0m mapping reads (selective-alignment mode, 8 threads)
+[2m2026-10-12T15:42:08.885249Z[0m [32m INFO[0m [2msalmon_quant[0m[2m:[0m mapped 23148449 / 25951072 fragments (89.20%)
+[2m2026-10-12T15:42:08.887167Z[0m [32m INFO[0m [2msalmon::timing[0m[2m:[0m phase complete [3mphase[0m[2m=[0m"mapping" [3melapsed_s[0m[2m=[0m272.564153446
+[2m2026-10-12T15:42:08.888810Z[0m [32m INFO[0m [2msalmon::timing[0m[2m:[0m phase complete [3mphase[0m[2m=[0m"eff_length_collapse" [3melapsed_s[0m[2m=[0m0.001643737
+[2m2026-10-12T15:42:09.495046Z[0m [32m INFO[0m [2msalmon::timing[0m[2m:[0m phase complete [3mphase[0m[2m=[0m"em_bias" [3melapsed_s[0m[2m=[0m0.606231166
+[2m2026-10-12T15:42:09.495207Z[0m [32m INFO[0m [2msalmon::timing[0m[2m:[0m phase complete [3mphase[0m[2m=[0m"posterior" [3melapsed_s[0m[2m=[0m0.000169336
+[2m2026-10-12T15:42:09.506101Z[0m [32m INFO[0m [2msalmon_quant[0m[2m:[0m writing results to results/salmon_quant/SRR37536772
+[2m2026-10-12T15:42:09.512812Z[0m [33m WARN[0m [2msalmon_core::libtype[0m[2m:[0m detected a *potential* strand bias > 1% in an unstranded protocol (strand_mapping_bias = 0.4887); see lib_format_counts.json for details
+[2m2026-10-12T15:42:09.568289Z[0m [32m INFO[0m [2msalmon::timing[0m[2m:[0m phase complete [3mphase[0m[2m=[0m"output" [3melapsed_s[0m[2m=[0m0.073074322
+[2m2026-10-12T15:42:10.094955Z[0m [32m INFO[0m [2msalmon[0m[2m:[0m deterministic: mapped 23148449 / 25951072 fragments (89.20%); quantifying from intermediate RAD
+[2m2026-10-12T15:42:16.787312Z[0m [32m INFO[0m [2msalmon_align::rad[0m[2m:[0m quantifying from RAD (salmon SA), 141135 references
+[2m2026-10-12T15:42:16.787595Z[0m [32m INFO[0m [2msalmon_align::rad[0m[2m:[0m using fragment-length distribution baked in the RAD header
+[2m2026-10-12T15:42:16.788126Z[0m [32m INFO[0m [2msalmon_align::rad[0m[2m:[0m library format under `-l A`: IU (baked in RAD header)
+[2m2026-10-12T15:42:36.244632Z[0m [32m INFO[0m [2msalmon_align::rad[0m[2m:[0m mapped 23148449 / 25951072 fragments from RAD
+[2m2026-10-12T15:42:36.455394Z[0m [32m INFO[0m [2msalmon::timing[0m[2m:[0m phase complete [3mphase[0m[2m=[0m"rad_read" [3melapsed_s[0m[2m=[0m19.719218915
+[2m2026-10-12T15:43:39.561658Z[0m [32m INFO[0m [2msalmon::timing[0m[2m:[0m phase complete [3mphase[0m[2m=[0m"em_bias" [3melapsed_s[0m[2m=[0m63.106261699
+[2m2026-10-12T15:43:39.566574Z[0m [32m INFO[0m [2msalmon::timing[0m[2m:[0m phase complete [3mphase[0m[2m=[0m"posterior" [3melapsed_s[0m[2m=[0m0.004921076
+[2m2026-10-12T15:43:39.655094Z[0m [33m WARN[0m [2msalmon_core::libtype[0m[2m:[0m detected a *potential* strand bias > 1% in an unstranded protocol (strand_mapping_bias = 0.4887); see lib_format_counts.json for details
+[2m2026-10-12T15:43:39.670947Z[0m [32m INFO[0m [2msalmon::timing[0m[2m:[0m phase complete [3mphase[0m[2m=[0m"output" [3melapsed_s[0m[2m=[0m0.104368911
+[2m2026-10-12T15:43:39.722443Z[0m [32m INFO[0m [2msalmon[0m[2m:[0m 25951072 fragments from intermediate RAD, 23148449 quantified (89.20%); 171753 equivalence classes
+  done
+=== SRR37536773 (23:43) ===
+application/gzip
+application/gzip
+Started analysis of SRR37536773_1.fastq.gz
+Started analysis of SRR37536773_2.fastq.gz
+Approx 5% complete for SRR37536773_1.fastq.gz
+Approx 5% complete for SRR37536773_2.fastq.gz
+Approx 10% complete for SRR37536773_1.fastq.gz
+Approx 10% complete for SRR37536773_2.fastq.gz
+Approx 15% complete for SRR37536773_1.fastq.gz
+Approx 15% complete for SRR37536773_2.fastq.gz
+Approx 20% complete for SRR37536773_2.fastq.gz
+Approx 20% complete for SRR37536773_1.fastq.gz
+Approx 25% complete for SRR37536773_2.fastq.gz
+Approx 25% complete for SRR37536773_1.fastq.gz
+Approx 30% complete for SRR37536773_2.fastq.gz
+Approx 30% complete for SRR37536773_1.fastq.gz
+Approx 35% complete for SRR37536773_2.fastq.gz
+Approx 35% complete for SRR37536773_1.fastq.gz
+Approx 40% complete for SRR37536773_2.fastq.gz
+Approx 40% complete for SRR37536773_1.fastq.gz
+Approx 45% complete for SRR37536773_2.fastq.gz
+Approx 45% complete for SRR37536773_1.fastq.gz
+Approx 50% complete for SRR37536773_2.fastq.gz
+Approx 50% complete for SRR37536773_1.fastq.gz
+Approx 55% complete for SRR37536773_2.fastq.gz
+Approx 55% complete for SRR37536773_1.fastq.gz
+Approx 60% complete for SRR37536773_2.fastq.gz
+Approx 60% complete for SRR37536773_1.fastq.gz
+Approx 65% complete for SRR37536773_2.fastq.gz
+Approx 65% complete for SRR37536773_1.fastq.gz
+Approx 70% complete for SRR37536773_2.fastq.gz
+Approx 70% complete for SRR37536773_1.fastq.gz
+Approx 75% complete for SRR37536773_2.fastq.gz
+Approx 75% complete for SRR37536773_1.fastq.gz
+Approx 80% complete for SRR37536773_2.fastq.gz
+Approx 80% complete for SRR37536773_1.fastq.gz
+Approx 85% complete for SRR37536773_2.fastq.gz
+Approx 85% complete for SRR37536773_1.fastq.gz
+Approx 90% complete for SRR37536773_2.fastq.gz
+Approx 90% complete for SRR37536773_1.fastq.gz
+Approx 95% complete for SRR37536773_2.fastq.gz
+Approx 95% complete for SRR37536773_1.fastq.gz
+Analysis complete for SRR37536773_2.fastq.gz
+Analysis complete for SRR37536773_1.fastq.gz
+Detecting adapter sequence for read1...
+>Illumina TruSeq Adapter Read 1
+AGATCGGAAGAGCACACGTCTGAACTCCAGTCA
+
+Detecting adapter sequence for read2...
+>Illumina TruSeq Adapter Read 2
+AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGT
+
+Read1 before filtering:
+total reads: 29080271
+total bases: 4362040650
+Q20 bases: 4332722784(99.3279%)
+Q30 bases: 4245824826(97.3357%)
+Q40 bases: 4245824826(97.3357%)
+
+Read2 before filtering:
+total reads: 29080271
+total bases: 4362040650
+Q20 bases: 4318648329(99.0052%)
+Q30 bases: 4210992688(96.5372%)
+Q40 bases: 4210992688(96.5372%)
+
+Read1 after filtering:
+total reads: 28833527
+total bases: 4314094688
+Q20 bases: 4294405898(99.5436%)
+Q30 bases: 4215418976(97.7127%)
+Q40 bases: 4215418976(97.7127%)
+
+Read2 after filtering:
+total reads: 28833527
+total bases: 4314144215
+Q20 bases: 4287407668(99.3803%)
+Q30 bases: 4191943988(97.1675%)
+Q40 bases: 4191943988(97.1675%)
+
+Filtering result:
+reads passed filter: 57667054
+reads failed due to low quality: 476572
+reads failed due to too many N: 10864
+reads failed due to too short: 5958
+reads failed due to adapter dimer: 94
+reads with adapter trimmed: 918442
+bases trimmed due to adapters: 22604481
+
+Duplication rate: 37.6019%
+
+Insert size peak (evaluated by paired-end reads): 268
+
+JSON report: qc/fastp/SRR37536773.json
+HTML report: qc/fastp/SRR37536773.html
+
+fastp -i fastq/SRR37536773_1.fastq.gz -I fastq/SRR37536773_2.fastq.gz -o trimmed_tmp/SRR37536773_trimmed_1.fastq.gz -O trimmed_tmp/SRR37536773_trimmed_2.fastq.gz --detect_adapter_for_pe --thread 8 --qualified_quality_phred 20 --length_required 36 --html qc/fastp/SRR37536773.html --json qc/fastp/SRR37536773.json 
+fastp v1.3.6, time used: 194 seconds
+application/gzip
+application/gzip
+Started analysis of SRR37536773_trimmed_1.fastq.gz
+Started analysis of SRR37536773_trimmed_2.fastq.gz
+Approx 5% complete for SRR37536773_trimmed_1.fastq.gz
+Approx 5% complete for SRR37536773_trimmed_2.fastq.gz
+Approx 10% complete for SRR37536773_trimmed_2.fastq.gz
+Approx 10% complete for SRR37536773_trimmed_1.fastq.gz
+Approx 15% complete for SRR37536773_trimmed_2.fastq.gz
+Approx 15% complete for SRR37536773_trimmed_1.fastq.gz
+Approx 20% complete for SRR37536773_trimmed_2.fastq.gz
+Approx 20% complete for SRR37536773_trimmed_1.fastq.gz
+Approx 25% complete for SRR37536773_trimmed_2.fastq.gz
+Approx 25% complete for SRR37536773_trimmed_1.fastq.gz
+Approx 30% complete for SRR37536773_trimmed_2.fastq.gz
+Approx 30% complete for SRR37536773_trimmed_1.fastq.gz
+Approx 35% complete for SRR37536773_trimmed_2.fastq.gz
+Approx 35% complete for SRR37536773_trimmed_1.fastq.gz
+Approx 40% complete for SRR37536773_trimmed_2.fastq.gz
+Approx 40% complete for SRR37536773_trimmed_1.fastq.gz
+Approx 45% complete for SRR37536773_trimmed_2.fastq.gz
+Approx 45% complete for SRR37536773_trimmed_1.fastq.gz
+Approx 50% complete for SRR37536773_trimmed_2.fastq.gz
+Approx 50% complete for SRR37536773_trimmed_1.fastq.gz
+Approx 55% complete for SRR37536773_trimmed_2.fastq.gz
+Approx 55% complete for SRR37536773_trimmed_1.fastq.gz
+Approx 60% complete for SRR37536773_trimmed_2.fastq.gz
+Approx 60% complete for SRR37536773_trimmed_1.fastq.gz
+Approx 65% complete for SRR37536773_trimmed_2.fastq.gz
+Approx 65% complete for SRR37536773_trimmed_1.fastq.gz
+Approx 70% complete for SRR37536773_trimmed_2.fastq.gz
+Approx 70% complete for SRR37536773_trimmed_1.fastq.gz
+Approx 75% complete for SRR37536773_trimmed_2.fastq.gz
+Approx 75% complete for SRR37536773_trimmed_1.fastq.gz
+Approx 80% complete for SRR37536773_trimmed_2.fastq.gz
+Approx 80% complete for SRR37536773_trimmed_1.fastq.gz
+Approx 85% complete for SRR37536773_trimmed_2.fastq.gz
+Approx 85% complete for SRR37536773_trimmed_1.fastq.gz
+Approx 90% complete for SRR37536773_trimmed_2.fastq.gz
+Approx 90% complete for SRR37536773_trimmed_1.fastq.gz
+Approx 95% complete for SRR37536773_trimmed_2.fastq.gz
+Approx 95% complete for SRR37536773_trimmed_1.fastq.gz
+Analysis complete for SRR37536773_trimmed_2.fastq.gz
+Analysis complete for SRR37536773_trimmed_1.fastq.gz
+[2m2026-10-12T15:54:08.382563Z[0m [33m WARN[0m [2msalmon[0m[2m:[0m --validateMappings has no effect (deprecated in salmon too): selective alignment is the default mapping mode; pass --sketch for pseudoalignment.
+[2m2026-10-12T15:54:08.403513Z[0m [32m INFO[0m [2mpiscem_rs::index::reference_index[0m[2m:[0m Loading SSHash dictionary from ref/salmon_index_mm10/index.ssi
+[2m2026-10-12T15:54:13.385457Z[0m [32m INFO[0m [2mpiscem_rs::index::reference_index[0m[2m:[0m   k=31, 25056108 strings
+[2m2026-10-12T15:54:13.385515Z[0m [32m INFO[0m [2mpiscem_rs::index::reference_index[0m[2m:[0m Loading contig table from ref/salmon_index_mm10/index.ctab
+[2m2026-10-12T15:54:18.056973Z[0m [32m INFO[0m [2mpiscem_rs::index::reference_index[0m[2m:[0m   25056108 contigs, 346526014 entries, entry_width=47 bits
+[2m2026-10-12T15:54:18.057028Z[0m [32m INFO[0m [2mpiscem_rs::index::reference_index[0m[2m:[0m Loading reference info from ref/salmon_index_mm10/index.refinfo
+[2m2026-10-12T15:54:18.078242Z[0m [32m INFO[0m [2mpiscem_rs::index::reference_index[0m[2m:[0m   141135 references, max_ref_len=195371971
+[2m2026-10-12T15:54:18.078288Z[0m [32m INFO[0m [2mpiscem_rs::index::reference_index[0m[2m:[0m Loading equivalence class table from ref/salmon_index_mm10/index.ectab
+[2m2026-10-12T15:54:18.444987Z[0m [32m INFO[0m [2mpiscem_rs::index::reference_index[0m[2m:[0m   25056108 tiles, 4676802 ECs, 43325053 label entries
+[2m2026-10-12T15:54:18.445087Z[0m [32m INFO[0m [2mpiscem_rs::index::reference_index[0m[2m:[0m   ref_shift=29, pos_mask=0xfffffff
+[2m2026-10-12T15:54:30.258808Z[0m [32m INFO[0m [2msalmon::timing[0m[2m:[0m phase complete [3mphase[0m[2m=[0m"index_load" [3melapsed_s[0m[2m=[0m21.849184379
+[2m2026-10-12T15:54:30.329417Z[0m [32m INFO[0m [2mpiscem_rs::io::calibrate[0m[2m:[0m using the serial decoder: 8 threads for 2 gzip input(s) is below the 50 threads per input needed before parallel decoding adds concurrency the serial path does not already have
+[2m2026-10-12T15:54:30.332600Z[0m [32m INFO[0m [2msalmon_quant::decode[0m[2m:[0m thread execution plan [3mrequested_budget[0m[2m=[0m8 [3meffective_budget[0m[2m=[0m8 [3mmapping_threads[0m[2m=[0m8 [3mdecode_slots[0m[2m=[0m0 [3mparallel_decode[0m[2m=[0mfalse [3mreason[0m[2m=[0mPolicyDeclined
+[2m2026-10-12T15:54:30.333407Z[0m [32m INFO[0m [2msalmon_quant[0m[2m:[0m mapping reads (selective-alignment mode, 8 threads)
+[2m2026-10-12T15:59:55.118094Z[0m [32m INFO[0m [2msalmon_quant[0m[2m:[0m mapped 24412980 / 28833527 fragments (84.67%)
+[2m2026-10-12T15:59:55.125294Z[0m [32m INFO[0m [2msalmon::timing[0m[2m:[0m phase complete [3mphase[0m[2m=[0m"mapping" [3melapsed_s[0m[2m=[0m324.873608787
+[2m2026-10-12T15:59:55.126594Z[0m [32m INFO[0m [2msalmon::timing[0m[2m:[0m phase complete [3mphase[0m[2m=[0m"eff_length_collapse" [3melapsed_s[0m[2m=[0m0.001299254
+[2m2026-10-12T15:59:55.657164Z[0m [32m INFO[0m [2msalmon::timing[0m[2m:[0m phase complete [3mphase[0m[2m=[0m"em_bias" [3melapsed_s[0m[2m=[0m0.530565416
+[2m2026-10-12T15:59:55.657335Z[0m [32m INFO[0m [2msalmon::timing[0m[2m:[0m phase complete [3mphase[0m[2m=[0m"posterior" [3melapsed_s[0m[2m=[0m0.000178795
+[2m2026-10-12T15:59:55.663770Z[0m [32m INFO[0m [2msalmon_quant[0m[2m:[0m writing results to results/salmon_quant/SRR37536773
+[2m2026-10-12T15:59:55.701260Z[0m [32m INFO[0m [2msalmon::timing[0m[2m:[0m phase complete [3mphase[0m[2m=[0m"output" [3melapsed_s[0m[2m=[0m0.043919319
+[2m2026-10-12T15:59:56.228342Z[0m [32m INFO[0m [2msalmon[0m[2m:[0m deterministic: mapped 24412980 / 28833527 fragments (84.67%); quantifying from intermediate RAD
+[2m2026-10-12T16:00:03.495907Z[0m [32m INFO[0m [2msalmon_align::rad[0m[2m:[0m quantifying from RAD (salmon SA), 141135 references
+[2m2026-10-12T16:00:03.496929Z[0m [32m INFO[0m [2msalmon_align::rad[0m[2m:[0m using fragment-length distribution baked in the RAD header
+[2m2026-10-12T16:00:03.497731Z[0m [32m INFO[0m [2msalmon_align::rad[0m[2m:[0m library format under `-l A`: IU (baked in RAD header)
+[2m2026-10-12T16:00:22.506744Z[0m [32m INFO[0m [2msalmon_align::rad[0m[2m:[0m mapped 24412980 / 28833527 fragments from RAD
+[2m2026-10-12T16:00:22.716945Z[0m [32m INFO[0m [2msalmon::timing[0m[2m:[0m phase complete [3mphase[0m[2m=[0m"rad_read" [3melapsed_s[0m[2m=[0m19.269531069
+[2m2026-10-12T16:01:26.823723Z[0m [32m INFO[0m [2msalmon::timing[0m[2m:[0m phase complete [3mphase[0m[2m=[0m"em_bias" [3melapsed_s[0m[2m=[0m64.106777348
+[2m2026-10-12T16:01:26.829457Z[0m [32m INFO[0m [2msalmon::timing[0m[2m:[0m phase complete [3mphase[0m[2m=[0m"posterior" [3melapsed_s[0m[2m=[0m0.005736313
+[2m2026-10-12T16:01:26.924788Z[0m [32m INFO[0m [2msalmon::timing[0m[2m:[0m phase complete [3mphase[0m[2m=[0m"output" [3melapsed_s[0m[2m=[0m0.095330508
+[2m2026-10-12T16:01:26.982713Z[0m [32m INFO[0m [2msalmon[0m[2m:[0m 28833527 fragments from intermediate RAD, 24412980 quantified (84.67%); 178105 equivalence classes
+  done
+=== SRR37536774 (00:01) ===
+application/gzip
+application/gzip
+Started analysis of SRR37536774_1.fastq.gz
+Started analysis of SRR37536774_2.fastq.gz
+Approx 5% complete for SRR37536774_1.fastq.gz
+Approx 5% complete for SRR37536774_2.fastq.gz
+Approx 10% complete for SRR37536774_2.fastq.gz
+Approx 10% complete for SRR37536774_1.fastq.gz
+Approx 15% complete for SRR37536774_2.fastq.gz
+Approx 15% complete for SRR37536774_1.fastq.gz
+Approx 20% complete for SRR37536774_2.fastq.gz
+Approx 20% complete for SRR37536774_1.fastq.gz
+Approx 25% complete for SRR37536774_2.fastq.gz
+Approx 25% complete for SRR37536774_1.fastq.gz
+Approx 30% complete for SRR37536774_2.fastq.gz
+Approx 30% complete for SRR37536774_1.fastq.gz
+Approx 35% complete for SRR37536774_2.fastq.gz
+Approx 35% complete for SRR37536774_1.fastq.gz
+Approx 40% complete for SRR37536774_2.fastq.gz
+Approx 40% complete for SRR37536774_1.fastq.gz
+Approx 45% complete for SRR37536774_2.fastq.gz
+Approx 45% complete for SRR37536774_1.fastq.gz
+Approx 50% complete for SRR37536774_2.fastq.gz
+Approx 50% complete for SRR37536774_1.fastq.gz
+Approx 55% complete for SRR37536774_2.fastq.gz
+Approx 55% complete for SRR37536774_1.fastq.gz
+Approx 60% complete for SRR37536774_2.fastq.gz
+Approx 60% complete for SRR37536774_1.fastq.gz
+Approx 65% complete for SRR37536774_2.fastq.gz
+Approx 65% complete for SRR37536774_1.fastq.gz
+Approx 70% complete for SRR37536774_2.fastq.gz
+Approx 70% complete for SRR37536774_1.fastq.gz
+Approx 75% complete for SRR37536774_2.fastq.gz
+Approx 75% complete for SRR37536774_1.fastq.gz
+Approx 80% complete for SRR37536774_2.fastq.gz
+Approx 80% complete for SRR37536774_1.fastq.gz
+Approx 85% complete for SRR37536774_2.fastq.gz
+Approx 85% complete for SRR37536774_1.fastq.gz
+Approx 90% complete for SRR37536774_2.fastq.gz
+Approx 90% complete for SRR37536774_1.fastq.gz
+Approx 95% complete for SRR37536774_2.fastq.gz
+Approx 95% complete for SRR37536774_1.fastq.gz
+Analysis complete for SRR37536774_2.fastq.gz
+Analysis complete for SRR37536774_1.fastq.gz
+Detecting adapter sequence for read1...
+>Illumina TruSeq Adapter Read 1
+AGATCGGAAGAGCACACGTCTGAACTCCAGTCA
+
+Detecting adapter sequence for read2...
+>Illumina TruSeq Adapter Read 2
+AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGT
+
+Read1 before filtering:
+total reads: 23598186
+total bases: 3539727900
+Q20 bases: 3507141064(99.0794%)
+Q30 bases: 3425866749(96.7833%)
+Q40 bases: 3425866749(96.7833%)
+
+Read2 before filtering:
+total reads: 23598186
+total bases: 3539727900
+Q20 bases: 3495246833(98.7434%)
+Q30 bases: 3398998167(96.0243%)
+Q40 bases: 3398998167(96.0243%)
+
+Read1 after filtering:
+total reads: 23301438
+total bases: 3486007736
+Q20 bases: 3466578566(99.4427%)
+Q30 bases: 3395000621(97.3894%)
+Q40 bases: 3395000621(97.3894%)
+
+Read2 after filtering:
+total reads: 23301438
+total bases: 3486073807
+Q20 bases: 3461192394(99.2863%)
+Q30 bases: 3378566639(96.9161%)
+Q40 bases: 3378566639(96.9161%)
+
+Filtering result:
+reads passed filter: 46602876
+reads failed due to low quality: 577654
+reads failed due to too many N: 8638
+reads failed due to too short: 7072
+reads failed due to adapter dimer: 132
+reads with adapter trimmed: 765229
+bases trimmed due to adapters: 19346445
+
+Duplication rate: 34.7996%
+
+Insert size peak (evaluated by paired-end reads): 269
+
+JSON report: qc/fastp/SRR37536774.json
+HTML report: qc/fastp/SRR37536774.html
+
+fastp -i fastq/SRR37536774_1.fastq.gz -I fastq/SRR37536774_2.fastq.gz -o trimmed_tmp/SRR37536774_trimmed_1.fastq.gz -O trimmed_tmp/SRR37536774_trimmed_2.fastq.gz --detect_adapter_for_pe --thread 8 --qualified_quality_phred 20 --length_required 36 --html qc/fastp/SRR37536774.html --json qc/fastp/SRR37536774.json 
+fastp v1.3.6, time used: 156 seconds
+application/gzip
+application/gzip
+Started analysis of SRR37536774_trimmed_1.fastq.gz
+Started analysis of SRR37536774_trimmed_2.fastq.gz
+Approx 5% complete for SRR37536774_trimmed_1.fastq.gz
+Approx 5% complete for SRR37536774_trimmed_2.fastq.gz
+Approx 10% complete for SRR37536774_trimmed_2.fastq.gz
+Approx 10% complete for SRR37536774_trimmed_1.fastq.gz
+Approx 15% complete for SRR37536774_trimmed_2.fastq.gz
+Approx 15% complete for SRR37536774_trimmed_1.fastq.gz
+Approx 20% complete for SRR37536774_trimmed_2.fastq.gz
+Approx 20% complete for SRR37536774_trimmed_1.fastq.gz
+Approx 25% complete for SRR37536774_trimmed_2.fastq.gz
+Approx 25% complete for SRR37536774_trimmed_1.fastq.gz
+Approx 30% complete for SRR37536774_trimmed_2.fastq.gz
+Approx 30% complete for SRR37536774_trimmed_1.fastq.gz
+Approx 35% complete for SRR37536774_trimmed_2.fastq.gz
+Approx 35% complete for SRR37536774_trimmed_1.fastq.gz
+Approx 40% complete for SRR37536774_trimmed_2.fastq.gz
+Approx 40% complete for SRR37536774_trimmed_1.fastq.gz
+Approx 45% complete for SRR37536774_trimmed_2.fastq.gz
+Approx 45% complete for SRR37536774_trimmed_1.fastq.gz
+Approx 50% complete for SRR37536774_trimmed_2.fastq.gz
+Approx 50% complete for SRR37536774_trimmed_1.fastq.gz
+Approx 55% complete for SRR37536774_trimmed_2.fastq.gz
+Approx 55% complete for SRR37536774_trimmed_1.fastq.gz
+Approx 60% complete for SRR37536774_trimmed_2.fastq.gz
+Approx 60% complete for SRR37536774_trimmed_1.fastq.gz
+Approx 65% complete for SRR37536774_trimmed_2.fastq.gz
+Approx 65% complete for SRR37536774_trimmed_1.fastq.gz
+Approx 70% complete for SRR37536774_trimmed_2.fastq.gz
+Approx 70% complete for SRR37536774_trimmed_1.fastq.gz
+Approx 75% complete for SRR37536774_trimmed_2.fastq.gz
+Approx 75% complete for SRR37536774_trimmed_1.fastq.gz
+Approx 80% complete for SRR37536774_trimmed_2.fastq.gz
+Approx 80% complete for SRR37536774_trimmed_1.fastq.gz
+Approx 85% complete for SRR37536774_trimmed_2.fastq.gz
+Approx 85% complete for SRR37536774_trimmed_1.fastq.gz
+Approx 90% complete for SRR37536774_trimmed_2.fastq.gz
+Approx 90% complete for SRR37536774_trimmed_1.fastq.gz
+Approx 95% complete for SRR37536774_trimmed_2.fastq.gz
+Approx 95% complete for SRR37536774_trimmed_1.fastq.gz
+Analysis complete for SRR37536774_trimmed_2.fastq.gz
+Analysis complete for SRR37536774_trimmed_1.fastq.gz
+[2m2026-10-12T16:09:57.654174Z[0m [33m WARN[0m [2msalmon[0m[2m:[0m --validateMappings has no effect (deprecated in salmon too): selective alignment is the default mapping mode; pass --sketch for pseudoalignment.
+[2m2026-10-12T16:09:57.671882Z[0m [32m INFO[0m [2mpiscem_rs::index::reference_index[0m[2m:[0m Loading SSHash dictionary from ref/salmon_index_mm10/index.ssi
+[2m2026-10-12T16:10:02.454776Z[0m [32m INFO[0m [2mpiscem_rs::index::reference_index[0m[2m:[0m   k=31, 25056108 strings
+[2m2026-10-12T16:10:02.454838Z[0m [32m INFO[0m [2mpiscem_rs::index::reference_index[0m[2m:[0m Loading contig table from ref/salmon_index_mm10/index.ctab
+[2m2026-10-12T16:10:07.314329Z[0m [32m INFO[0m [2mpiscem_rs::index::reference_index[0m[2m:[0m   25056108 contigs, 346526014 entries, entry_width=47 bits
+[2m2026-10-12T16:10:07.314399Z[0m [32m INFO[0m [2mpiscem_rs::index::reference_index[0m[2m:[0m Loading reference info from ref/salmon_index_mm10/index.refinfo
+[2m2026-10-12T16:10:07.339276Z[0m [32m INFO[0m [2mpiscem_rs::index::reference_index[0m[2m:[0m   141135 references, max_ref_len=195371971
+[2m2026-10-12T16:10:07.339370Z[0m [32m INFO[0m [2mpiscem_rs::index::reference_index[0m[2m:[0m Loading equivalence class table from ref/salmon_index_mm10/index.ectab
+[2m2026-10-12T16:10:07.731066Z[0m [32m INFO[0m [2mpiscem_rs::index::reference_index[0m[2m:[0m   25056108 tiles, 4676802 ECs, 43325053 label entries
+[2m2026-10-12T16:10:07.731162Z[0m [32m INFO[0m [2mpiscem_rs::index::reference_index[0m[2m:[0m   ref_shift=29, pos_mask=0xfffffff
+[2m2026-10-12T16:10:19.590893Z[0m [32m INFO[0m [2msalmon::timing[0m[2m:[0m phase complete [3mphase[0m[2m=[0m"index_load" [3melapsed_s[0m[2m=[0m21.917804023
+[2m2026-10-12T16:10:19.645012Z[0m [32m INFO[0m [2mpiscem_rs::io::calibrate[0m[2m:[0m using the serial decoder: 8 threads for 2 gzip input(s) is below the 50 threads per input needed before parallel decoding adds concurrency the serial path does not already have
+[2m2026-10-12T16:10:19.648756Z[0m [32m INFO[0m [2msalmon_quant::decode[0m[2m:[0m thread execution plan [3mrequested_budget[0m[2m=[0m8 [3meffective_budget[0m[2m=[0m8 [3mmapping_threads[0m[2m=[0m8 [3mdecode_slots[0m[2m=[0m0 [3mparallel_decode[0m[2m=[0mfalse [3mreason[0m[2m=[0mPolicyDeclined
+[2m2026-10-12T16:10:19.649773Z[0m [32m INFO[0m [2msalmon_quant[0m[2m:[0m mapping reads (selective-alignment mode, 8 threads)
+[2m2026-10-12T16:14:27.978025Z[0m [32m INFO[0m [2msalmon_quant[0m[2m:[0m mapped 20341642 / 23301438 fragments (87.30%)
+[2m2026-10-12T16:14:27.978538Z[0m [32m INFO[0m [2msalmon::timing[0m[2m:[0m phase complete [3mphase[0m[2m=[0m"mapping" [3melapsed_s[0m[2m=[0m248.390155852
+[2m2026-10-12T16:14:27.980181Z[0m [32m INFO[0m [2msalmon::timing[0m[2m:[0m phase complete [3mphase[0m[2m=[0m"eff_length_collapse" [3melapsed_s[0m[2m=[0m0.001643266
+[2m2026-10-12T16:14:28.510380Z[0m [32m INFO[0m [2msalmon::timing[0m[2m:[0m phase complete [3mphase[0m[2m=[0m"em_bias" [3melapsed_s[0m[2m=[0m0.530188551
+[2m2026-10-12T16:14:28.510642Z[0m [32m INFO[0m [2msalmon::timing[0m[2m:[0m phase complete [3mphase[0m[2m=[0m"posterior" [3melapsed_s[0m[2m=[0m0.000273387
+[2m2026-10-12T16:14:28.516755Z[0m [32m INFO[0m [2msalmon_quant[0m[2m:[0m writing results to results/salmon_quant/SRR37536774
+[2m2026-10-12T16:14:28.555220Z[0m [32m INFO[0m [2msalmon::timing[0m[2m:[0m phase complete [3mphase[0m[2m=[0m"output" [3melapsed_s[0m[2m=[0m0.044573269
+[2m2026-10-12T16:14:29.072445Z[0m [32m INFO[0m [2msalmon[0m[2m:[0m deterministic: mapped 20341642 / 23301438 fragments (87.30%); quantifying from intermediate RAD
+[2m2026-10-12T16:14:35.974346Z[0m [32m INFO[0m [2msalmon_align::rad[0m[2m:[0m quantifying from RAD (salmon SA), 141135 references
+[2m2026-10-12T16:14:35.975179Z[0m [32m INFO[0m [2msalmon_align::rad[0m[2m:[0m using fragment-length distribution baked in the RAD header
+[2m2026-10-12T16:14:35.975849Z[0m [32m INFO[0m [2msalmon_align::rad[0m[2m:[0m library format under `-l A`: IU (baked in RAD header)
+[2m2026-10-12T16:14:53.278409Z[0m [32m INFO[0m [2msalmon_align::rad[0m[2m:[0m mapped 20341642 / 23301438 fragments from RAD
+[2m2026-10-12T16:14:53.458146Z[0m [32m INFO[0m [2msalmon::timing[0m[2m:[0m phase complete [3mphase[0m[2m=[0m"rad_read" [3melapsed_s[0m[2m=[0m17.539026239000002
+[2m2026-10-12T16:16:02.482501Z[0m [32m INFO[0m [2msalmon::timing[0m[2m:[0m phase complete [3mphase[0m[2m=[0m"em_bias" [3melapsed_s[0m[2m=[0m69.024353257
+[2m2026-10-12T16:16:02.487492Z[0m [32m INFO[0m [2msalmon::timing[0m[2m:[0m phase complete [3mphase[0m[2m=[0m"posterior" [3melapsed_s[0m[2m=[0m0.004994704
+[2m2026-10-12T16:16:02.595683Z[0m [32m INFO[0m [2msalmon::timing[0m[2m:[0m phase complete [3mphase[0m[2m=[0m"output" [3melapsed_s[0m[2m=[0m0.108172099
+[2m2026-10-12T16:16:02.628862Z[0m [32m INFO[0m [2msalmon[0m[2m:[0m 23301438 fragments from intermediate RAD, 20341642 quantified (87.30%); 174091 equivalence classes
+  done
+=== SRR37536775 (00:16) ===
+application/gzip
+application/gzip
+Started analysis of SRR37536775_1.fastq.gz
+Started analysis of SRR37536775_2.fastq.gz
+Approx 5% complete for SRR37536775_2.fastq.gz
+Approx 5% complete for SRR37536775_1.fastq.gz
+Approx 10% complete for SRR37536775_2.fastq.gz
+Approx 10% complete for SRR37536775_1.fastq.gz
+Approx 15% complete for SRR37536775_2.fastq.gz
+Approx 15% complete for SRR37536775_1.fastq.gz
+Approx 20% complete for SRR37536775_2.fastq.gz
+Approx 20% complete for SRR37536775_1.fastq.gz
+Approx 25% complete for SRR37536775_2.fastq.gz
+Approx 25% complete for SRR37536775_1.fastq.gz
+Approx 30% complete for SRR37536775_2.fastq.gz
+Approx 30% complete for SRR37536775_1.fastq.gz
+Approx 35% complete for SRR37536775_2.fastq.gz
+Approx 35% complete for SRR37536775_1.fastq.gz
+Approx 40% complete for SRR37536775_2.fastq.gz
+Approx 40% complete for SRR37536775_1.fastq.gz
+Approx 45% complete for SRR37536775_2.fastq.gz
+Approx 45% complete for SRR37536775_1.fastq.gz
+Approx 50% complete for SRR37536775_2.fastq.gz
+Approx 50% complete for SRR37536775_1.fastq.gz
+Approx 55% complete for SRR37536775_2.fastq.gz
+Approx 55% complete for SRR37536775_1.fastq.gz
+Approx 60% complete for SRR37536775_2.fastq.gz
+Approx 60% complete for SRR37536775_1.fastq.gz
+Approx 65% complete for SRR37536775_2.fastq.gz
+Approx 65% complete for SRR37536775_1.fastq.gz
+Approx 70% complete for SRR37536775_2.fastq.gz
+Approx 70% complete for SRR37536775_1.fastq.gz
+Approx 75% complete for SRR37536775_2.fastq.gz
+Approx 75% complete for SRR37536775_1.fastq.gz
+Approx 80% complete for SRR37536775_2.fastq.gz
+Approx 80% complete for SRR37536775_1.fastq.gz
+Approx 85% complete for SRR37536775_2.fastq.gz
+Approx 85% complete for SRR37536775_1.fastq.gz
+Approx 90% complete for SRR37536775_2.fastq.gz
+Approx 90% complete for SRR37536775_1.fastq.gz
+Approx 95% complete for SRR37536775_2.fastq.gz
+Approx 95% complete for SRR37536775_1.fastq.gz
+Analysis complete for SRR37536775_2.fastq.gz
+Analysis complete for SRR37536775_1.fastq.gz
+Detecting adapter sequence for read1...
+>Illumina TruSeq Adapter Read 1
+AGATCGGAAGAGCACACGTCTGAACTCCAGTCA
+
+Detecting adapter sequence for read2...
+>Illumina TruSeq Adapter Read 2
+AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGT
+
+Read1 before filtering:
+total reads: 22827249
+total bases: 3424087350
+Q20 bases: 3398948009(99.2658%)
+Q30 bases: 3329139068(97.227%)
+Q40 bases: 3329139068(97.227%)
+
+Read2 before filtering:
+total reads: 22827249
+total bases: 3424087350
+Q20 bases: 3387773368(98.9395%)
+Q30 bases: 3302169878(96.4394%)
+Q40 bases: 3302169878(96.4394%)
+
+Read1 after filtering:
+total reads: 22604841
+total bases: 3381344439
+Q20 bases: 3365407275(99.5287%)
+Q30 bases: 3302872681(97.6793%)
+Q40 bases: 3302872681(97.6793%)
+
+Read2 after filtering:
+total reads: 22604841
+total bases: 3381381523
+Q20 bases: 3360145461(99.372%)
+Q30 bases: 3285418844(97.162%)
+Q40 bases: 3285418844(97.162%)
+
+Filtering result:
+reads passed filter: 45209682
+reads failed due to low quality: 430532
+reads failed due to too many N: 8366
+reads failed due to too short: 5810
+reads failed due to adapter dimer: 108
+reads with adapter trimmed: 767896
+bases trimmed due to adapters: 19508677
+
+Duplication rate: 35.7252%
+
+Insert size peak (evaluated by paired-end reads): 269
+
+JSON report: qc/fastp/SRR37536775.json
+HTML report: qc/fastp/SRR37536775.html
+
+fastp -i fastq/SRR37536775_1.fastq.gz -I fastq/SRR37536775_2.fastq.gz -o trimmed_tmp/SRR37536775_trimmed_1.fastq.gz -O trimmed_tmp/SRR37536775_trimmed_2.fastq.gz --detect_adapter_for_pe --thread 8 --qualified_quality_phred 20 --length_required 36 --html qc/fastp/SRR37536775.html --json qc/fastp/SRR37536775.json 
+fastp v1.3.6, time used: 148 seconds
+application/gzip
+application/gzip
+Started analysis of SRR37536775_trimmed_1.fastq.gz
+Started analysis of SRR37536775_trimmed_2.fastq.gz
+Approx 5% complete for SRR37536775_trimmed_1.fastq.gz
+Approx 5% complete for SRR37536775_trimmed_2.fastq.gz
+Approx 10% complete for SRR37536775_trimmed_2.fastq.gz
+Approx 10% complete for SRR37536775_trimmed_1.fastq.gz
+Approx 15% complete for SRR37536775_trimmed_2.fastq.gz
+Approx 15% complete for SRR37536775_trimmed_1.fastq.gz
+Approx 20% complete for SRR37536775_trimmed_2.fastq.gz
+Approx 20% complete for SRR37536775_trimmed_1.fastq.gz
+Approx 25% complete for SRR37536775_trimmed_2.fastq.gz
+Approx 25% complete for SRR37536775_trimmed_1.fastq.gz
+Approx 30% complete for SRR37536775_trimmed_2.fastq.gz
+Approx 30% complete for SRR37536775_trimmed_1.fastq.gz
+Approx 35% complete for SRR37536775_trimmed_2.fastq.gz
+Approx 35% complete for SRR37536775_trimmed_1.fastq.gz
+Approx 40% complete for SRR37536775_trimmed_2.fastq.gz
+Approx 40% complete for SRR37536775_trimmed_1.fastq.gz
+Approx 45% complete for SRR37536775_trimmed_2.fastq.gz
+Approx 45% complete for SRR37536775_trimmed_1.fastq.gz
+Approx 50% complete for SRR37536775_trimmed_2.fastq.gz
+Approx 50% complete for SRR37536775_trimmed_1.fastq.gz
+Approx 55% complete for SRR37536775_trimmed_2.fastq.gz
+Approx 55% complete for SRR37536775_trimmed_1.fastq.gz
+Approx 60% complete for SRR37536775_trimmed_2.fastq.gz
+Approx 60% complete for SRR37536775_trimmed_1.fastq.gz
+Approx 65% complete for SRR37536775_trimmed_2.fastq.gz
+Approx 65% complete for SRR37536775_trimmed_1.fastq.gz
+Approx 70% complete for SRR37536775_trimmed_2.fastq.gz
+Approx 70% complete for SRR37536775_trimmed_1.fastq.gz
+Approx 75% complete for SRR37536775_trimmed_2.fastq.gz
+Approx 75% complete for SRR37536775_trimmed_1.fastq.gz
+Approx 80% complete for SRR37536775_trimmed_2.fastq.gz
+Approx 80% complete for SRR37536775_trimmed_1.fastq.gz
+Approx 85% complete for SRR37536775_trimmed_2.fastq.gz
+Approx 85% complete for SRR37536775_trimmed_1.fastq.gz
+Approx 90% complete for SRR37536775_trimmed_2.fastq.gz
+Approx 90% complete for SRR37536775_trimmed_1.fastq.gz
+Approx 95% complete for SRR37536775_trimmed_2.fastq.gz
+Approx 95% complete for SRR37536775_trimmed_1.fastq.gz
+Analysis complete for SRR37536775_trimmed_2.fastq.gz
+Analysis complete for SRR37536775_trimmed_1.fastq.gz
+[2m2026-10-12T16:24:18.612793Z[0m [33m WARN[0m [2msalmon[0m[2m:[0m --validateMappings has no effect (deprecated in salmon too): selective alignment is the default mapping mode; pass --sketch for pseudoalignment.
+[2m2026-10-12T16:24:18.631610Z[0m [32m INFO[0m [2mpiscem_rs::index::reference_index[0m[2m:[0m Loading SSHash dictionary from ref/salmon_index_mm10/index.ssi
+[2m2026-10-12T16:24:23.560290Z[0m [32m INFO[0m [2mpiscem_rs::index::reference_index[0m[2m:[0m   k=31, 25056108 strings
+[2m2026-10-12T16:24:23.560371Z[0m [32m INFO[0m [2mpiscem_rs::index::reference_index[0m[2m:[0m Loading contig table from ref/salmon_index_mm10/index.ctab
+[2m2026-10-12T16:24:28.463662Z[0m [32m INFO[0m [2mpiscem_rs::index::reference_index[0m[2m:[0m   25056108 contigs, 346526014 entries, entry_width=47 bits
+[2m2026-10-12T16:24:28.463706Z[0m [32m INFO[0m [2mpiscem_rs::index::reference_index[0m[2m:[0m Loading reference info from ref/salmon_index_mm10/index.refinfo
+[2m2026-10-12T16:24:28.488528Z[0m [32m INFO[0m [2mpiscem_rs::index::reference_index[0m[2m:[0m   141135 references, max_ref_len=195371971
+[2m2026-10-12T16:24:28.488577Z[0m [32m INFO[0m [2mpiscem_rs::index::reference_index[0m[2m:[0m Loading equivalence class table from ref/salmon_index_mm10/index.ectab
+[2m2026-10-12T16:24:28.907081Z[0m [32m INFO[0m [2mpiscem_rs::index::reference_index[0m[2m:[0m   25056108 tiles, 4676802 ECs, 43325053 label entries
+[2m2026-10-12T16:24:28.907124Z[0m [32m INFO[0m [2mpiscem_rs::index::reference_index[0m[2m:[0m   ref_shift=29, pos_mask=0xfffffff
+[2m2026-10-12T16:24:39.358304Z[0m [32m INFO[0m [2msalmon::timing[0m[2m:[0m phase complete [3mphase[0m[2m=[0m"index_load" [3melapsed_s[0m[2m=[0m20.725969353
+[2m2026-10-12T16:24:39.410651Z[0m [32m INFO[0m [2mpiscem_rs::io::calibrate[0m[2m:[0m using the serial decoder: 8 threads for 2 gzip input(s) is below the 50 threads per input needed before parallel decoding adds concurrency the serial path does not already have
+[2m2026-10-12T16:24:39.414544Z[0m [32m INFO[0m [2msalmon_quant::decode[0m[2m:[0m thread execution plan [3mrequested_budget[0m[2m=[0m8 [3meffective_budget[0m[2m=[0m8 [3mmapping_threads[0m[2m=[0m8 [3mdecode_slots[0m[2m=[0m0 [3mparallel_decode[0m[2m=[0mfalse [3mreason[0m[2m=[0mPolicyDeclined
+[2m2026-10-12T16:24:39.416156Z[0m [32m INFO[0m [2msalmon_quant[0m[2m:[0m mapping reads (selective-alignment mode, 8 threads)
+[2m2026-10-12T16:28:38.934396Z[0m [32m INFO[0m [2msalmon_quant[0m[2m:[0m mapped 19925514 / 22604841 fragments (88.15%)
+[2m2026-10-12T16:28:38.934786Z[0m [32m INFO[0m [2msalmon::timing[0m[2m:[0m phase complete [3mphase[0m[2m=[0m"mapping" [3melapsed_s[0m[2m=[0m239.578389028
+[2m2026-10-12T16:28:38.936619Z[0m [32m INFO[0m [2msalmon::timing[0m[2m:[0m phase complete [3mphase[0m[2m=[0m"eff_length_collapse" [3melapsed_s[0m[2m=[0m0.001835156
+[2m2026-10-12T16:28:39.503210Z[0m [32m INFO[0m [2msalmon::timing[0m[2m:[0m phase complete [3mphase[0m[2m=[0m"em_bias" [3melapsed_s[0m[2m=[0m0.566583327
+[2m2026-10-12T16:28:39.503418Z[0m [32m INFO[0m [2msalmon::timing[0m[2m:[0m phase complete [3mphase[0m[2m=[0m"posterior" [3melapsed_s[0m[2m=[0m0.000216648
+[2m2026-10-12T16:28:39.510398Z[0m [32m INFO[0m [2msalmon_quant[0m[2m:[0m writing results to results/salmon_quant/SRR37536775
+[2m2026-10-12T16:28:39.513707Z[0m [33m WARN[0m [2msalmon_core::libtype[0m[2m:[0m detected a *potential* strand bias > 1% in an unstranded protocol (strand_mapping_bias = 0.4875); see lib_format_counts.json for details
+[2m2026-10-12T16:28:39.535395Z[0m [32m INFO[0m [2msalmon::timing[0m[2m:[0m phase complete [3mphase[0m[2m=[0m"output" [3melapsed_s[0m[2m=[0m0.031969893
+[2m2026-10-12T16:28:40.097785Z[0m [32m INFO[0m [2msalmon[0m[2m:[0m deterministic: mapped 19925514 / 22604841 fragments (88.15%); quantifying from intermediate RAD
+[2m2026-10-12T16:28:47.316871Z[0m [32m INFO[0m [2msalmon_align::rad[0m[2m:[0m quantifying from RAD (salmon SA), 141135 references
+[2m2026-10-12T16:28:47.318561Z[0m [32m INFO[0m [2msalmon_align::rad[0m[2m:[0m using fragment-length distribution baked in the RAD header
+[2m2026-10-12T16:28:47.319156Z[0m [32m INFO[0m [2msalmon_align::rad[0m[2m:[0m library format under `-l A`: IU (baked in RAD header)
+[2m2026-10-12T16:29:04.053405Z[0m [32m INFO[0m [2msalmon_align::rad[0m[2m:[0m mapped 19925514 / 22604841 fragments from RAD
+[2m2026-10-12T16:29:04.226625Z[0m [32m INFO[0m [2msalmon::timing[0m[2m:[0m phase complete [3mphase[0m[2m=[0m"rad_read" [3melapsed_s[0m[2m=[0m16.955577333
+[2m2026-10-12T16:30:07.384188Z[0m [32m INFO[0m [2msalmon::timing[0m[2m:[0m phase complete [3mphase[0m[2m=[0m"em_bias" [3melapsed_s[0m[2m=[0m63.15755915
+[2m2026-10-12T16:30:07.389210Z[0m [32m INFO[0m [2msalmon::timing[0m[2m:[0m phase complete [3mphase[0m[2m=[0m"posterior" [3melapsed_s[0m[2m=[0m0.005025644
+[2m2026-10-12T16:30:07.473649Z[0m [33m WARN[0m [2msalmon_core::libtype[0m[2m:[0m detected a *potential* strand bias > 1% in an unstranded protocol (strand_mapping_bias = 0.4875); see lib_format_counts.json for details
+[2m2026-10-12T16:30:07.498086Z[0m [32m INFO[0m [2msalmon::timing[0m[2m:[0m phase complete [3mphase[0m[2m=[0m"output" [3melapsed_s[0m[2m=[0m0.108875324
+[2m2026-10-12T16:30:07.547970Z[0m [32m INFO[0m [2msalmon[0m[2m:[0m 22604841 fragments from intermediate RAD, 19925514 quantified (88.15%); 165854 equivalence classes
+  done
+=== SRR37536776 (00:30) ===
+application/gzip
+application/gzip
+Started analysis of SRR37536776_1.fastq.gz
+Started analysis of SRR37536776_2.fastq.gz
+Approx 5% complete for SRR37536776_1.fastq.gz
+Approx 5% complete for SRR37536776_2.fastq.gz
+Approx 10% complete for SRR37536776_1.fastq.gz
+Approx 10% complete for SRR37536776_2.fastq.gz
+Approx 15% complete for SRR37536776_1.fastq.gz
+Approx 15% complete for SRR37536776_2.fastq.gz
+Approx 20% complete for SRR37536776_1.fastq.gz
+Approx 20% complete for SRR37536776_2.fastq.gz
+Approx 25% complete for SRR37536776_1.fastq.gz
+Approx 25% complete for SRR37536776_2.fastq.gz
+Approx 30% complete for SRR37536776_1.fastq.gz
+Approx 30% complete for SRR37536776_2.fastq.gz
+Approx 35% complete for SRR37536776_1.fastq.gz
+Approx 35% complete for SRR37536776_2.fastq.gz
+Approx 40% complete for SRR37536776_1.fastq.gz
+Approx 40% complete for SRR37536776_2.fastq.gz
+Approx 45% complete for SRR37536776_1.fastq.gz
+Approx 45% complete for SRR37536776_2.fastq.gz
+Approx 50% complete for SRR37536776_1.fastq.gz
+Approx 50% complete for SRR37536776_2.fastq.gz
+Approx 55% complete for SRR37536776_1.fastq.gz
+Approx 55% complete for SRR37536776_2.fastq.gz
+Approx 60% complete for SRR37536776_1.fastq.gz
+Approx 60% complete for SRR37536776_2.fastq.gz
+Approx 65% complete for SRR37536776_2.fastq.gz
+Approx 65% complete for SRR37536776_1.fastq.gz
+Approx 70% complete for SRR37536776_1.fastq.gz
+Approx 70% complete for SRR37536776_2.fastq.gz
+Approx 75% complete for SRR37536776_1.fastq.gz
+Approx 75% complete for SRR37536776_2.fastq.gz
+Approx 80% complete for SRR37536776_2.fastq.gz
+Approx 80% complete for SRR37536776_1.fastq.gz
+Approx 85% complete for SRR37536776_2.fastq.gz
+Approx 85% complete for SRR37536776_1.fastq.gz
+Approx 90% complete for SRR37536776_2.fastq.gz
+Approx 90% complete for SRR37536776_1.fastq.gz
+Approx 95% complete for SRR37536776_2.fastq.gz
+Approx 95% complete for SRR37536776_1.fastq.gz
+Analysis complete for SRR37536776_2.fastq.gz
+Analysis complete for SRR37536776_1.fastq.gz
+Detecting adapter sequence for read1...
+>Illumina TruSeq Adapter Read 1
+AGATCGGAAGAGCACACGTCTGAACTCCAGTCA
+
+Detecting adapter sequence for read2...
+>Illumina TruSeq Adapter Read 2
+AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGT
+
+Read1 before filtering:
+total reads: 22916434
+total bases: 3437465100
+Q20 bases: 3409039627(99.1731%)
+Q30 bases: 3334979448(97.0186%)
+Q40 bases: 3334979448(97.0186%)
+
+Read2 before filtering:
+total reads: 22916434
+total bases: 3437465100
+Q20 bases: 3397441471(98.8357%)
+Q30 bases: 3307490391(96.2189%)
+Q40 bases: 3307490391(96.2189%)
+
+Read1 after filtering:
+total reads: 22651766
+total bases: 3389207948
+Q20 bases: 3372309356(99.5014%)
+Q30 bases: 3306825154(97.5693%)
+Q40 bases: 3306825154(97.5693%)
+
+Read2 after filtering:
+total reads: 22651766
+total bases: 3389261855
+Q20 bases: 3366881495(99.3397%)
+Q30 bases: 3289100316(97.0447%)
+Q40 bases: 3289100316(97.0447%)
+
+Filtering result:
+reads passed filter: 45303532
+reads failed due to low quality: 514952
+reads failed due to too many N: 8616
+reads failed due to too short: 5650
+reads failed due to adapter dimer: 118
+reads with adapter trimmed: 698990
+bases trimmed due to adapters: 17856181
+
+Duplication rate: 36.1485%
+
+Insert size peak (evaluated by paired-end reads): 150
+
+JSON report: qc/fastp/SRR37536776.json
+HTML report: qc/fastp/SRR37536776.html
+
+fastp -i fastq/SRR37536776_1.fastq.gz -I fastq/SRR37536776_2.fastq.gz -o trimmed_tmp/SRR37536776_trimmed_1.fastq.gz -O trimmed_tmp/SRR37536776_trimmed_2.fastq.gz --detect_adapter_for_pe --thread 8 --qualified_quality_phred 20 --length_required 36 --html qc/fastp/SRR37536776.html --json qc/fastp/SRR37536776.json 
+fastp v1.3.6, time used: 146 seconds
+application/gzip
+application/gzip
+Started analysis of SRR37536776_trimmed_1.fastq.gz
+Started analysis of SRR37536776_trimmed_2.fastq.gz
+Approx 5% complete for SRR37536776_trimmed_1.fastq.gz
+Approx 5% complete for SRR37536776_trimmed_2.fastq.gz
+Approx 10% complete for SRR37536776_trimmed_1.fastq.gz
+Approx 10% complete for SRR37536776_trimmed_2.fastq.gz
+Approx 15% complete for SRR37536776_trimmed_1.fastq.gz
+Approx 15% complete for SRR37536776_trimmed_2.fastq.gz
+Approx 20% complete for SRR37536776_trimmed_2.fastq.gz
+Approx 20% complete for SRR37536776_trimmed_1.fastq.gz
+Approx 25% complete for SRR37536776_trimmed_2.fastq.gz
+Approx 25% complete for SRR37536776_trimmed_1.fastq.gz
+Approx 30% complete for SRR37536776_trimmed_2.fastq.gz
+Approx 30% complete for SRR37536776_trimmed_1.fastq.gz
+Approx 35% complete for SRR37536776_trimmed_2.fastq.gz
+Approx 35% complete for SRR37536776_trimmed_1.fastq.gz
+Approx 40% complete for SRR37536776_trimmed_2.fastq.gz
+Approx 40% complete for SRR37536776_trimmed_1.fastq.gz
+Approx 45% complete for SRR37536776_trimmed_2.fastq.gz
+Approx 45% complete for SRR37536776_trimmed_1.fastq.gz
+Approx 50% complete for SRR37536776_trimmed_2.fastq.gz
+Approx 50% complete for SRR37536776_trimmed_1.fastq.gz
+Approx 55% complete for SRR37536776_trimmed_2.fastq.gz
+Approx 55% complete for SRR37536776_trimmed_1.fastq.gz
+Approx 60% complete for SRR37536776_trimmed_2.fastq.gz
+Approx 60% complete for SRR37536776_trimmed_1.fastq.gz
+Approx 65% complete for SRR37536776_trimmed_2.fastq.gz
+Approx 65% complete for SRR37536776_trimmed_1.fastq.gz
+Approx 70% complete for SRR37536776_trimmed_2.fastq.gz
+Approx 70% complete for SRR37536776_trimmed_1.fastq.gz
+Approx 75% complete for SRR37536776_trimmed_2.fastq.gz
+Approx 75% complete for SRR37536776_trimmed_1.fastq.gz
+Approx 80% complete for SRR37536776_trimmed_2.fastq.gz
+Approx 80% complete for SRR37536776_trimmed_1.fastq.gz
+Approx 85% complete for SRR37536776_trimmed_2.fastq.gz
+Approx 85% complete for SRR37536776_trimmed_1.fastq.gz
+Approx 90% complete for SRR37536776_trimmed_2.fastq.gz
+Approx 90% complete for SRR37536776_trimmed_1.fastq.gz
+Approx 95% complete for SRR37536776_trimmed_2.fastq.gz
+Approx 95% complete for SRR37536776_trimmed_1.fastq.gz
+Analysis complete for SRR37536776_trimmed_2.fastq.gz
+Analysis complete for SRR37536776_trimmed_1.fastq.gz
+[2m2026-10-12T16:38:11.941777Z[0m [33m WARN[0m [2msalmon[0m[2m:[0m --validateMappings has no effect (deprecated in salmon too): selective alignment is the default mapping mode; pass --sketch for pseudoalignment.
+[2m2026-10-12T16:38:11.961728Z[0m [32m INFO[0m [2mpiscem_rs::index::reference_index[0m[2m:[0m Loading SSHash dictionary from ref/salmon_index_mm10/index.ssi
+[2m2026-10-12T16:38:16.724565Z[0m [32m INFO[0m [2mpiscem_rs::index::reference_index[0m[2m:[0m   k=31, 25056108 strings
+[2m2026-10-12T16:38:16.724765Z[0m [32m INFO[0m [2mpiscem_rs::index::reference_index[0m[2m:[0m Loading contig table from ref/salmon_index_mm10/index.ctab
+[2m2026-10-12T16:38:21.670712Z[0m [32m INFO[0m [2mpiscem_rs::index::reference_index[0m[2m:[0m   25056108 contigs, 346526014 entries, entry_width=47 bits
+[2m2026-10-12T16:38:21.670769Z[0m [32m INFO[0m [2mpiscem_rs::index::reference_index[0m[2m:[0m Loading reference info from ref/salmon_index_mm10/index.refinfo
+[2m2026-10-12T16:38:21.689776Z[0m [32m INFO[0m [2mpiscem_rs::index::reference_index[0m[2m:[0m   141135 references, max_ref_len=195371971
+[2m2026-10-12T16:38:21.689825Z[0m [32m INFO[0m [2mpiscem_rs::index::reference_index[0m[2m:[0m Loading equivalence class table from ref/salmon_index_mm10/index.ectab
+[2m2026-10-12T16:38:22.088106Z[0m [32m INFO[0m [2mpiscem_rs::index::reference_index[0m[2m:[0m   25056108 tiles, 4676802 ECs, 43325053 label entries
+[2m2026-10-12T16:38:22.088198Z[0m [32m INFO[0m [2mpiscem_rs::index::reference_index[0m[2m:[0m   ref_shift=29, pos_mask=0xfffffff
+[2m2026-10-12T16:38:34.220708Z[0m [32m INFO[0m [2msalmon::timing[0m[2m:[0m phase complete [3mphase[0m[2m=[0m"index_load" [3melapsed_s[0m[2m=[0m22.258813693
+[2m2026-10-12T16:38:34.282682Z[0m [32m INFO[0m [2mpiscem_rs::io::calibrate[0m[2m:[0m using the serial decoder: 8 threads for 2 gzip input(s) is below the 50 threads per input needed before parallel decoding adds concurrency the serial path does not already have
+[2m2026-10-12T16:38:34.286762Z[0m [32m INFO[0m [2msalmon_quant::decode[0m[2m:[0m thread execution plan [3mrequested_budget[0m[2m=[0m8 [3meffective_budget[0m[2m=[0m8 [3mmapping_threads[0m[2m=[0m8 [3mdecode_slots[0m[2m=[0m0 [3mparallel_decode[0m[2m=[0mfalse [3mreason[0m[2m=[0mPolicyDeclined
+[2m2026-10-12T16:38:34.288232Z[0m [32m INFO[0m [2msalmon_quant[0m[2m:[0m mapping reads (selective-alignment mode, 8 threads)
+[2m2026-10-12T16:42:33.547533Z[0m [32m INFO[0m [2msalmon_quant[0m[2m:[0m mapped 20094158 / 22651766 fragments (88.71%)
+[2m2026-10-12T16:42:33.548034Z[0m [32m INFO[0m [2msalmon::timing[0m[2m:[0m phase complete [3mphase[0m[2m=[0m"mapping" [3melapsed_s[0m[2m=[0m239.329254693
+[2m2026-10-12T16:42:33.549259Z[0m [32m INFO[0m [2msalmon::timing[0m[2m:[0m phase complete [3mphase[0m[2m=[0m"eff_length_collapse" [3melapsed_s[0m[2m=[0m0.001224088
+[2m2026-10-12T16:42:34.157670Z[0m [32m INFO[0m [2msalmon::timing[0m[2m:[0m phase complete [3mphase[0m[2m=[0m"em_bias" [3melapsed_s[0m[2m=[0m0.608405974
+[2m2026-10-12T16:42:34.157821Z[0m [32m INFO[0m [2msalmon::timing[0m[2m:[0m phase complete [3mphase[0m[2m=[0m"posterior" [3melapsed_s[0m[2m=[0m0.000156622
+[2m2026-10-12T16:42:34.165143Z[0m [32m INFO[0m [2msalmon_quant[0m[2m:[0m writing results to results/salmon_quant/SRR37536776
+[2m2026-10-12T16:42:34.170202Z[0m [33m WARN[0m [2msalmon_core::libtype[0m[2m:[0m detected a *potential* strand bias > 1% in an unstranded protocol (strand_mapping_bias = 0.4872); see lib_format_counts.json for details
+[2m2026-10-12T16:42:34.194956Z[0m [32m INFO[0m [2msalmon::timing[0m[2m:[0m phase complete [3mphase[0m[2m=[0m"output" [3melapsed_s[0m[2m=[0m0.037130954
+[2m2026-10-12T16:42:34.704575Z[0m [32m INFO[0m [2msalmon[0m[2m:[0m deterministic: mapped 20094158 / 22651766 fragments (88.71%); quantifying from intermediate RAD
+[2m2026-10-12T16:42:42.116515Z[0m [32m INFO[0m [2msalmon_align::rad[0m[2m:[0m quantifying from RAD (salmon SA), 141135 references
+[2m2026-10-12T16:42:42.117384Z[0m [32m INFO[0m [2msalmon_align::rad[0m[2m:[0m using fragment-length distribution baked in the RAD header
+[2m2026-10-12T16:42:42.118137Z[0m [32m INFO[0m [2msalmon_align::rad[0m[2m:[0m library format under `-l A`: IU (baked in RAD header)
+[2m2026-10-12T16:42:59.863655Z[0m [32m INFO[0m [2msalmon_align::rad[0m[2m:[0m mapped 20094158 / 22651766 fragments from RAD
+[2m2026-10-12T16:43:00.068198Z[0m [32m INFO[0m [2msalmon::timing[0m[2m:[0m phase complete [3mphase[0m[2m=[0m"rad_read" [3melapsed_s[0m[2m=[0m18.000016578
+[2m2026-10-12T16:43:57.394254Z[0m [32m INFO[0m [2msalmon::timing[0m[2m:[0m phase complete [3mphase[0m[2m=[0m"em_bias" [3melapsed_s[0m[2m=[0m57.326056131
+[2m2026-10-12T16:43:57.399844Z[0m [32m INFO[0m [2msalmon::timing[0m[2m:[0m phase complete [3mphase[0m[2m=[0m"posterior" [3melapsed_s[0m[2m=[0m0.005592457
+[2m2026-10-12T16:43:57.483083Z[0m [33m WARN[0m [2msalmon_core::libtype[0m[2m:[0m detected a *potential* strand bias > 1% in an unstranded protocol (strand_mapping_bias = 0.4872); see lib_format_counts.json for details
+[2m2026-10-12T16:43:57.506717Z[0m [32m INFO[0m [2msalmon::timing[0m[2m:[0m phase complete [3mphase[0m[2m=[0m"output" [3melapsed_s[0m[2m=[0m0.106871824
+[2m2026-10-12T16:43:57.545310Z[0m [32m INFO[0m [2msalmon[0m[2m:[0m 22651766 fragments from intermediate RAD, 20094158 quantified (88.71%); 167145 equivalence classes
+  done
+=== SRR37536777 (00:43) ===
+application/gzip
+application/gzip
+Started analysis of SRR37536777_1.fastq.gz
+Started analysis of SRR37536777_2.fastq.gz
+Approx 5% complete for SRR37536777_1.fastq.gz
+Approx 5% complete for SRR37536777_2.fastq.gz
+Approx 10% complete for SRR37536777_1.fastq.gz
+Approx 10% complete for SRR37536777_2.fastq.gz
+Approx 15% complete for SRR37536777_1.fastq.gz
+Approx 15% complete for SRR37536777_2.fastq.gz
+Approx 20% complete for SRR37536777_1.fastq.gz
+Approx 20% complete for SRR37536777_2.fastq.gz
+Approx 25% complete for SRR37536777_1.fastq.gz
+Approx 25% complete for SRR37536777_2.fastq.gz
+Approx 30% complete for SRR37536777_1.fastq.gz
+Approx 30% complete for SRR37536777_2.fastq.gz
+Approx 35% complete for SRR37536777_1.fastq.gz
+Approx 35% complete for SRR37536777_2.fastq.gz
+Approx 40% complete for SRR37536777_1.fastq.gz
+Approx 40% complete for SRR37536777_2.fastq.gz
+Approx 45% complete for SRR37536777_1.fastq.gz
+Approx 45% complete for SRR37536777_2.fastq.gz
+Approx 50% complete for SRR37536777_1.fastq.gz
+Approx 50% complete for SRR37536777_2.fastq.gz
+Approx 55% complete for SRR37536777_1.fastq.gz
+Approx 55% complete for SRR37536777_2.fastq.gz
+Approx 60% complete for SRR37536777_1.fastq.gz
+Approx 60% complete for SRR37536777_2.fastq.gz
+Approx 65% complete for SRR37536777_1.fastq.gz
+Approx 65% complete for SRR37536777_2.fastq.gz
+Approx 70% complete for SRR37536777_1.fastq.gz
+Approx 70% complete for SRR37536777_2.fastq.gz
+Approx 75% complete for SRR37536777_1.fastq.gz
+Approx 75% complete for SRR37536777_2.fastq.gz
+Approx 80% complete for SRR37536777_1.fastq.gz
+Approx 80% complete for SRR37536777_2.fastq.gz
+Approx 85% complete for SRR37536777_1.fastq.gz
+Approx 85% complete for SRR37536777_2.fastq.gz
+Approx 90% complete for SRR37536777_1.fastq.gz
+Approx 90% complete for SRR37536777_2.fastq.gz
+Approx 95% complete for SRR37536777_2.fastq.gz
+Approx 95% complete for SRR37536777_1.fastq.gz
+Analysis complete for SRR37536777_2.fastq.gz
+Analysis complete for SRR37536777_1.fastq.gz
+Detecting adapter sequence for read1...
+>Illumina TruSeq Adapter Read 1
+AGATCGGAAGAGCACACGTCTGAACTCCAGTCA
+
+Detecting adapter sequence for read2...
+>Illumina TruSeq Adapter Read 2
+AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGT
+
+Read1 before filtering:
+total reads: 25488444
+total bases: 3823266600
+Q20 bases: 3800007303(99.3916%)
+Q30 bases: 3721644892(97.342%)
+Q40 bases: 3721644892(97.342%)
+
+Read2 before filtering:
+total reads: 25488444
+total bases: 3823266600
+Q20 bases: 3786506740(99.0385%)
+Q30 bases: 3688879347(96.485%)
+Q40 bases: 3688879347(96.485%)
+
+Read1 after filtering:
+total reads: 25292131
+total bases: 3784889722
+Q20 bases: 3768791175(99.5747%)
+Q30 bases: 3696616685(97.6678%)
+Q40 bases: 3696616685(97.6678%)
+
+Read2 after filtering:
+total reads: 25292131
+total bases: 3784925340
+Q20 bases: 3761726650(99.3871%)
+Q30 bases: 3674073823(97.0712%)
+Q40 bases: 3674073823(97.0712%)
+
+Filtering result:
+reads passed filter: 50584262
+reads failed due to low quality: 378544
+reads failed due to too many N: 9424
+reads failed due to too short: 4570
+reads failed due to adapter dimer: 88
+reads with adapter trimmed: 788678
+bases trimmed due to adapters: 18480141
+
+Duplication rate: 35.3116%
+
+Insert size peak (evaluated by paired-end reads): 268
+
+JSON report: qc/fastp/SRR37536777.json
+HTML report: qc/fastp/SRR37536777.html
+
+fastp -i fastq/SRR37536777_1.fastq.gz -I fastq/SRR37536777_2.fastq.gz -o trimmed_tmp/SRR37536777_trimmed_1.fastq.gz -O trimmed_tmp/SRR37536777_trimmed_2.fastq.gz --detect_adapter_for_pe --thread 8 --qualified_quality_phred 20 --length_required 36 --html qc/fastp/SRR37536777.html --json qc/fastp/SRR37536777.json 
+fastp v1.3.6, time used: 170 seconds
+application/gzip
+application/gzip
+Started analysis of SRR37536777_trimmed_1.fastq.gz
+Started analysis of SRR37536777_trimmed_2.fastq.gz
+Approx 5% complete for SRR37536777_trimmed_1.fastq.gz
+Approx 5% complete for SRR37536777_trimmed_2.fastq.gz
+Approx 10% complete for SRR37536777_trimmed_2.fastq.gz
+Approx 10% complete for SRR37536777_trimmed_1.fastq.gz
+Approx 15% complete for SRR37536777_trimmed_2.fastq.gz
+Approx 15% complete for SRR37536777_trimmed_1.fastq.gz
+Approx 20% complete for SRR37536777_trimmed_2.fastq.gz
+Approx 20% complete for SRR37536777_trimmed_1.fastq.gz
+Approx 25% complete for SRR37536777_trimmed_2.fastq.gz
+Approx 25% complete for SRR37536777_trimmed_1.fastq.gz
+Approx 30% complete for SRR37536777_trimmed_2.fastq.gz
+Approx 30% complete for SRR37536777_trimmed_1.fastq.gz
+Approx 35% complete for SRR37536777_trimmed_2.fastq.gz
+Approx 35% complete for SRR37536777_trimmed_1.fastq.gz
+Approx 40% complete for SRR37536777_trimmed_2.fastq.gz
+Approx 40% complete for SRR37536777_trimmed_1.fastq.gz
+Approx 45% complete for SRR37536777_trimmed_2.fastq.gz
+Approx 45% complete for SRR37536777_trimmed_1.fastq.gz
+Approx 50% complete for SRR37536777_trimmed_2.fastq.gz
+Approx 50% complete for SRR37536777_trimmed_1.fastq.gz
+Approx 55% complete for SRR37536777_trimmed_2.fastq.gz
+Approx 55% complete for SRR37536777_trimmed_1.fastq.gz
+Approx 60% complete for SRR37536777_trimmed_2.fastq.gz
+Approx 60% complete for SRR37536777_trimmed_1.fastq.gz
+Approx 65% complete for SRR37536777_trimmed_2.fastq.gz
+Approx 65% complete for SRR37536777_trimmed_1.fastq.gz
+Approx 70% complete for SRR37536777_trimmed_2.fastq.gz
+Approx 70% complete for SRR37536777_trimmed_1.fastq.gz
+Approx 75% complete for SRR37536777_trimmed_2.fastq.gz
+Approx 75% complete for SRR37536777_trimmed_1.fastq.gz
+Approx 80% complete for SRR37536777_trimmed_2.fastq.gz
+Approx 80% complete for SRR37536777_trimmed_1.fastq.gz
+Approx 85% complete for SRR37536777_trimmed_2.fastq.gz
+Approx 85% complete for SRR37536777_trimmed_1.fastq.gz
+Approx 90% complete for SRR37536777_trimmed_2.fastq.gz
+Approx 90% complete for SRR37536777_trimmed_1.fastq.gz
+Approx 95% complete for SRR37536777_trimmed_2.fastq.gz
+Approx 95% complete for SRR37536777_trimmed_1.fastq.gz
+Analysis complete for SRR37536777_trimmed_2.fastq.gz
+Analysis complete for SRR37536777_trimmed_1.fastq.gz
+[2m2026-10-12T16:53:19.036069Z[0m [33m WARN[0m [2msalmon[0m[2m:[0m --validateMappings has no effect (deprecated in salmon too): selective alignment is the default mapping mode; pass --sketch for pseudoalignment.
+[2m2026-10-12T16:53:19.054157Z[0m [32m INFO[0m [2mpiscem_rs::index::reference_index[0m[2m:[0m Loading SSHash dictionary from ref/salmon_index_mm10/index.ssi
+[2m2026-10-12T16:53:24.326895Z[0m [32m INFO[0m [2mpiscem_rs::index::reference_index[0m[2m:[0m   k=31, 25056108 strings
+[2m2026-10-12T16:53:24.326974Z[0m [32m INFO[0m [2mpiscem_rs::index::reference_index[0m[2m:[0m Loading contig table from ref/salmon_index_mm10/index.ctab
+[2m2026-10-12T16:53:29.299824Z[0m [32m INFO[0m [2mpiscem_rs::index::reference_index[0m[2m:[0m   25056108 contigs, 346526014 entries, entry_width=47 bits
+[2m2026-10-12T16:53:29.299863Z[0m [32m INFO[0m [2mpiscem_rs::index::reference_index[0m[2m:[0m Loading reference info from ref/salmon_index_mm10/index.refinfo
+[2m2026-10-12T16:53:29.322787Z[0m [32m INFO[0m [2mpiscem_rs::index::reference_index[0m[2m:[0m   141135 references, max_ref_len=195371971
+[2m2026-10-12T16:53:29.322834Z[0m [32m INFO[0m [2mpiscem_rs::index::reference_index[0m[2m:[0m Loading equivalence class table from ref/salmon_index_mm10/index.ectab
+[2m2026-10-12T16:53:29.727946Z[0m [32m INFO[0m [2mpiscem_rs::index::reference_index[0m[2m:[0m   25056108 tiles, 4676802 ECs, 43325053 label entries
+[2m2026-10-12T16:53:29.728042Z[0m [32m INFO[0m [2mpiscem_rs::index::reference_index[0m[2m:[0m   ref_shift=29, pos_mask=0xfffffff
+[2m2026-10-12T16:53:40.348415Z[0m [32m INFO[0m [2msalmon::timing[0m[2m:[0m phase complete [3mphase[0m[2m=[0m"index_load" [3melapsed_s[0m[2m=[0m21.291553156
+[2m2026-10-12T16:53:40.407286Z[0m [32m INFO[0m [2mpiscem_rs::io::calibrate[0m[2m:[0m using the serial decoder: 8 threads for 2 gzip input(s) is below the 50 threads per input needed before parallel decoding adds concurrency the serial path does not already have
+[2m2026-10-12T16:53:40.410017Z[0m [32m INFO[0m [2msalmon_quant::decode[0m[2m:[0m thread execution plan [3mrequested_budget[0m[2m=[0m8 [3meffective_budget[0m[2m=[0m8 [3mmapping_threads[0m[2m=[0m8 [3mdecode_slots[0m[2m=[0m0 [3mparallel_decode[0m[2m=[0mfalse [3mreason[0m[2m=[0mPolicyDeclined
+[2m2026-10-12T16:53:40.411271Z[0m [32m INFO[0m [2msalmon_quant[0m[2m:[0m mapping reads (selective-alignment mode, 8 threads)
+[2m2026-10-12T16:58:07.889232Z[0m [32m INFO[0m [2msalmon_quant[0m[2m:[0m mapped 22118101 / 25292131 fragments (87.45%)
+[2m2026-10-12T16:58:07.890835Z[0m [32m INFO[0m [2msalmon::timing[0m[2m:[0m phase complete [3mphase[0m[2m=[0m"mapping" [3melapsed_s[0m[2m=[0m267.545923852
+[2m2026-10-12T16:58:07.891779Z[0m [32m INFO[0m [2msalmon::timing[0m[2m:[0m phase complete [3mphase[0m[2m=[0m"eff_length_collapse" [3melapsed_s[0m[2m=[0m0.000942407
+[2m2026-10-12T16:58:08.404578Z[0m [32m INFO[0m [2msalmon::timing[0m[2m:[0m phase complete [3mphase[0m[2m=[0m"em_bias" [3melapsed_s[0m[2m=[0m0.512794284
+[2m2026-10-12T16:58:08.404745Z[0m [32m INFO[0m [2msalmon::timing[0m[2m:[0m phase complete [3mphase[0m[2m=[0m"posterior" [3melapsed_s[0m[2m=[0m0.000175388
+[2m2026-10-12T16:58:08.412991Z[0m [32m INFO[0m [2msalmon_quant[0m[2m:[0m writing results to results/salmon_quant/SRR37536777
+[2m2026-10-12T16:58:08.434023Z[0m [32m INFO[0m [2msalmon::timing[0m[2m:[0m phase complete [3mphase[0m[2m=[0m"output" [3melapsed_s[0m[2m=[0m0.029271773
+[2m2026-10-12T16:58:08.984868Z[0m [32m INFO[0m [2msalmon[0m[2m:[0m deterministic: mapped 22118101 / 25292131 fragments (87.45%); quantifying from intermediate RAD
+[2m2026-10-12T16:58:16.045558Z[0m [32m INFO[0m [2msalmon_align::rad[0m[2m:[0m quantifying from RAD (salmon SA), 141135 references
+[2m2026-10-12T16:58:16.045729Z[0m [32m INFO[0m [2msalmon_align::rad[0m[2m:[0m using fragment-length distribution baked in the RAD header
+[2m2026-10-12T16:58:16.046320Z[0m [32m INFO[0m [2msalmon_align::rad[0m[2m:[0m library format under `-l A`: IU (baked in RAD header)
+[2m2026-10-12T16:58:33.993630Z[0m [32m INFO[0m [2msalmon_align::rad[0m[2m:[0m mapped 22118101 / 25292131 fragments from RAD
+[2m2026-10-12T16:58:34.187936Z[0m [32m INFO[0m [2msalmon::timing[0m[2m:[0m phase complete [3mphase[0m[2m=[0m"rad_read" [3melapsed_s[0m[2m=[0m18.166612392
+[2m2026-10-12T16:59:41.890708Z[0m [32m INFO[0m [2msalmon::timing[0m[2m:[0m phase complete [3mphase[0m[2m=[0m"em_bias" [3melapsed_s[0m[2m=[0m67.702771249
+[2m2026-10-12T16:59:41.895405Z[0m [32m INFO[0m [2msalmon::timing[0m[2m:[0m phase complete [3mphase[0m[2m=[0m"posterior" [3melapsed_s[0m[2m=[0m0.004703033
+[2m2026-10-12T16:59:41.993035Z[0m [32m INFO[0m [2msalmon::timing[0m[2m:[0m phase complete [3mphase[0m[2m=[0m"output" [3melapsed_s[0m[2m=[0m0.09762751
+[2m2026-10-12T16:59:42.040083Z[0m [32m INFO[0m [2msalmon[0m[2m:[0m 25292131 fragments from intermediate RAD, 22118101 quantified (87.45%); 170710 equivalence classes
+  done

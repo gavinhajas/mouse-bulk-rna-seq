@@ -1,0 +1,15 @@
+{
+  "salmon_version": "2.8.0",
+  "index": "ref/salmon_index_mm10",
+  "libType": "A",
+  "output": "results/salmon_quant/SRR37536769",
+  "mates1": [
+    "trimmed_tmp/SRR37536769_trimmed_1.fastq.gz"
+  ],
+  "mates2": [
+    "trimmed_tmp/SRR37536769_trimmed_2.fastq.gz"
+  ],
+  "unmatedReads": [],
+  "threads": 8,
+  "sketch": false
+}

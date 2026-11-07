@@ -1,0 +1,47 @@
+Warning messages:
+1: package 'S4Vectors' was built under R version 4.5.3 
+2: package 'ggplot2' was built under R version 4.5.3 
+Found quant.sf for all 12 samples.
+reading in files with read.delim (install 'readr' package for speed up)
+1 2 3 4 5 6 7 8 9 10 11 12 
+summarizing abundance
+summarizing counts
+summarizing length
+using counts and average transcript lengths from tximport
+13502 of 54416 genes kept after filtering.
+estimating size factors
+using 'avgTxLength' from assays(dds), correcting for library size
+estimating dispersions
+gene-wise dispersion estimates
+mean-dispersion relationship
+final dispersion estimates
+fitting model and testing
+Coefficients: Intercept, condition_experimental_vs_control
+
+out of 13502 with nonzero total read count
+adjusted p-value < 0.05
+LFC > 0 (up)       : 43, 0.32%
+LFC < 0 (down)     : 29, 0.21%
+outliers [1]       : 8, 0.059%
+low counts [2]     : 0, 0%
+(mean count < 7)
+[1] see 'cooksCutoff' argument of ?results
+[2] see 'independentFiltering' argument of ?results
+
+LFC shrinkage method: apeglm
+using 'apeglm' for LFC shrinkage. If used in published research, please cite:
+    Zhu, A., Ibrahim, J.G., Love, M.I. (2018) Heavy-tailed prior distributions for
+    sequence count data: removing the noise and preserving large differences.
+    Bioinformatics. https://doi.org/10.1093/bioinformatics/bty895
+Significant (padj < 0.05, |log2FC| >= 1): 14  (up 13, down 1)
+using ntop=500 top features by variance
+null device 
+          1 
+Brca1 result:
+                              gene_id symbol baseMean log2FoldChange
+ENSMUSG00000017146 ENSMUSG00000017146  Brca1 57.74002      -1.550819
+                   log2FC_shrunk    lfcSE      stat       pvalue         padj
+ENSMUSG00000017146     -1.434452 0.287315 -5.397625 6.752883e-08 0.0002278085
+                             status
+ENSMUSG00000017146 Down in Brca1+/-
+Done. Outputs in results/deseq2

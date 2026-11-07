@@ -1,0 +1,8 @@
+fastq/
+ref/*
+!ref/tx2gene.tsv
+trimmed_tmp/
+*.sra
+*.fastq.gz
+results/old/
+*Zone.Identifier

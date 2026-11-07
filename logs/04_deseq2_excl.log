@@ -1,0 +1,51 @@
+Warning messages:
+1: package 'S4Vectors' was built under R version 4.5.3 
+2: package 'ggplot2' was built under R version 4.5.3 
+Excluding: Brca1het_HFD_5 -> 11 samples
+Found quant.sf for all 11 samples.
+reading in files with read.delim (install 'readr' package for speed up)
+1 2 3 4 5 6 7 8 9 10 11 
+summarizing abundance
+summarizing counts
+summarizing length
+using counts and average transcript lengths from tximport
+13604 of 54416 genes kept after filtering.
+estimating size factors
+using 'avgTxLength' from assays(dds), correcting for library size
+estimating dispersions
+gene-wise dispersion estimates
+mean-dispersion relationship
+final dispersion estimates
+fitting model and testing
+Coefficients: Intercept, condition_experimental_vs_control
+
+out of 13604 with nonzero total read count
+adjusted p-value < 0.05
+LFC > 0 (up)       : 21, 0.15%
+LFC < 0 (down)     : 17, 0.12%
+outliers [1]       : 11, 0.081%
+low counts [2]     : 0, 0%
+(mean count < 6)
+[1] see 'cooksCutoff' argument of ?results
+[2] see 'independentFiltering' argument of ?results
+
+LFC shrinkage method: apeglm
+using 'apeglm' for LFC shrinkage. If used in published research, please cite:
+    Zhu, A., Ibrahim, J.G., Love, M.I. (2018) Heavy-tailed prior distributions for
+    sequence count data: removing the noise and preserving large differences.
+    Bioinformatics. https://doi.org/10.1093/bioinformatics/bty895
+Warning message:
+In nbinomGLM(x = x, Y = YNZ, size = size, weights = weightsNZ, offset = offsetNZ,  :
+  the line search routine failed, unable to sufficiently decrease the function value
+Significant (padj < 0.05, |log2FC| >= 1): 9  (up 7, down 2)
+using ntop=500 top features by variance
+null device 
+          1 
+Brca1 result:
+                              gene_id symbol baseMean log2FoldChange
+ENSMUSG00000017146 ENSMUSG00000017146  Brca1 60.46027      -1.585037
+                   log2FC_shrunk     lfcSE      stat       pvalue         padj
+ENSMUSG00000017146     -1.453477 0.3070155 -5.162727 2.433777e-07 0.0006666272
+                             status
+ENSMUSG00000017146 Down in Brca1+/-
+Done. Outputs in results/deseq2_excl_Brca1het_HFD_5

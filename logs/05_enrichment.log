@@ -1,0 +1,73 @@
+Warning messages:
+1: package 'msigdbr' was built under R version 4.5.3 
+2: package 'ggplot2' was built under R version 4.5.3 
+Ranked genes: 13494
+hallmark: 50 sets tested; padj < 0.05: 10 (up 7, down 3); padj < 0.25: 21
+                                    pathway size       NES         pval
+           HALLMARK_CHOLESTEROL_HOMEOSTASIS   70  2.312229 2.002527e-08
+ HALLMARK_EPITHELIAL_MESENCHYMAL_TRANSITION  149  1.809953 2.559806e-05
+                  HALLMARK_MTORC1_SIGNALING  182  1.738297 3.973988e-05
+                       HALLMARK_P53_PATHWAY  174  1.730000 4.667831e-05
+                           HALLMARK_HYPOXIA  162  1.596824 6.067236e-04
+              HALLMARK_BILE_ACID_METABOLISM  105 -1.698711 7.557223e-04
+                      HALLMARK_ADIPOGENESIS  189  1.516302 1.378858e-03
+           HALLMARK_TNFA_SIGNALING_VIA_NFKB  162  1.540522 1.290646e-03
+                       HALLMARK_E2F_TARGETS  177 -1.467516 5.394598e-03
+                    HALLMARK_MYC_TARGETS_V1  187 -1.416111 6.347811e-03
+         padj
+ 1.001263e-06
+ 5.834789e-04
+ 5.834789e-04
+ 5.834789e-04
+ 6.067236e-03
+ 6.297686e-03
+ 8.617860e-03
+ 8.617860e-03
+ 2.996999e-02
+ 3.173906e-02
+GO_BP: 3643 sets tested; padj < 0.05: 116 (up 64, down 52); padj < 0.25: 481
+                                                 pathway size       NES
+                                    GOBP_MRNA_PROCESSING  457 -2.068615
+                             GOBP_MRNA_CATABOLIC_PROCESS  231 -1.978898
+               GOBP_REGULATION_OF_MRNA_CATABOLIC_PROCESS  164 -2.030524
+          GOBP_CARBOHYDRATE_DERIVATIVE_CATABOLIC_PROCESS  214  1.928279
+ GOBP_POST_TRANSCRIPTIONAL_REGULATION_OF_GENE_EXPRESSION  472 -1.647824
+               GOBP_REGULATION_OF_MRNA_METABOLIC_PROCESS  275 -1.818896
+                              GOBP_WNT_SIGNALING_PATHWAY  356 -1.713068
+                     GOBP_GLYCEROLIPID_METABOLIC_PROCESS  323  1.696463
+                        GOBP_REGULATION_OF_RNA_STABILITY  163 -1.921623
+                     GOBP_NUCLEIC_ACID_CATABOLIC_PROCESS  323 -1.673977
+         pval         padj
+ 1.937125e-14 7.056946e-11
+ 2.528508e-08 4.605677e-05
+ 1.051775e-07 1.277205e-04
+ 1.749538e-07 1.593392e-04
+ 4.734131e-07 3.449288e-04
+ 1.696201e-06 8.827516e-04
+ 1.461759e-06 8.827516e-04
+ 2.307911e-06 1.050965e-03
+ 3.249320e-06 1.315253e-03
+ 4.982211e-06 1.815020e-03
+Not in our table (removed by the low-count filter or no symbol): Pnpla5, Adcy1, Sncaip, Ltc4s
+Preprint genes in our data (9):
+    symbol     baseMean log2FoldChange log2FC_shrunk     lfcSE       pvalue
+     Cidec    116.62660      1.8065588   0.013629915 0.6348819 4.434124e-03
+    Cdkn1a    244.28732      1.7700298   1.268071823 0.5644598 1.713893e-03
+     Apoa4  19022.73081      1.5855446   1.469564481 0.3102141 3.202368e-07
+   Ppp1r3g     50.15481      1.5061928   0.007280861 0.8000760 5.975972e-02
+      Scd1 119170.75112      1.3832656   1.053522620 0.4372330 1.557875e-03
+      Egr1   1008.43298      1.1470064   0.010218017 0.5992138 5.559645e-02
+ Serpina12    220.73684      1.1383616   1.047865217 0.2188018 1.964062e-07
+     Fgf21    177.21424      1.0223786   0.903031560 0.2335634 1.201546e-05
+    Pnpla3     32.60120      0.9302545   0.009083347 0.5732522 1.046393e-01
+         padj
+ 0.1936377786
+ 0.1230174038
+ 0.0006173251
+ 0.5291519768
+ 0.1181009194
+ 0.5199999182
+ 0.0004417175
+ 0.0081068308
+ 0.6203879967
+Done. Outputs in results/enrichment

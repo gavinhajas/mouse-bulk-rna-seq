@@ -1,0 +1,74 @@
+Warning messages:
+1: package 'msigdbr' was built under R version 4.5.3 
+2: package 'ggplot2' was built under R version 4.5.3 
+Ranked genes: 13596
+hallmark: 50 sets tested; padj < 0.05: 8 (up 5, down 3); padj < 0.25: 18
+                                    pathway size       NES         pval
+           HALLMARK_CHOLESTEROL_HOMEOSTASIS   70  2.138024 2.946872e-06
+                      HALLMARK_ADIPOGENESIS  189  1.547487 1.521544e-03
+                       HALLMARK_E2F_TARGETS  177 -1.546318 1.360473e-03
+                       HALLMARK_P53_PATHWAY  174  1.549427 1.291685e-03
+ HALLMARK_EPITHELIAL_MESENCHYMAL_TRANSITION  149  1.570054 1.919551e-03
+              HALLMARK_BILE_ACID_METABOLISM  105 -1.627505 2.836252e-03
+                  HALLMARK_MTORC1_SIGNALING  182  1.471575 2.824377e-03
+                    HALLMARK_UV_RESPONSE_DN  133 -1.533390 5.182035e-03
+         HALLMARK_OXIDATIVE_PHOSPHORYLATION  182  1.385777 1.077989e-02
+                    HALLMARK_G2M_CHECKPOINT  171 -1.371080 1.785735e-02
+         padj
+ 0.0001473436
+ 0.0190192983
+ 0.0190192983
+ 0.0190192983
+ 0.0191955093
+ 0.0202589406
+ 0.0202589406
+ 0.0323877198
+ 0.0598882721
+ 0.0892867286
+Fontconfig warning: using without calling FcInit()
+GO_BP: 3650 sets tested; padj < 0.05: 83 (up 36, down 47); padj < 0.25: 359
+                                                 pathway size       NES
+                                    GOBP_MRNA_PROCESSING  458 -1.969570
+                             GOBP_MRNA_CATABOLIC_PROCESS  232 -2.144780
+               GOBP_REGULATION_OF_MRNA_CATABOLIC_PROCESS  165 -2.113139
+ GOBP_POST_TRANSCRIPTIONAL_REGULATION_OF_GENE_EXPRESSION  473 -1.732439
+         GOBP_NUCLEAR_TRANSCRIBED_MRNA_CATABOLIC_PROCESS  121 -2.126827
+                          GOBP_OXIDATIVE_PHOSPHORYLATION  123  2.078701
+               GOBP_REGULATION_OF_MRNA_METABOLIC_PROCESS  276 -1.854068
+                              GOBP_WNT_SIGNALING_PATHWAY  357 -1.757259
+                        GOBP_REGULATION_OF_RNA_STABILITY  164 -1.993549
+                     GOBP_NUCLEIC_ACID_CATABOLIC_PROCESS  325 -1.763709
+         pval         padj
+ 4.958381e-13 1.809809e-09
+ 3.989821e-11 7.281423e-08
+ 9.025255e-09 1.098073e-05
+ 4.067539e-08 3.711630e-05
+ 1.011670e-07 7.385193e-05
+ 3.047994e-07 1.536255e-04
+ 3.039230e-07 1.536255e-04
+ 3.367134e-07 1.536255e-04
+ 4.546257e-07 1.843760e-04
+ 5.885206e-07 2.148100e-04
+Not in our table (removed by the low-count filter or no symbol): Pnpla5, Adcy1, Sncaip, Ltc4s
+Preprint genes in our data (9):
+    symbol     baseMean log2FoldChange log2FC_shrunk     lfcSE       pvalue
+   Ppp1r3g     45.97181      1.4512793   0.004159521 0.8768257           NA
+      Scd1 109708.21543      1.3149450   0.772334103 0.4842863 6.623129e-03
+     Apoa4  15757.43282      1.3119450   1.256389254 0.1828108 7.151004e-13
+    Cdkn1a    173.53394      1.1894808   0.011769102 0.4801207 1.323204e-02
+      Egr1    971.93184      1.1728728   0.006084223 0.6585410           NA
+ Serpina12    204.62506      1.0671286   0.956909747 0.2308465 3.788216e-06
+    Pnpla3     32.24178      1.0531831   0.006409815 0.6059759 8.221167e-02
+     Fgf21    168.30161      1.0001548   0.851939253 0.2529669 7.695240e-05
+     Cidec     74.12298      0.9587349   0.013354831 0.4078811 1.874694e-02
+         padj
+           NA
+ 3.181208e-01
+ 9.720360e-09
+ 4.036265e-01
+           NA
+ 5.149323e-03
+ 7.160417e-01
+ 3.283640e-02
+ 4.617900e-01
+Done. Outputs in results/enrichment_excl_Brca1het_HFD_5

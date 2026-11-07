@@ -1,0 +1,4 @@
+Sample	Salmon	fastp	FastQC
+FastQC			0.12.1
+Salmon	2.8.0		
+fastp		1.3.6	
