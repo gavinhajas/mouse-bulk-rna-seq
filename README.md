@@ -1,4 +1,4 @@
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24049831.svg)](https://doi.org/10.5281/zenodo.24049831)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24049830.svg)](https://doi.org/10.5281/zenodo.24049830)
 # RNA-seq Differential Expression: WT vs Brca1+/- (HFD mouse liver)
 
 Bulk RNA-seq analysis comparing liver from high-fat-diet (HFD) fed wild-type mice (control, n = 6) against Brca1+/- mice (experimental, n = 6). Reads are quantified with Salmon against the mouse Ensembl transcriptome and tested for differential expression with DESeq2.
