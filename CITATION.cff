@@ -1,0 +1,66 @@
+cff-version: 1.2.0
+message: "If you use this software or its results, please cite it using the metadata in this file."
+type: software
+title: "RNA-seq differential expression pipeline: wild-type vs Brca1+/- female mouse liver on a high-fat diet"
+abstract: >-
+  Reproducible bulk RNA-seq workflow (SRA download, FastQC and fastp quality control,
+  Salmon quantification against the Ensembl 102 GRCm38 transcriptome, tximport and DESeq2
+  differential expression, exploratory fgsea pathway analysis) applied to liver from female
+  wild-type and Brca1+/- mice fed a 60% high-fat diet (GEO series GSE324339, n = 6 per group).
+  Includes the analysis scripts, quantification files and result tables.
+authors:
+  - family-names: Hajas
+    given-names: Gavin Mateo
+    email: gavin.hajas@gmail.com
+    orcid: "https://orcid.org/0009-0006-6048-714X"
+repository-code: "https://github.com/gavinhajas/mouse-bulk-rna-seq"
+license: MIT
+version: "1.0.0"
+date-released: "2026-11-08"
+keywords:
+  - RNA-seq
+  - differential expression
+  - Salmon
+  - DESeq2
+  - GSEA
+  - Brca1
+  - hepatic steatosis
+  - Mus musculus
+references:
+  - type: article
+    title: "Brca1 heterozygosity leads to hepatic steatosis in male and female mice despite sexually dimorphic effects on systemic metabolism"
+    authors:
+      - family-names: Palikhe
+        given-names: S.
+      - family-names: Qiao
+        given-names: L.
+      - family-names: Kutz
+        given-names: C.
+      - family-names: Liang
+        given-names: X.
+      - family-names: Dhorajiya
+        given-names: P.
+      - family-names: Koestler
+        given-names: D. C.
+      - family-names: Bhardwaj
+        given-names: P.
+      - family-names: McCoin
+        given-names: C. S.
+      - family-names: Peterson
+        given-names: O.
+      - family-names: Tse
+        given-names: H. M.
+      - family-names: Thyfault
+        given-names: J. P.
+      - family-names: Brown
+        given-names: K. A.
+    journal: bioRxiv
+    year: 2026
+    doi: "10.64898/2026.02.25.708005"
+    notes: "Preprint (not peer reviewed at the time of writing). Source study of the analysed dataset."
+  - type: dataset
+    title: "RNA-seq profiling of livers of wild type and Brca1 heterozygous knockout female mice fed 60% high-fat diet (D12492i) for 22 weeks starting at 4 weeks of age"
+    authors:
+      - name: "Submitters of GEO series GSE324339"
+    repository: "NCBI Gene Expression Omnibus"
+    url: "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE324339"
