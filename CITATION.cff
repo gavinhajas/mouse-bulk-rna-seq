@@ -1,7 +1,7 @@
 cff-version: 1.2.0
 message: "If you use this software or its results, please cite it using the metadata in this file."
 type: software
-title: "RNA-seq differential expression pipeline: wild-type vs Brca1+/- female mouse liver on a high-fat diet"
+title: "RNA-seq differential expression pipeline: wild-type vs Brca1+/- female mouse liver on a high-fat diet."
 abstract: >-
   Reproducible bulk RNA-seq workflow (SRA download, FastQC and fastp quality control,
   Salmon quantification against the Ensembl 102 GRCm38 transcriptome, tximport and DESeq2
