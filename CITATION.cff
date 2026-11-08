@@ -1,7 +1,7 @@
 cff-version: 1.2.0
 message: "If you use this software or its results, please cite it using the metadata in this file."
 type: software
-title: "RNA-seq differential expression pipeline: wild-type vs Brca1+/- female mouse liver on a high-fat diet."
+title: "RNA-seq differential expression pipeline: wild-type vs Brca1+/- female mouse liver on a high-fat diet"
 doi: "10.5281/zenodo.24049830"
 abstract: >-
   Reproducible bulk RNA-seq workflow (SRA download, FastQC and fastp quality control,
@@ -31,34 +31,25 @@ references:
   - type: article
     title: "Brca1 heterozygosity leads to hepatic steatosis in male and female mice despite sexually dimorphic effects on systemic metabolism"
     authors:
-      - family-names: Palikhe
-        given-names: S.
-      - family-names: Qiao
-        given-names: L.
-      - family-names: Kutz
-        given-names: C.
-      - family-names: Liang
-        given-names: X.
-      - family-names: Dhorajiya
-        given-names: P.
-      - family-names: Koestler
-        given-names: D. C.
-      - family-names: Bhardwaj
-        given-names: P.
-      - family-names: McCoin
-        given-names: C. S.
-      - family-names: Peterson
-        given-names: O.
-      - family-names: Tse
-        given-names: H. M.
-      - family-names: Thyfault
-        given-names: J. P.
-      - family-names: Brown
-        given-names: K. A.
-    journal: bioRxiv
+      - {family-names: Palikhe, given-names: S.}
+      - {family-names: Qiao, given-names: L.}
+      - {family-names: Kutz, given-names: C.}
+      - {family-names: Liang, given-names: X.}
+      - {family-names: Dhorajiya, given-names: P.}
+      - {family-names: Koestler, given-names: D. C.}
+      - {family-names: Bhardwaj, given-names: P.}
+      - {family-names: McCoin, given-names: C. S.}
+      - {family-names: Barnwal, given-names: A.}
+      - {family-names: Peterson, given-names: O.}
+      - {family-names: Tse, given-names: H. M.}
+      - {family-names: Thyfault, given-names: J. P.}
+      - {family-names: Brown, given-names: K. A.}
+    journal: Metabolism
+    volume: 184
+    number: "156758"
     year: 2026
-    doi: "10.64898/2026.02.25.708005"
-    notes: "Preprint (not peer reviewed at the time of writing). Source study of the analysed dataset."
+    doi: "10.1016/j.metabol.2026.156758"
+    notes: "Source study of the analysed dataset."
   - type: dataset
     title: "RNA-seq profiling of livers of wild type and Brca1 heterozygous knockout female mice fed 60% high-fat diet (D12492i) for 22 weeks starting at 4 weeks of age"
     authors:
