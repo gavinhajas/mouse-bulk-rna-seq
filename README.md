@@ -180,7 +180,7 @@ The library is unstranded (IU), so strandedness does not affect quantification.
 
 ## **Citation & credits**
 
-Original dataset: Palikhe S, Qiao L, Kutz C, Liang X, Dhorajiya P, Koestler DC, Bhardwaj P, McCoin CS, Peterson O, Tse HM, Thyfault JP, Brown KA. *Brca1* heterozygosity leads to hepatic steatosis in male and female mice despite sexually dimorphic effects on systemic metabolism. bioRxiv preprint, 2026. DOI 10.64898/2026.02.25.708005 (not peer reviewed at the time of writing). GEO series: GSE324339.
+Original dataset: Palikhe S, Qiao L, Kutz C, Liang X, Dhorajiya P, Koestler DC, Bhardwaj P, McCoin CS, Barnwal A, Peterson O, Tse HM, Thyfault JP, Brown KA. *Brca1* heterozygosity leads to hepatic steatosis in male and female mice despite sexually dimorphic effects on systemic metabolism. *Metabolism* 2026;184:156758. DOI 10.1016/j.metabol.2026.156758. GEO series: GSE324339.
 
 Tools: Salmon, fastp, FastQC, MultiQC, tximport, DESeq2.
 
